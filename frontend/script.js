@@ -1,6 +1,4 @@
-// fetch("./json/foodViz.json").then(res => res.json()).then(json => {  network(json);  });
-
-d3.json("./json/foodViz.json").then(function(data) {
+d3.json("./json/foodLanding.json").then(function(data) {
   network(data);
 });
 
@@ -12,45 +10,21 @@ function network(data) {
 
   var position = data.position;
 
-  var clusters = data.clusters;
+  var pattern = data.pattern;
 
   var width = 800;
   var height = 700;
   var hl_r = 8;
   var reg_r = 5;
 
-  var node_r = d3.scaleLinear().range([9,20]);
-
   var color_node = d3.scaleOrdinal().domain(["faculty","non-profit"])
         .range(['rgb(72,169,197)', 'rgb(117,102,160)',]);
 
   var svg = d3.select("svg");
 
-//   svg.selectAll("circle")
-//    .data(nodes)
-//    .join("circle")
-//    .attr("cx", function(d) { return d.x; })
-//    .attr("cy", function(d) { return d.y; })
-//    .attr("r", 14)
-//    .attr("fill", function(d) { return color_node(d.type); })
-//    .on("mouseover", function(d) {
-//      div.transition()
-//         .duration(200)
-//         .style("opacity", .9);
-//      div.html("x: " + d.x+ "<br>y: "+ d.y + "<br> id: " + d.id + "<br> type: " + d.type + "<br> label: " + d.label)
-//         .style("left", (d3.event.pageX) + "px")
-//         .style("top", (d3.event.pageY - 28) + "px");
-//    })
-//    .on("mouseout", function(d) {
-//       div.transition()
-//          .duration(500)
-//          .style("opacity", 0);
-// })
-// .on("click", click);
-//
-// function click() {
-//   d3.select(this).attr("fill", "gold");
-// };
+  var config = {
+    "size": 200
+  };
 
   function gravity(alpha) {
     return function(d) {
@@ -65,8 +39,6 @@ function network(data) {
                      }).strength(3))
                      .force("center", d3.forceCenter(width/2, height/2))
                      .alphaMin(0.0001);
-
-  node_r.domain(d3.extent(nodes, function(d) { return d.tot_original; }));
 
   svg.append("defs")
      .append("marker")
@@ -123,8 +95,25 @@ function network(data) {
 
   feMerge.append("feMergeNode")
       .attr("in", "offsetBlur")
+
   feMerge.append("feMergeNode")
       .attr("in", "SourceGraphic");
+
+  pattern.forEach(function(faculty) {
+    defs.append("svg:pattern")
+        .attr("id", faculty["name"])
+        .attr("width", config.size)
+        .attr("height", config.size)
+        .attr("x", -125)
+        .attr("y", 0)
+        .attr("patternUnits", "userSpaceOnUse")
+        .append("svg:image")
+        .attr("xlink:href", "./faculty/"+faculty["name"]+".jpg")
+        .attr("width", config.size)
+        .attr("height", config.size)
+        .attr("x", 0)
+        .attr("y", 0)
+  });
 
   var link = svg.append("g")
                  .attr("class", "links")
@@ -142,12 +131,16 @@ function network(data) {
                   return "nodes" + " _" + d.in_out;
                 })
                 .attr("r", function(d) {
-                  // if (d.type === "non-profit") { return d.radius; }
                   return d.radius;
-                  // if (d.type === "faculty") { return d.radius * 2; }
                 })
                 .attr("fill", function(d) {
-                  return color_node(d.type);
+                  if (d.type === "faculty") {
+                    var patternName = d.label.split(" ")[0].toLowerCase();
+                    return "url(#"+patternName+")";
+                  }
+                  if (d.type === "non-profit") {
+                    return color_node(d.type);
+                  }
                 })
                 .style("stroke-opacity", 0.9);
 
@@ -158,7 +151,6 @@ function network(data) {
 
    node.on("mouseover", function(d) { mouseevent(d, "mouseover"); })
        .on("click", function(d) { mouseevent2(d); });
-
 
    svg.on("mouseover", function(d) { d3.select(this).style("cursor", "pointer"); });
 
@@ -172,7 +164,7 @@ function network(data) {
    function ticked() {
 
      node.attr("cx", function(d) {
-           return (position[d.id].x );
+           return (position[d.id].x);
          })
          .attr("cy", function(d) {
            return (position[d.id].y );
@@ -202,8 +194,8 @@ function network(data) {
     var rect = svg.append("g");
 
     rect.append("rect")
-        .attr("x", -1000)
-        .attr("y", 700)
+        .attr("x", -2200)
+        .attr("y", 850)
         .attr("rx", 20)
         .attr("ry", 20)
         .attr("width", "200px")
@@ -215,48 +207,12 @@ function network(data) {
         .attr("x", function(d) {
           var textSelection = d3.selectAll("text");
           var textLength = textSelection._groups[0][textSelection._groups[0].length-1].getComputedTextLength();
-          return (-1006 + (textLength/2));   })
-        .attr("y", 760);
+          return (-2204 + (textLength/2));   })
+        .attr("y", 910);
 
     rect.on('click', function() {
       mouseevent3();
     });
-
-   function cluster(alpha) {
-     return function(d) {
-       var cluster = clusters[d.cluster];
-       if (cluster === d) return;
-       var x = d.x - cluster.x,
-           y = d.y - cluster.y,
-           l = Math.sqrt(x*x + y*y),
-           r = d.radius + cluster.radius;
-
-       if (l !== r) {
-         l = (l-r) / l* alpha;
-         d.x -= x *= l;
-         d.y -= y *= l;
-         cluster.x += x;
-         cluster.y += y;
-       }
-     };
-   }
-
-   function dragstarted(d) {
-     if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-     d.fx = d.x;
-     d.fx = d.y;
-   }
-
-   function dragged(d) {
-     d.fx = d3.event.x;
-     d.fy = d3.event.y;
-   }
-
-   function dragended(d) {
-     if (!d3.event.active) simulation.alphaTarget(0);
-     d.fx = null;
-     d.fy = null;
-   }
 
    function mouseevent(d, event) {
 
@@ -282,8 +238,6 @@ function network(data) {
 
     d3.selectAll("line.to" + d.id).each(function(e) {
 
-      // console.log("in", e);
-
       e.type = "in";
 
       })
@@ -296,11 +250,7 @@ function network(data) {
       .style("stroke-opacity", line_opacity);
 
     d3.selectAll("line.from"+d.id).each(function(e) {
-
-      // console.log("out", e);
-
       e.type = "out";
-
       })
       .attr("marker-end", function(e) {
         return (event === "mouseover") ? "url(#"+e.type+")" : "none";
@@ -318,7 +268,7 @@ function network(data) {
       .transition()
       .duration(800)
       .attr("r", function(e) {
-        return (event === "mouseover") ? node_r(e.highlight_mode) : node_r(e.normal_mode)
+        return e.radius;
       })
       .style("opacity", dot_selected_opacity)
       .style("stroke-width", dot_self_stroke_width);
@@ -330,7 +280,7 @@ function network(data) {
             d3.select("circle#_"+e.target.id)
             .style("stroke", dot_other_color)
             .attr("r", function(e1) {
-              return (event === "mouseover") ? node_r(e.count) : e1.radius
+              return e1.radius;
             })
             .each(function(e1) {
               e1.select_radius = d3.select(this).attr("r");
@@ -341,7 +291,7 @@ function network(data) {
         } else {
           d3.select("circle#_"+e.target.id)
             .attr("r", function(e1) {
-              return e1.radius
+              return e1.radius;
             })
             .style("stroke", dot_other_color)
             .style("opacity", dot_selected_opacity);
@@ -353,7 +303,7 @@ function network(data) {
       }).each(function(e) {
         d3.select("circle#_"+e.source.id)
           .attr("r", function(e1) {
-            return (event === "mouseover") ? node_r(e.count) : e1.radius
+            return e1.radius;
           })
           .each(function(e1) {
             e1.select_radius = d3.select(this).attr("r");
@@ -392,17 +342,12 @@ function network(data) {
 
     d3.selectAll("line.to" + d.id).each(function(e) {
 
-      // console.log("in", e);
-      // console.log(e.source.id);
-
       e.type = "in";
 
       var cx = d3.selectAll("#_"+e.source.id).attr("cx");
       var cy = d3.selectAll("#_"+e.source.id).attr("cy");
 
-      svg.append("g").append("text").attr("class","labels").text(e.source.label).attr("x", cx).attr("y", cy).style("font-size","23px").style("fill", "black");
-
-      // console.log(d3.selectAll("#_"+e.source.id).attr("cx"));
+      svg.append("g").append("text").attr("class","labels").text(e.source.label).attr("x", cx).attr("y", cy);
 
       })
       .attr("marker-end", function(e) {
@@ -415,15 +360,10 @@ function network(data) {
 
     d3.selectAll("line.from"+d.id).each(function(e) {
 
-      console.log("out", e);
-      console.log(e.target.id);
-
       var cx = d3.selectAll("#_"+e.target.id).attr("cx");
       var cy = d3.selectAll("#_"+e.target.id).attr("cy");
 
-      console.log(cx);
-
-      svg.append("g").append("text").attr("class", "labels").text(e.target.label).attr("dx", cx).attr("dy", cy).style("font-size", "23px").style("fill", "black");
+      svg.append("g").append("text").attr("class", "labels").text(e.target.label).attr("dx", cx).attr("dy", cy);
 
       e.type = "out";
 
@@ -444,13 +384,7 @@ function network(data) {
       .transition()
       .duration(800)
       .attr("r", function(e) {
-        return node_r(e.highlight_mode);
-      })
-      .each(function(d) {
-
-        console.log("this is d", d);
-        console.log(d.id);
-
+        return e.radius;
       })
       .style("opacity", dot_selected_opacity)
       .style("stroke-width", dot_self_stroke_width);
@@ -461,7 +395,7 @@ function network(data) {
             d3.select("circle#_"+e.target.id)
             .style("stroke", dot_other_color)
             .attr("r", function(e1) {
-              return node_r(e.count);
+              return e1.radius;
             })
             .each(function(e1) {
               e1.select_radius = d3.select(this).attr("r");
@@ -476,7 +410,7 @@ function network(data) {
       }).each(function(e) {
         d3.select("circle#_"+e.source.id)
           .attr("r", function(e1) {
-            return node_r(e.count);
+            return e1.radius;
           })
           .each(function(e1) {
             e1.select_radius = d3.select(this).attr("r");
@@ -492,6 +426,8 @@ function network(data) {
    function mouseevent3() {
 
      node.attr('pointer-events', 'all');
+
+     svg.selectAll("text.labels").remove();
 
      var line_out_color = "rgb(208, 211, 212)",
          line_in_color = "rgb(208, 211, 212)",

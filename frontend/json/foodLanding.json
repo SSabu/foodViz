@@ -4,3457 +4,2689 @@
       "id": "4",
       "label": "Carola Grebitus",
       "type": "faculty",
-      "food_group": "Agribusiness and Agriculture",
       "weight": 18,
-      "x": -26.25287579478989,
-      "y": 24.049784745526356,
+      "x": -2020,
+      "y": -880,
       "out": 55,
-      "tot_current": 43,
-      "tot_original": 59,
-      "stay": 41,
+      "tot_current": 55,
+      "tot_original": 55,
+      "stay": 55,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 41,
-      "normal_mode": 59,
-      "radius": 15.831578947368422
+      "radius": 80
     },
     {
       "id": "10",
       "label": "Eric Thor",
       "type": "faculty",
-      "food_group": "Agribusiness and Agriculture",
       "weight": 18,
-      "x": 5.391280757209561,
-      "y": -61.43086352319486,
+      "x": -2220,
+      "y": -680,
       "out": 2,
-      "tot_current": 3,
-      "tot_original": 6,
-      "stay": 1,
+      "tot_current": 2,
+      "tot_original": 2,
+      "stay": 2,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 1,
-      "normal_mode": 6,
-      "radius": 9.694736842105264
+      "radius": 80
     },
     {
       "id": "35",
       "label": "Troy Schmitz",
       "type": "faculty",
-      "food_group": "Agribusiness and Agriculture",
       "weight": 18,
-      "x": 48.43887267345886,
-      "y": 63.17993180701074,
+      "x": 2380,
+      "y": -480,
       "out": 58,
-      "tot_current": 45,
-      "tot_original": 62,
-      "stay": 43,
+      "tot_current": 58,
+      "tot_original": 58,
+      "stay": 58,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 43,
-      "normal_mode": 62,
-      "radius": 16.178947368421053
+      "radius": 80
     },
     {
       "id": "5",
       "label": "Cesar Torres",
       "type": "faculty",
-      "food_group": "Environmental Resilience",
       "weight": 18,
-      "x": -92.75791666165115,
-      "y": -16.407569387630176,
+      "x": -1620,
+      "y": -880,
       "out": 0,
-      "tot_current": 1,
-      "tot_original": 4,
+      "tot_current": 0,
+      "tot_original": 0,
       "stay": 0,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 0,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 80
     },
     {
       "id": "22",
       "label": "Netra Chhetri",
       "type": "faculty",
-      "food_group": "Policy, Justice, and Culture",
       "weight": 18,
-      "x": 90.12179770985702,
-      "y": -57.32811074655225,
+      "x": -1820,
+      "y": -680,
       "out": 11,
-      "tot_current": 10,
-      "tot_original": 15,
-      "stay": 8,
+      "tot_current": 11,
+      "tot_original": 11,
+      "stay": 11,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 8,
-      "normal_mode": 15,
-      "radius": 10.736842105263158
+      "radius": 80
     },
     {
       "id": "20",
       "label": "Matei Georgescu",
       "type": "faculty",
-      "food_group": "Environmental Resilience",
       "weight": 18,
-      "x": -30.654928876063444,
-      "y": 114.03480743805588,
+      "x": -2020,
+      "y": -480,
       "out": 6,
       "tot_current": 6,
-      "tot_original": 10,
-      "stay": 4,
+      "tot_original": 6,
+      "stay": 6,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 4,
-      "normal_mode": 10,
-      "radius": 10.157894736842104
+      "radius": 80
     },
     {
       "id": "1",
       "label": "Arianne Cease",
       "type": "faculty",
-      "food_group": "Agribusiness and Agriculture",
       "weight": 18,
-      "x": -59.166664095474026,
-      "y": -113.92181134115611,
+      "x": -1220,
+      "y": -880,
       "out": 4,
       "tot_current": 4,
-      "tot_original": 8,
-      "stay": 3,
+      "tot_original": 4,
+      "stay": 4,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 3,
-      "normal_mode": 8,
-      "radius": 9.926315789473684
+      "radius": 80
     },
     {
       "id": "23",
       "label": "Punam Ohri-Vachaspati",
       "type": "faculty",
-      "food_group": "Nutrition and Health",
       "weight": 18,
-      "x": 129.52448634306262,
-      "y": 47.3021346728458,
+      "x": -1420,
+      "y": -680,
       "out": 54,
-      "tot_current": 42,
-      "tot_original": 58,
-      "stay": 40,
+      "tot_current": 54,
+      "tot_original": 54,
+      "stay": 54,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 40,
-      "normal_mode": 58,
-      "radius": 15.715789473684211
+      "radius": 80
     },
     {
       "id": "2",
       "label": "Ashok Mishra",
       "type": "faculty",
-      "food_group": "Agribusiness and Agriculture",
       "weight": 18,
-      "x": -135.69095488875212,
-      "y": 56.011253655194416,
+      "x": -1620,
+      "y": -480,
       "out": 34,
-      "tot_current": 27,
-      "tot_original": 38,
-      "stay": 25,
+      "tot_current": 34,
+      "tot_original": 34,
+      "stay": 34,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 25,
-      "normal_mode": 38,
-      "radius": 13.399999999999999
+      "radius": 80
     },
     {
       "id": "11",
       "label": "Hallie Eakin",
       "type": "faculty",
-      "food_group": "Policy, Justice, and Culture",
       "weight": 18,
-      "x": 65.77743962917387,
-      "y": -140.56256784110022,
+      "x": -820,
+      "y": -880,
       "out": 8,
-      "tot_current": 7,
-      "tot_original": 12,
-      "stay": 6,
+      "tot_current": 8,
+      "tot_original": 8,
+      "stay": 8,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 6,
-      "normal_mode": 12,
-      "radius": 10.389473684210525
+      "radius": 80
     },
     {
       "id": "30",
       "label": "Soe Myint",
       "type": "faculty",
-      "food_group": "Environmental Resilience",
       "weight": 18,
-      "x": 48.82980958148271,
-      "y": 155.67712743397888,
+      "x": -1020,
+      "y": -680,
       "out": 3,
-      "tot_current": 4,
-      "tot_original": 7,
-      "stay": 2,
+      "tot_current": 3,
+      "tot_original": 3,
+      "stay": 3,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 2,
-      "normal_mode": 7,
-      "radius": 9.810526315789472
+      "radius": 80
     },
     {
       "id": "31",
       "label": "Sonia Vega Lopez",
       "type": "faculty",
-      "food_group": "Nutrition and Health",
       "weight": 18,
-      "x": -147.733210508572,
-      "y": -85.61441520149938,
+      "x": -1220,
+      "y": -480,
       "out": 0,
-      "tot_current": 1,
-      "tot_original": 4,
+      "tot_current": 0,
+      "tot_original": 0,
       "stay": 0,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 0,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 80
     },
     {
       "id": "13",
       "label": "Jennifer Keahey",
       "type": "faculty",
-      "food_group": "Policy, Justice, and Culture",
       "weight": 18,
-      "x": 173.86513412163188,
-      "y": -38.2237620066026,
+      "x": -420,
+      "y": -880,
       "out": 4,
       "tot_current": 4,
-      "tot_original": 8,
-      "stay": 3,
+      "tot_original": 4,
+      "stay": 4,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 3,
-      "normal_mode": 8,
-      "radius": 9.926315789473684
+      "radius": 80
     },
     {
       "id": "36",
       "label": "Valerie Mueller",
       "type": "faculty",
-      "food_group": "Policy, Justice, and Culture",
       "weight": 18,
-      "x": -106.39949171474775,
-      "y": 151.34232810261437,
+      "x": -620,
+      "y": -680,
       "out": 0,
-      "tot_current": 1,
-      "tot_original": 4,
+      "tot_current": 0,
+      "tot_original": 0,
       "stay": 0,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 0,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 80
     },
     {
       "id": "21",
       "label": "Meg Bruening",
       "type": "faculty",
-      "food_group": "Nutrition and Health",
       "weight": 18,
-      "x": -24.63941168892376,
-      "y": -190.14063945381434,
+      "x": -820,
+      "y": -480,
       "out": 18,
-      "tot_current": 15,
-      "tot_original": 22,
-      "stay": 13,
+      "tot_current": 18,
+      "tot_original": 18,
+      "stay": 18,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 13,
-      "normal_mode": 22,
-      "radius": 11.547368421052632
+      "radius": 80
     },
     {
       "id": "14",
       "label": "Joan McGregor",
       "type": "faculty",
-      "food_group": "Policy, Justice, and Culture",
       "weight": 18,
-      "x": 151.5776080978341,
-      "y": 127.7497685760203,
+      "x": -20,
+      "y": -880,
       "out": 7,
       "tot_current": 7,
-      "tot_original": 11,
-      "stay": 5,
+      "tot_original": 7,
+      "stay": 7,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 5,
-      "normal_mode": 11,
-      "radius": 10.273684210526316
+      "radius": 80
     },
     {
       "id": "8",
       "label": "Dave White",
       "type": "faculty",
-      "food_group": "Environmental Resilience",
       "weight": 18,
-      "x": -204.35159312825,
-      "y": 8.450579946911596,
+      "x": -220,
+      "y": -680,
       "out": 4,
       "tot_current": 4,
-      "tot_original": 8,
-      "stay": 3,
+      "tot_original": 4,
+      "stay": 4,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 3,
-      "normal_mode": 8,
-      "radius": 9.926315789473684
+      "radius": 80
     },
     {
       "id": "17",
       "label": "Kiril Hristovski",
       "type": "faculty",
-      "food_group": "Environmental Resilience",
       "weight": 18,
-      "x": 149.30275916681254,
-      "y": -148.57618681429196,
+      "x": -420,
+      "y": -480,
       "out": 5,
       "tot_current": 5,
-      "tot_original": 9,
-      "stay": 3,
+      "tot_original": 5,
+      "stay": 5,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 3,
-      "normal_mode": 9,
-      "radius": 10.042105263157895
+      "radius": 80
     },
     {
       "id": "7",
       "label": "Dan Childers",
       "type": "faculty",
-      "food_group": "Environmental Resilience",
       "weight": 18,
-      "x": -10.00355811906325,
-      "y": 216.33616728522935,
+      "x": 380,
+      "y": -880,
       "out": 0,
-      "tot_current": 1,
-      "tot_original": 4,
+      "tot_current": 0,
+      "tot_original": 0,
       "stay": 0,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 0,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 80
     },
     {
       "id": "33",
       "label": "Timothy Richards",
       "type": "faculty",
-      "food_group": "Agribusiness and Agriculture",
       "weight": 18,
-      "x": -142.45749608882724,
-      "y": -170.7116912411439,
+      "x": 180,
+      "y": -680,
       "out": 60,
-      "tot_current": 46,
-      "tot_original": 64,
-      "stay": 45,
+      "tot_current": 60,
+      "tot_original": 60,
+      "stay": 60,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 45,
-      "normal_mode": 64,
-      "radius": 16.410526315789472
+      "radius": 80
     },
     {
       "id": "29",
       "label": "Shauna BurnSilver",
       "type": "faculty",
-      "food_group": "Policy, Justice, and Culture",
       "weight": 18,
-      "x": 225.93737644629508,
-      "y": 30.399554445429924,
+      "x": -20,
+      "y": -480,
       "out": 4,
       "tot_current": 4,
-      "tot_original": 8,
-      "stay": 3,
+      "tot_original": 4,
+      "stay": 4,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 3,
-      "normal_mode": 8,
-      "radius": 9.926315789473684
+      "radius": 80
     },
     {
       "id": "27",
       "label": "Rolf Halden",
       "type": "faculty",
-      "food_group": "Environmental Resilience",
       "weight": 18,
-      "x": -191.6436887562765,
-      "y": 133.3406870141614,
+      "x": 780,
+      "y": -880,
       "out": 17,
-      "tot_current": 14,
-      "tot_original": 21,
-      "stay": 12,
+      "tot_current": 17,
+      "tot_original": 17,
+      "stay": 17,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 12,
-      "normal_mode": 21,
-      "radius": 11.43157894736842
+      "radius": 80
     },
     {
       "id": "16",
       "label": "Joni Adamson",
       "type": "faculty",
-      "food_group": "Policy, Justice, and Culture",
       "weight": 18,
-      "x": 52.41987707040096,
-      "y": -233.01160917227025,
+      "x": 580,
+      "y": -680,
       "out": 3,
-      "tot_current": 4,
-      "tot_original": 7,
-      "stay": 2,
+      "tot_current": 3,
+      "tot_original": 3,
+      "stay": 3,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 2,
-      "normal_mode": 7,
-      "radius": 9.810526315789472
+      "radius": 80
     },
     {
       "id": "9",
       "label": "David Van Fleet",
       "type": "faculty",
-      "food_group": "Agribusiness and Agriculture",
       "weight": 18,
-      "x": 121.3543710154935,
-      "y": 211.77955856070326,
+      "x": 380,
+      "y": -480,
       "out": 6,
       "tot_current": 6,
-      "tot_original": 10,
-      "stay": 4,
+      "tot_original": 6,
+      "stay": 6,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 4,
-      "normal_mode": 10,
-      "radius": 10.157894736842104
+      "radius": 80
     },
     {
       "id": "15",
       "label": "John Sabo",
       "type": "faculty",
-      "food_group": "Environmental Resilience",
       "weight": 18,
-      "x": -237.4340459128666,
-      "y": -75.74793659093817,
+      "x": 1180,
+      "y": -880,
       "out": 8,
-      "tot_current": 7,
-      "tot_original": 12,
-      "stay": 6,
+      "tot_current": 8,
+      "tot_original": 8,
+      "stay": 8,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 6,
-      "normal_mode": 12,
-      "radius": 10.389473684210525
+      "radius": 80
     },
     {
       "id": "6",
       "label": "Christopher Wharton",
       "type": "faculty",
-      "food_group": "Nutrition and Health",
       "weight": 18,
-      "x": 230.8145089894922,
-      "y": -106.64215753576666,
+      "x": 980,
+      "y": -680,
       "out": 91,
-      "tot_current": 70,
-      "tot_original": 95,
-      "stay": 68,
+      "tot_current": 91,
+      "tot_original": 91,
+      "stay": 91,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 68,
-      "normal_mode": 95,
-      "radius": 20
+      "radius": 80
     },
     {
       "id": "19",
       "label": "Mark Manfredo",
       "type": "faculty",
-      "food_group": "Agribusiness and Agriculture",
       "weight": 18,
-      "x": -100.06588458835859,
-      "y": 239.10231561634575,
+      "x": 780,
+      "y": -480,
       "out": 7,
       "tot_current": 7,
-      "tot_original": 11,
-      "stay": 5,
+      "tot_original": 7,
+      "stay": 7,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 5,
-      "normal_mode": 11,
-      "radius": 10.273684210526316
+      "radius": 80
     },
     {
       "id": "25",
       "label": "Rimjhim Aggarwal",
       "type": "faculty",
-      "food_group": "Policy, Justice, and Culture",
       "weight": 18,
-      "x": -89.36570143763997,
-      "y": -248.4594157316513,
+      "x": 1580,
+      "y": -880,
       "out": 14,
-      "tot_current": 12,
-      "tot_original": 18,
-      "stay": 10,
+      "tot_current": 14,
+      "tot_original": 14,
+      "stay": 14,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 10,
-      "normal_mode": 18,
-      "radius": 11.08421052631579
+      "radius": 80
     },
     {
       "id": "34",
       "label": "Todd Sandrin (DEAN)",
       "type": "faculty",
-      "food_group": "Environmental Resilience",
       "weight": 18,
-      "x": 237.9390543538407,
-      "y": 125.05409845327186,
+      "x": 1380,
+      "y": -680,
       "out": 0,
-      "tot_current": 1,
-      "tot_original": 4,
+      "tot_current": 0,
+      "tot_original": 0,
       "stay": 0,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 0,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 80
     },
     {
       "id": "26",
       "label": "Roberto Gaxiola",
       "type": "faculty",
-      "food_group": "Agribusiness and Agriculture",
       "weight": 18,
-      "x": -264.4423993334299,
-      "y": 69.70616779844524,
+      "x": 1180,
+      "y": -480,
       "out": 1,
-      "tot_current": 2,
-      "tot_original": 5,
-      "stay": 0,
+      "tot_current": 1,
+      "tot_original": 1,
+      "stay": 1,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 0,
-      "normal_mode": 5,
-      "radius": 9.578947368421053
+      "radius": 80
     },
     {
       "id": "32",
       "label": "Steven Vickner",
       "type": "faculty",
-      "food_group": "Agribusiness and Agriculture",
       "weight": 18,
-      "x": 150.39174063255635,
-      "y": -233.8937109275958,
+      "x": 1980,
+      "y": -880,
       "out": 42,
-      "tot_current": 33,
-      "tot_original": 46,
-      "stay": 31,
+      "tot_current": 42,
+      "tot_original": 42,
+      "stay": 42,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 31,
-      "normal_mode": 46,
-      "radius": 14.326315789473686
+      "radius": 80
     },
     {
       "id": "3",
       "label": "Carol Johnston",
       "type": "faculty",
-      "food_group": "Nutrition and Health",
       "weight": 18,
-      "x": 47.864625988800064,
-      "y": 278.51056085637,
+      "x": 1780,
+      "y": -680,
       "out": 0,
-      "tot_current": 1,
-      "tot_original": 4,
+      "tot_current": 0,
+      "tot_original": 0,
       "stay": 0,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 0,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 80
     },
     {
       "id": "12",
       "label": "Hugh Mason",
       "type": "faculty",
-      "food_group": "Environmental Resilience",
       "weight": 18,
-      "x": -226.9437877234803,
-      "y": -175.75802516785114,
+      "x": 1580,
+      "y": -480,
       "out": 0,
-      "tot_current": 1,
-      "tot_original": 4,
+      "tot_current": 0,
+      "tot_original": 0,
       "stay": 0,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 0,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 80
     },
     {
       "id": "28",
       "label": "Sharon Hall",
       "type": "faculty",
-      "food_group": "Environmental Resilience",
       "weight": 18,
-      "x": 290.43177011713897,
-      "y": -24.06167848289166,
+      "x": 2380,
+      "y": -880,
       "out": 0,
-      "tot_current": 1,
-      "tot_original": 4,
+      "tot_current": 0,
+      "tot_original": 0,
       "stay": 0,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 0,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 80
     },
     {
       "id": "18",
       "label": "Lauren Chenarides",
       "type": "faculty",
-      "food_group": "Agribusiness and Agriculture",
       "weight": 18,
-      "x": -200.83395818633133,
-      "y": 217.09562402684506,
+      "x": 2180,
+      "y": -680,
       "out": 61,
-      "tot_current": 47,
-      "tot_original": 65,
-      "stay": 45,
+      "tot_current": 61,
+      "tot_original": 61,
+      "stay": 61,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 45,
-      "normal_mode": 65,
-      "radius": 16.526315789473685
+      "radius": 80
     },
     {
       "id": "24",
       "label": "Renee Hughner",
       "type": "faculty",
-      "food_group": "Agribusiness and Agriculture",
       "weight": 18,
-      "x": 1.4634831490377875,
-      "y": -299.99643034055003,
+      "x": 1980,
+      "y": -480,
       "out": 50,
-      "tot_current": 39,
-      "tot_original": 54,
-      "stay": 37,
+      "tot_current": 50,
+      "tot_original": 50,
+      "stay": 50,
       "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 37,
-      "normal_mode": 54,
-      "radius": 15.25263157894737
+      "radius": 80
     },
     {
       "id": "305",
       "label": "www.havasucommunityhealth.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -412,
-      "y": 486,
+      "x": 60.857267077957886,
+      "y": -19.79115567779793,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "201",
       "label": "wholelifefoundation.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -25,
-      "y": -638,
+      "x": 156.25272204122712,
+      "y": -127.16307702487173,
       "out": 0,
       "tot_current": 13,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 13,
-      "normal_mode": 13,
-      "radius": 10.505263157894737
+      "radius": 30
     },
     {
       "id": "214",
       "label": "www.amissionofmercy.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 450,
-      "y": 454,
+      "x": 286.02532663492684,
+      "y": 29.36007512916966,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "309",
       "label": "www.icstucson.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -639,
-      "y": -31,
+      "x": -139.63089004576807,
+      "y": -70.60948630439812,
       "out": 0,
       "tot_current": 8,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 8,
-      "normal_mode": 8,
-      "radius": 9.926315789473684
+      "radius": 30
     },
     {
       "id": "352",
       "label": "www.primavera.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 493,
-      "y": -409,
+      "x": 411.68396416292876,
+      "y": -122.00962466621253,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "224",
       "label": "www.azfoodbanks.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -87,
-      "y": 636,
+      "x": 47.586701443810284,
+      "y": 93.2386934710224,
       "out": 0,
       "tot_current": 19,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 19,
-      "normal_mode": 19,
-      "radius": 11.2
+      "radius": 30
     },
     {
       "id": "75",
       "label": "cornucopiaca.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -366,
-      "y": -529,
+      "x": 530.4685303675601,
+      "y": 9.41603376328105,
       "out": 0,
       "tot_current": 15,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 15,
-      "normal_mode": 15,
-      "radius": 10.736842105263158
+      "radius": 30
     },
     {
       "id": "39",
       "label": "adelantehealthcare.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 628,
-      "y": 143,
+      "x": -269.05815753825385,
+      "y": 20.355525417992993,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "149",
       "label": "pazdecristo.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -560,
-      "y": 319,
+      "x": 287.20385715260977,
+      "y": 145.5454552688037,
       "out": 0,
       "tot_current": 5,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 5,
-      "normal_mode": 5,
-      "radius": 9.578947368421053
+      "radius": 30
     },
     {
       "id": "175",
       "label": "superstitionfoodbank.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 198,
-      "y": -614,
+      "x": -305.36111450754373,
+      "y": -157.53994548909884,
       "out": 0,
       "tot_current": 18,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 18,
-      "normal_mode": 18,
-      "radius": 11.08421052631579
+      "radius": 30
     },
     {
       "id": "283",
       "label": "www.feedingmatters.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 270,
-      "y": 587,
+      "x": 664.1392212343519,
+      "y": -98.01272394261872,
       "out": 0,
       "tot_current": 4,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 4,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 30
     },
     {
       "id": "169",
       "label": "southwest.salvationarmy.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -596,
-      "y": -251,
+      "x": -180.75520493996646,
+      "y": 140.10053010399386,
       "out": 0,
       "tot_current": 4,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 4,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 30
     },
     {
       "id": "157",
       "label": "rainbowacres.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 610,
-      "y": -218,
+      "x": 596.9505546142725,
+      "y": 110.46600466260753,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "334",
       "label": "www.nourishaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -303,
-      "y": 574,
+      "x": -476.04464530139455,
+      "y": -39.38525825699702,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "143",
       "label": "npfy.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -164,
-      "y": -629,
+      "x": 109.84296369374238,
+      "y": 221.73904747721377,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "302",
       "label": "www.habitat.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 546,
-      "y": 353,
+      "x": 821.1178166143884,
+      "y": -11.81523379841795,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "377",
       "label": "www.tetucson.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -642,
-      "y": 109,
+      "x": -437.7350029760558,
+      "y": 117.48873632124952,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "250",
       "label": "www.choosevibrantliving.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 401,
-      "y": -515,
+      "x": 505.8386475171483,
+      "y": 216.0155083664531,
       "out": 0,
       "tot_current": 12,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 12,
-      "normal_mode": 12,
-      "radius": 10.389473684210525
+      "radius": 30
     },
     {
       "id": "368",
       "label": "www.soazbigs.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 52,
-      "y": 651,
+      "x": -575.7760326589121,
+      "y": -145.14669875077936,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "310",
       "label": "www.impactsoaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -479,
-      "y": -445,
+      "x": 835.8205715167012,
+      "y": -183.95281368499485,
       "out": 0,
       "tot_current": 13,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 13,
-      "normal_mode": 13,
-      "radius": 10.505263157894737
+      "radius": 30
     },
     {
       "id": "110",
       "label": "houseofrefuge.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 655,
-      "y": 5,
+      "x": -161.66171662443344,
+      "y": 250.33552091878107,
       "out": 0,
       "tot_current": 6,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 6,
-      "normal_mode": 6,
-      "radius": 9.694736842105264
+      "radius": 30
     },
     {
       "id": "376",
       "label": "www.terroshealth.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -487,
-      "y": 439,
+      "x": 857.2984467547924,
+      "y": 107.07998354251131,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "120",
       "label": "keoghhealth.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 62,
-      "y": -654,
+      "x": -657.1962518431269,
+      "y": 37.55765565478622,
       "out": 0,
       "tot_current": 4,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 4,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 30
     },
     {
       "id": "379",
       "label": "www.ticenter.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 396,
-      "y": 525,
+      "x": 284.2941847840085,
+      "y": 299.83606980367296,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "131",
       "label": "midwestfoodbank.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -648,
-      "y": -120,
+      "x": 1015.544614393001,
+      "y": -80.22378400105073,
       "out": 0,
       "tot_current": 15,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 15,
-      "normal_mode": 15,
-      "radius": 10.736842105263158
+      "radius": 30
     },
     {
       "id": "193",
       "label": "unitedfoodbank.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 559,
-      "y": -350,
+      "x": -465.4402739974036,
+      "y": 222.6929982389221,
       "out": 0,
       "tot_current": 13,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 13,
-      "normal_mode": 13,
-      "radius": 10.505263157894737
+      "radius": 30
     },
     {
       "id": "360",
       "label": "www.safetyatevesplace.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -176,
-      "y": 636,
+      "x": 756.1447083518394,
+      "y": 233.00400541004655,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "198",
       "label": "vineyardnorthphoenix.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -300,
-      "y": -589,
+      "x": -785.5494800482891,
+      "y": -85.7415490748189,
       "out": 0,
       "tot_current": 5,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 5,
-      "normal_mode": 5,
-      "radius": 9.578947368421053
+      "radius": 30
     },
     {
       "id": "219",
       "label": "www.assistanceleague.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 620,
-      "y": 232,
+      "x": -30.746961214143084,
+      "y": 341.07345929099966,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "348",
       "label": "www.pinnacleprevention.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -615,
-      "y": 248,
+      "x": 1083.0597772269512,
+      "y": 57.68899453777908,
       "out": 0,
       "tot_current": 19,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 19,
-      "normal_mode": 19,
-      "radius": 11.2
+      "radius": 30
     },
     {
       "id": "290",
       "label": "www.foothillsfoodbank.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 286,
-      "y": -599,
+      "x": -740.38494306595,
+      "y": 138.24959053683347,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "301",
       "label": "www.gvrconnect.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 194,
-      "y": 636,
+      "x": 521.7787285515196,
+      "y": 340.7624763473439,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "349",
       "label": "www.prescottfarmersmarket.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -573,
-      "y": -338,
+      "x": 1129.1215235637533,
+      "y": -177.06530720714346,
       "out": 0,
       "tot_current": 18,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 18,
-      "normal_mode": 18,
-      "radius": 11.08421052631579
+      "radius": 30
     },
     {
       "id": "344",
       "label": "www.pcoa.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 652,
-      "y": -138,
+      "x": -388.9496199134542,
+      "y": 326.06614638543266,
       "out": 0,
       "tot_current": 8,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 8,
-      "normal_mode": 8,
-      "radius": 9.926315789473684
+      "radius": 30
     },
     {
       "id": "232",
       "label": "www.bgcaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -388,
-      "y": 543,
+      "x": 1010.6288930053688,
+      "y": 207.68916011411983,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "185",
       "label": "tihan.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -81,
-      "y": -663,
+      "x": -930.3851776180694,
+      "y": 5.583351348595002,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "392",
       "label": "www.wastenotaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 508,
-      "y": 435,
+      "x": 180.08091891404592,
+      "y": 407.95316049966607,
       "out": 0,
       "tot_current": 14,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 14,
-      "normal_mode": 14,
-      "radius": 10.621052631578948
+      "radius": 30
     },
     {
       "id": "296",
       "label": "www.good-sam.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -669,
-      "y": 23,
+      "x": 1259.1093683829479,
+      "y": -26.157994011212125,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "230",
       "label": "www.bbbsaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 479,
-      "y": -469,
+      "x": -731.7377155155427,
+      "y": 250.1137965155603,
       "out": 0,
       "tot_current": 9,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 9,
-      "normal_mode": 9,
-      "radius": 10.042105263157895
+      "radius": 30
     },
     {
       "id": "179",
       "label": "tempeaction.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -36,
-      "y": 670,
+      "x": 792.7556565276429,
+      "y": 345.0013301821762,
       "out": 0,
       "tot_current": 10,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 10,
-      "normal_mode": 10,
-      "radius": 10.157894736842104
+      "radius": 30
     },
     {
       "id": "221",
       "label": "www.asteraz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -427,
-      "y": -519,
+      "x": -991.4004328966798,
+      "y": -158.47191492085943,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "315",
       "label": "www.jtfp.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 666,
-      "y": 95,
+      "x": -224.32175017170124,
+      "y": 417.927920306908,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "258",
       "label": "www.communityfoodbank.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -556,
-      "y": 381,
+      "x": 1244.6947162589315,
+      "y": 145.27828427834527,
       "out": 0,
       "tot_current": 18,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 18,
-      "normal_mode": 18,
-      "radius": 11.08421052631579
+      "radius": 30
     },
     {
       "id": "85",
       "label": "echoinghoperanch.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 153,
-      "y": -657,
+      "x": -1000.16138409579,
+      "y": 118.25906891976206,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "124",
       "label": "literacyconnects.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 332,
-      "y": 589,
+      "x": 447.3244637133073,
+      "y": 445.58321317527844,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "390",
       "label": "www.vosjcc.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -643,
-      "y": -210,
+      "x": 1370.0739557298652,
+      "y": -135.51119102674613,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "284",
       "label": "www.feedourbabiesusa.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 617,
-      "y": -279,
+      "x": -634.0603498391633,
+      "y": 362.28331320636204,
       "out": 0,
       "tot_current": 6,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 6,
-      "normal_mode": 6,
-      "radius": 9.694736842105264
+      "radius": 30
     },
     {
       "id": "165",
       "label": "sccsedona.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -266,
-      "y": 624,
+      "x": 1071.3237957508736,
+      "y": 312.513406712855,
       "out": 0,
       "tot_current": 10,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 10,
-      "normal_mode": 10,
-      "radius": 10.157894736842104
+      "radius": 30
     },
     {
       "id": "156",
       "label": "quincea.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -225,
-      "y": -641,
+      "x": -1143.4341397021294,
+      "y": -55.21764246490015,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "288",
       "label": "www.firstfoodbank.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 599,
-      "y": 321,
+      "x": 13.588702413324654,
+      "y": 489.6533390627144,
       "out": 0,
       "tot_current": 12,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 12,
-      "normal_mode": 12,
-      "radius": 10.389473684210525
+      "radius": 30
     },
     {
       "id": "140",
       "label": "nogalescdc.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -659,
-      "y": 169,
+      "x": 1436.4439620311764,
+      "y": 50.99595470524466,
       "out": 0,
       "tot_current": 8,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 8,
-      "normal_mode": 8,
-      "radius": 9.926315789473684
+      "radius": 30
     },
     {
       "id": "145",
       "label": "oldtownmission.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 373,
-      "y": -570,
+      "x": -987.0804904176841,
+      "y": 242.33541431932042,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "115",
       "label": "icmaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 111,
-      "y": 673,
+      "x": 748.1802540600431,
+      "y": 449.7841163406799,
       "out": 0,
       "tot_current": 5,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 5,
-      "normal_mode": 5,
-      "radius": 9.578947368421053
+      "radius": 30
     },
     {
       "id": "148",
       "label": "osbi.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -537,
-      "y": -422,
+      "x": -452.8834942856747,
+      "y": 464.75607124401256,
       "out": 0,
       "tot_current": 6,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 6,
-      "normal_mode": 6,
-      "radius": 9.694736842105264
+      "radius": 30
     },
     {
       "id": "93",
       "label": "formaricopa.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 682,
-      "y": -51,
+      "x": 1333.227712325764,
+      "y": 244.64185726353531,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "324",
       "label": "www.mercyhousing.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -469,
-      "y": 499,
+      "x": -1225.6201373290166,
+      "y": 69.2872645315637,
       "out": 0,
       "tot_current": 13,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 13,
-      "normal_mode": 13,
-      "radius": 10.505263157894737
+      "radius": 30
     },
     {
       "id": "73",
       "label": "compassaffordablehousing.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 8,
-      "y": -686,
+      "x": 307.75360375938556,
+      "y": 534.0499658196318,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "282",
       "label": "www.familyinvolvementcenter.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 457,
-      "y": 512,
+      "x": 1567.237909282921,
+      "y": -68.78214977839266,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "298",
       "label": "www.goodwillsouthernaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -684,
-      "y": -69,
+      "x": -887.7091517470062,
+      "y": 367.8927584170422,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "394",
       "label": "www.yumafoodbank.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 551,
-      "y": -412,
+      "x": 1059.3573107986388,
+      "y": 418.2529095910329,
       "out": 0,
       "tot_current": 4,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 4,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 30
     },
     {
       "id": "200",
       "label": "whisperinghoperanch.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -128,
-      "y": 677,
+      "x": -1304.8574417869954,
+      "y": -136.98955567969412,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "87",
       "label": "elevatephoenix.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -363,
-      "y": -587,
+      "x": -197.88790634967984,
+      "y": 548.4806809548251,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "304",
       "label": "www.handsonphoenix.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 665,
-      "y": 187,
+      "x": 1556.0648779026492,
+      "y": 144.59727893038576,
       "out": 0,
       "tot_current": 9,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 9,
-      "normal_mode": 9,
-      "radius": 10.042105263157895
+      "radius": 30
     },
     {
       "id": "132",
       "label": "mountainparkhealth.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -617,
-      "y": 311,
+      "x": -1226.6653496249892,
+      "y": 206.38574390186398,
       "out": 0,
       "tot_current": 6,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 6,
-      "normal_mode": 6,
-      "radius": 9.694736842105264
+      "radius": 30
     },
     {
       "id": "243",
       "label": "www.catholiccharitiesaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 245,
-      "y": -647,
+      "x": 638.523741898026,
+      "y": 545.695508354985,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "197",
       "label": "verdevalleyseniorcenter.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 257,
-      "y": 644,
+      "x": -703.7039260213712,
+      "y": 485.17969548660267,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "119",
       "label": "justacenter.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -625,
-      "y": -302,
+      "x": 1357.45840991068,
+      "y": 350.8400510823415,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "109",
       "label": "hotfood.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 665,
-      "y": -200,
+      "x": -1414.9354038639863,
+      "y": -2.6833035943972163,
       "out": 0,
       "tot_current": 6,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 6,
-      "normal_mode": 6,
-      "radius": 9.694736842105264
+      "radius": 30
     },
     {
       "id": "102",
       "label": "harvestcompassioncenter.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -356,
-      "y": 597,
+      "x": 116.96864893588406,
+      "y": 605.6736300771141,
       "out": 0,
       "tot_current": 6,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 6,
-      "normal_mode": 6,
-      "radius": 9.694736842105264
+      "radius": 30
     },
     {
       "id": "112",
       "label": "hungerhurts.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -141,
-      "y": -682,
+      "x": 1720.0742661722184,
+      "y": 17.50168899677753,
       "out": 0,
       "tot_current": 5,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 5,
-      "normal_mode": 5,
-      "radius": 9.578947368421053
+      "radius": 30
     },
     {
       "id": "160",
       "label": "resourcesvail.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 565,
-      "y": 408,
+      "x": -1140.3362985105016,
+      "y": 346.74433822809186,
       "out": 0,
       "tot_current": 9,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 9,
-      "normal_mode": 9,
-      "radius": 10.042105263157895
+      "radius": 30
     },
     {
       "id": "336",
       "label": "www.openarmscc.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -693,
-      "y": 81,
+      "x": 984.1433451530738,
+      "y": 521.2167223521675,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "178",
       "label": "teenlifeline.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 457,
-      "y": -529,
+      "x": -441.96129695016276,
+      "y": 584.9815516857673,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "229",
       "label": "www.backtoschoolclothingdrive.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 20,
-      "y": 699,
+      "x": 1619.8910451229572,
+      "y": 249.63012342212636,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "223",
       "label": "www.azdevservices.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -488,
-      "y": -503,
+      "x": -1443.675307703145,
+      "y": 146.41426236478745,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "331",
       "label": "www.nacainc.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 700,
-      "y": 41,
+      "x": 473.91801760160433,
+      "y": 630.1780247868599,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "37",
       "label": "ability360.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -545,
-      "y": 443,
+      "x": 1809.0507615959818,
+      "y": -129.788734950354,
       "out": 0,
       "tot_current": 4,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 4,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 30
     },
     {
       "id": "134",
       "label": "navajocountydrugproject.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 102,
-      "y": -695,
+      "x": -965.8406364189518,
+      "y": 480.74837213280216,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "337",
       "label": "www.orchardlearningcenter.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 395,
-      "y": 583,
+      "x": 1321.6935612302684,
+      "y": 459.47963774375523,
       "out": 0,
       "tot_current": 10,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 10,
-      "normal_mode": 10,
-      "radius": 10.157894736842104
+      "radius": 30
     },
     {
       "id": "256",
       "label": "www.coconino.az.gov",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -685,
-      "y": -163,
+      "x": -1564.0493131509606,
+      "y": -93.25300718057602,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "155",
       "label": "prescott.salvationarmy.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 616,
-      "y": -343,
+      "x": -114.37482354909469,
+      "y": 659.0600988701776,
       "out": 0,
       "tot_current": 4,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 4,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 30
     },
     {
       "id": "210",
       "label": "www.allfaithcsaz.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -223,
-      "y": 670,
+      "x": 1825.9585292041993,
+      "y": 118.87281426109027,
       "out": 0,
       "tot_current": 4,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 4,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 30
     },
     {
       "id": "237",
       "label": "www.borderlandsproducerescue.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -289,
-      "y": -645,
+      "x": -1382.7469839390783,
+      "y": 301.3371340382956,
       "out": 0,
       "tot_current": 11,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 11,
-      "normal_mode": 11,
-      "radius": 10.273684210526316
+      "radius": 30
     },
     {
       "id": "253",
       "label": "www.circlethecity.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 649,
-      "y": 281,
+      "x": 852.2082751983469,
+      "y": 617.7854379218822,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "271",
       "label": "www.dianagregory.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -670,
-      "y": 232,
+      "x": -707.9265101267922,
+      "y": 598.9816586798215,
       "out": 0,
       "tot_current": 11,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 11,
-      "normal_mode": 11,
-      "radius": 10.273684210526316
+      "radius": 30
     },
     {
       "id": "249",
       "label": "www.childrensclinics.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 338,
-      "y": -624,
+      "x": 1628.2461071470411,
+      "y": 361.6707836673512,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "328",
       "label": "www.mosaicinfo.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 173,
-      "y": 689,
+      "x": -1631.137026425857,
+      "y": 65.7355954735332,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "364",
       "label": "www.sedonafoodbank.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -593,
-      "y": -392,
+      "x": 262.729370603653,
+      "y": 700.5897567347588,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "353",
       "label": "www.pvefb.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 703,
-      "y": -112,
+      "x": 1957.9607424762653,
+      "y": -35.21720444921906,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "291",
       "label": "www.foundationjlp.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -443,
-      "y": 558,
+      "x": -1229.2192049280288,
+      "y": 452.5142978991744,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "97",
       "label": "gapmin.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -50,
-      "y": -712,
+      "x": 1229.1716451210311,
+      "y": 566.4787336751133,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "48",
       "label": "azcend.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 518,
-      "y": 491,
+      "x": -376.68723630417526,
+      "y": 692.7326491859153,
       "out": 0,
       "tot_current": 4,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 4,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 30
     },
     {
       "id": "76",
       "label": "crossroadsmission.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -715,
-      "y": -12,
+      "x": 1882.0984616769565,
+      "y": 231.2586263562211,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "330",
       "label": "www.naafnow.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 536,
-      "y": -474,
+      "x": -1606.274027224425,
+      "y": 233.86195229120455,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "74",
       "label": "corbinslegacy.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -75,
-      "y": 713,
+      "x": 669.4287485326633,
+      "y": 704.5447027000898,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "276",
       "label": "www.ehfb.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -427,
-      "y": -577,
+      "x": -985.7856748300796,
+      "y": 590.2862063967771,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "234",
       "label": "www.bgcflag.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 705,
-      "y": 137,
+      "x": 1581.4461444843187,
+      "y": 476.5705695147078,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "373",
       "label": "www.swcenter.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -613,
-      "y": 375,
+      "x": -1782.5400473635257,
+      "y": -32.521013193946914,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "327",
       "label": "www.momspantryphoenix.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 199,
-      "y": -692,
+      "x": 12.925067554663428,
+      "y": 754.4852522584806,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "372",
       "label": "www.stvincentdepaul.net",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 321,
-      "y": 645,
+      "x": 2063.9939483832673,
+      "y": 73.8329453957056,
       "out": 0,
       "tot_current": 7,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 7,
-      "normal_mode": 7,
-      "radius": 9.810526315789472
+      "radius": 30
     },
     {
       "id": "94",
       "label": "fqfoodbank.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -673,
-      "y": -259,
+      "x": -1484.3632229840991,
+      "y": 401.5721226034919,
       "out": 0,
       "tot_current": 4,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 4,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 30
     },
     {
       "id": "257",
       "label": "www.codac.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 672,
-      "y": -264,
+      "x": 1083.2605569785262,
+      "y": 668.0049908969123,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "199",
       "label": "wearecaring.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -318,
-      "y": 649,
+      "x": -660.7014985899788,
+      "y": 705.4428785390563,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "69",
       "label": "cchci.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -205,
-      "y": -694,
+      "x": 1886.2716843096027,
+      "y": 350.7231320658405,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "127",
       "label": "matthewscrossing.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 620,
-      "y": 374,
+      "x": -1802.896616967382,
+      "y": 146.58222753711846,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "114",
       "label": "icanaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -711,
-      "y": 143,
+      "x": 441.8566176215045,
+      "y": 778.3604311461044,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "254",
       "label": "www.civitanfoundationaz.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 428,
-      "y": -587,
+      "x": 2158.2454564833197,
+      "y": -103.17240921252667,
       "out": 0,
       "tot_current": 7,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 7,
-      "normal_mode": 7,
-      "radius": 9.810526315789472
+      "radius": 30
     },
     {
       "id": "53",
       "label": "azyp.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 81,
-      "y": 722,
+      "x": -1265.9332362155483,
+      "y": 558.959685439324,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "144",
       "label": "oldpueblorotaryclub.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -548,
-      "y": -478,
+      "x": 1480.4394200619158,
+      "y": 590.3588079947069,
       "out": 0,
       "tot_current": 6,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 6,
-      "normal_mode": 6,
-      "radius": 9.694736842105264
+      "radius": 30
     },
     {
       "id": "262",
       "label": "www.creightoncommunityfoundation.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 728,
-      "y": -18,
+      "x": -1892.139005837462,
+      "y": -145.17077208921552,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "311",
       "label": "www.integrativetouch.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -526,
-      "y": 505,
+      "x": -267.42287751959947,
+      "y": 789.7509757025246,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "272",
       "label": "www.diaperbank.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 46,
-      "y": -728,
+      "x": 2122.784038205515,
+      "y": 193.84344997718486,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "371",
       "label": "www.stlukeshometucson.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 458,
-      "y": 569,
+      "x": -1722.3561857339369,
+      "y": 329.27870081525543,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "163",
       "label": "sarsef.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -723,
-      "y": -110,
+      "x": 887.9441147453424,
+      "y": 760.4803532407202,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "275",
       "label": "www.eeftucson.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 608,
-      "y": -408,
+      "x": -957.2248728150283,
+      "y": 696.317065951107,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "64",
       "label": "canyonvista.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -173,
-      "y": 712,
+      "x": 1837.1706861571702,
+      "y": 473.3856897325388,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "293",
       "label": "www.fsl.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -354,
-      "y": -643,
+      "x": -1965.3607462944083,
+      "y": 41.98441893521699,
       "out": 0,
       "tot_current": 7,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 7,
-      "normal_mode": 7,
-      "radius": 9.810526315789472
+      "radius": 30
     },
     {
       "id": "242",
       "label": "www.caringcoalitionaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 696,
-      "y": 235,
+      "x": 176.03849649398023,
+      "y": 836.4392356707465,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "95",
       "label": "fsaphoenix.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -673,
-      "y": 297,
+      "x": 2273.232894608472,
+      "y": 12.856507331791427,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "63",
       "label": "canyonlandschc.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 296,
-      "y": -674,
+      "x": -1539.0945955937707,
+      "y": 505.45297753396994,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "139",
       "label": "noahhelps.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 237,
-      "y": 698,
+      "x": 1327.0927185479677,
+      "y": 699.2323475993977,
       "out": 0,
       "tot_current": 4,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 4,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 30
     },
     {
       "id": "72",
       "label": "community-outreach.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -647,
-      "y": -354,
+      "x": -569.9727724244249,
+      "y": 804.6866976348027,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "153",
       "label": "phoenixrescuemission.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 717,
-      "y": -176,
+      "x": 2130.9890978106832,
+      "y": 321.21291724613,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "202",
       "label": "wtap.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -410,
-      "y": 615,
+      "x": -1934.9009314575737,
+      "y": 237.34480250592446,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "190",
       "label": "ucpofcentralaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -113,
-      "y": -731,
+      "x": 648.0179747083391,
+      "y": 840.6144236577903,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "248",
       "label": "www.childrenscancernetwork.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 578,
-      "y": 464,
+      "x": 2324.0551841261404,
+      "y": -183.63439493252204,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "91",
       "label": "firrp.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -740,
-      "y": 48,
+      "x": -1257.1005244494731,
+      "y": 664.9337241747152,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "103",
       "label": "haventotes.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 513,
-      "y": -536,
+      "x": 1734.5798759366435,
+      "y": 595.4158622840207,
       "out": 0,
       "tot_current": 8,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 8,
-      "normal_mode": 8,
-      "radius": 9.926315789473684
+      "radius": 30
     },
     {
       "id": "346",
       "label": "www.phoenixchildren.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -16,
-      "y": 743,
+      "x": -2087.300495480336,
+      "y": -77.17134044998537,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "362",
       "label": "www.saltproperty.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -490,
-      "y": -559,
+      "x": -120.88713724416789,
+      "y": 876.3820289037286,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "354",
       "label": "www.rcfbh.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 740,
-      "y": 81,
+      "x": 2342.050711501605,
+      "y": 140.1446196572401,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "314",
       "label": "www.jfcsaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -601,
-      "y": 440,
+      "x": -1796.3775592750242,
+      "y": 430.66106603881775,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "228",
       "label": "www.azmam.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 146,
-      "y": -732,
+      "x": 1124.314181463084,
+      "y": 799.5838025348813,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "45",
       "label": "arizonalegalcenter.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 387,
-      "y": 639,
+      "x": -886.1062200235582,
+      "y": 798.0600846389405,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "162",
       "label": "saavi.us",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -717,
-      "y": -210,
+      "x": 2086.4174412972097,
+      "y": 452.2620954612808,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "356",
       "label": "www.releasethefear.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 672,
-      "y": -330,
+      "x": -2114.4217528144773,
+      "y": 127.86472721414236,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "61",
       "label": "campcolley.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -272,
-      "y": 698,
+      "x": 369.1426787385258,
+      "y": 905.4497952517548,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "339",
       "label": "www.pandevidaaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -271,
-      "y": -699,
+      "x": 2454.3078770458637,
+      "y": -61.62977980787488,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "292",
       "label": "www.freshstartwomen.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 673,
-      "y": 333,
+      "x": -1551.270123938755,
+      "y": 611.3650351356903,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "345",
       "label": "www.peersolutions.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -722,
-      "y": 209,
+      "x": 1579.4633565591635,
+      "y": 713.0650507806115,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "55",
       "label": "benevilla.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 391,
-      "y": -642,
+      "x": -441.20710753687894,
+      "y": 896.2314046819398,
       "out": 0,
       "tot_current": 4,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 4,
-      "normal_mode": 4,
-      "radius": 9.463157894736842
+      "radius": 30
     },
     {
       "id": "194",
       "label": "valleyassistanceservices.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 145,
-      "y": 739,
+      "x": 2360.700482255823,
+      "y": 275.3228546246077,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "170",
       "label": "spot127.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -607,
-      "y": -447,
+      "x": -2029.377380827157,
+      "y": 335.9426095153234,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "381",
       "label": "www.tmkidsaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 750,
-      "y": -80,
+      "x": 876.0854237545357,
+      "y": 888.0478259521897,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "142",
       "label": "notmykid.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -499,
-      "y": 567,
+      "x": -1207.003997105806,
+      "y": 769.1438017940025,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "192",
       "label": "umom.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -15,
-      "y": -756,
+      "x": 1988.1068743194191,
+      "y": 583.2704164325845,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "358",
       "label": "www.saaf.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 522,
-      "y": 548,
+      "x": -2254.182518543088,
+      "y": 3.310652571018224,
       "out": 0,
       "tot_current": 2,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 2,
-      "normal_mode": 2,
-      "radius": 9.23157894736842
+      "radius": 30
     },
     {
       "id": "116",
       "label": "jagaz.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -756,
-      "y": -52,
+      "x": 57.81509483504294,
+      "y": 952.4107782202825,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "184",
       "label": "tigermountainfoundation.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 593,
-      "y": -473,
+      "x": 2538.870877236727,
+      "y": 72.23221464120228,
       "out": 0,
       "tot_current": 6,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 6,
-      "normal_mode": 6,
-      "radius": 9.694736842105264
+      "radius": 30
     },
     {
       "id": "166",
       "label": "seacus.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -118,
-      "y": 750,
+      "x": -1830.888637473499,
+      "y": 536.1950606035639,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "266",
       "label": "www.cusd80.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -420,
-      "y": -633,
+      "x": 1373.995249711778,
+      "y": 822.7168350911547,
       "out": 0,
       "tot_current": 3,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 3,
-      "normal_mode": 3,
-      "radius": 9.347368421052632
+      "radius": 30
     },
     {
       "id": "338",
       "label": "www.ourfamilyservices.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 738,
-      "y": 183,
+      "x": -776.7166463742765,
+      "y": 894.5117961313678,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "77",
       "label": "desertmannafoodpantry.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -669,
-      "y": 364,
+      "x": 2326.38107034667,
+      "y": 414.8584415707747,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "118",
       "label": "jfcstucson.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 248,
-      "y": -721,
+      "x": -2230.306211119597,
+      "y": 223.11489795958738,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "67",
       "label": "catalinacouncil.org",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": 305,
-      "y": 699,
+      "x": 587.4350627886065,
+      "y": 961.5549314143242,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     },
     {
       "id": "99",
       "label": "grmtucson.com",
       "type": "non-profit",
-      "food_group": "non-profit",
       "weight": 18,
-      "x": -698,
-      "y": -310,
+      "x": 2606.827303718381,
+      "y": -147.64861681679724,
       "out": 0,
       "tot_current": 1,
       "tot_original": 0,
       "stay": 0,
       "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 1,
-      "normal_mode": 1,
-      "radius": 9.115789473684211
+      "radius": 30
     }
   ],
   "links": [
@@ -7283,1002 +6515,2569 @@
   ],
   "position": {
     "1": {
-      "x": -59.166664095474026,
-      "y": -113.92181134115611,
+      "x": -1220,
+      "y": -880,
       "id": "1"
     },
     "2": {
-      "x": -135.69095488875212,
-      "y": 56.011253655194416,
+      "x": -1620,
+      "y": -480,
       "id": "2"
     },
     "3": {
-      "x": 47.864625988800064,
-      "y": 278.51056085637,
+      "x": 1780,
+      "y": -680,
       "id": "3"
     },
     "4": {
-      "x": -26.25287579478989,
-      "y": 24.049784745526356,
+      "x": -2020,
+      "y": -880,
       "id": "4"
     },
     "5": {
-      "x": -92.75791666165115,
-      "y": -16.407569387630176,
+      "x": -1620,
+      "y": -880,
       "id": "5"
     },
     "6": {
-      "x": 230.8145089894922,
-      "y": -106.64215753576666,
+      "x": 980,
+      "y": -680,
       "id": "6"
     },
     "7": {
-      "x": -10.00355811906325,
-      "y": 216.33616728522935,
+      "x": 380,
+      "y": -880,
       "id": "7"
     },
     "8": {
-      "x": -204.35159312825,
-      "y": 8.450579946911596,
+      "x": -220,
+      "y": -680,
       "id": "8"
     },
     "9": {
-      "x": 121.3543710154935,
-      "y": 211.77955856070326,
+      "x": 380,
+      "y": -480,
       "id": "9"
     },
     "10": {
-      "x": 5.391280757209561,
-      "y": -61.43086352319486,
+      "x": -2220,
+      "y": -680,
       "id": "10"
     },
     "11": {
-      "x": 65.77743962917387,
-      "y": -140.56256784110022,
+      "x": -820,
+      "y": -880,
       "id": "11"
     },
     "12": {
-      "x": -226.9437877234803,
-      "y": -175.75802516785114,
+      "x": 1580,
+      "y": -480,
       "id": "12"
     },
     "13": {
-      "x": 173.86513412163188,
-      "y": -38.2237620066026,
+      "x": -420,
+      "y": -880,
       "id": "13"
     },
     "14": {
-      "x": 151.5776080978341,
-      "y": 127.7497685760203,
+      "x": -20,
+      "y": -880,
       "id": "14"
     },
     "15": {
-      "x": -237.4340459128666,
-      "y": -75.74793659093817,
+      "x": 1180,
+      "y": -880,
       "id": "15"
     },
     "16": {
-      "x": 52.41987707040096,
-      "y": -233.01160917227025,
+      "x": 580,
+      "y": -680,
       "id": "16"
     },
     "17": {
-      "x": 149.30275916681254,
-      "y": -148.57618681429196,
+      "x": -420,
+      "y": -480,
       "id": "17"
     },
     "18": {
-      "x": -200.83395818633133,
-      "y": 217.09562402684506,
+      "x": 2180,
+      "y": -680,
       "id": "18"
     },
     "19": {
-      "x": -100.06588458835859,
-      "y": 239.10231561634575,
+      "x": 780,
+      "y": -480,
       "id": "19"
     },
     "20": {
-      "x": -30.654928876063444,
-      "y": 114.03480743805588,
+      "x": -2020,
+      "y": -480,
       "id": "20"
     },
     "21": {
-      "x": -24.63941168892376,
-      "y": -190.14063945381434,
+      "x": -820,
+      "y": -480,
       "id": "21"
     },
     "22": {
-      "x": 90.12179770985702,
-      "y": -57.32811074655225,
+      "x": -1820,
+      "y": -680,
       "id": "22"
     },
     "23": {
-      "x": 129.52448634306262,
-      "y": 47.3021346728458,
+      "x": -1420,
+      "y": -680,
       "id": "23"
     },
     "24": {
-      "x": 1.4634831490377875,
-      "y": -299.99643034055003,
+      "x": 1980,
+      "y": -480,
       "id": "24"
     },
     "25": {
-      "x": -89.36570143763997,
-      "y": -248.4594157316513,
+      "x": 1580,
+      "y": -880,
       "id": "25"
     },
     "26": {
-      "x": -264.4423993334299,
-      "y": 69.70616779844524,
+      "x": 1180,
+      "y": -480,
       "id": "26"
     },
     "27": {
-      "x": -191.6436887562765,
-      "y": 133.3406870141614,
+      "x": 780,
+      "y": -880,
       "id": "27"
     },
     "28": {
-      "x": 290.43177011713897,
-      "y": -24.06167848289166,
+      "x": 2380,
+      "y": -880,
       "id": "28"
     },
     "29": {
-      "x": 225.93737644629508,
-      "y": 30.399554445429924,
+      "x": -20,
+      "y": -480,
       "id": "29"
     },
     "30": {
-      "x": 48.82980958148271,
-      "y": 155.67712743397888,
+      "x": -1020,
+      "y": -680,
       "id": "30"
     },
     "31": {
-      "x": -147.733210508572,
-      "y": -85.61441520149938,
+      "x": -1220,
+      "y": -480,
       "id": "31"
     },
     "32": {
-      "x": 150.39174063255635,
-      "y": -233.8937109275958,
+      "x": 1980,
+      "y": -880,
       "id": "32"
     },
     "33": {
-      "x": -142.45749608882724,
-      "y": -170.7116912411439,
+      "x": 180,
+      "y": -680,
       "id": "33"
     },
     "34": {
-      "x": 237.9390543538407,
-      "y": 125.05409845327186,
+      "x": 1380,
+      "y": -680,
       "id": "34"
     },
     "35": {
-      "x": 48.43887267345886,
-      "y": 63.17993180701074,
+      "x": 2380,
+      "y": -480,
       "id": "35"
     },
     "36": {
-      "x": -106.39949171474775,
-      "y": 151.34232810261437,
+      "x": -620,
+      "y": -680,
       "id": "36"
     },
     "37": {
-      "x": -545,
-      "y": 443,
+      "x": 1809.0507615959818,
+      "y": -129.788734950354,
       "id": "37"
     },
     "39": {
-      "x": 628,
-      "y": 143,
+      "x": -269.05815753825385,
+      "y": 20.355525417992993,
       "id": "39"
     },
     "45": {
-      "x": 387,
-      "y": 639,
+      "x": -886.1062200235582,
+      "y": 798.0600846389405,
       "id": "45"
     },
     "48": {
-      "x": 518,
-      "y": 491,
+      "x": -376.68723630417526,
+      "y": 692.7326491859153,
       "id": "48"
     },
     "53": {
-      "x": 81,
-      "y": 722,
+      "x": -1265.9332362155483,
+      "y": 558.959685439324,
       "id": "53"
     },
     "55": {
-      "x": 391,
-      "y": -642,
+      "x": -441.20710753687894,
+      "y": 896.2314046819398,
       "id": "55"
     },
     "61": {
-      "x": -272,
-      "y": 698,
+      "x": 369.1426787385258,
+      "y": 905.4497952517548,
       "id": "61"
     },
     "63": {
-      "x": 296,
-      "y": -674,
+      "x": -1539.0945955937707,
+      "y": 505.45297753396994,
       "id": "63"
     },
     "64": {
-      "x": -173,
-      "y": 712,
+      "x": 1837.1706861571702,
+      "y": 473.3856897325388,
       "id": "64"
     },
     "67": {
-      "x": 305,
-      "y": 699,
+      "x": 587.4350627886065,
+      "y": 961.5549314143242,
       "id": "67"
     },
     "69": {
-      "x": -205,
-      "y": -694,
+      "x": 1886.2716843096027,
+      "y": 350.7231320658405,
       "id": "69"
     },
     "72": {
-      "x": -647,
-      "y": -354,
+      "x": -569.9727724244249,
+      "y": 804.6866976348027,
       "id": "72"
     },
     "73": {
-      "x": 8,
-      "y": -686,
+      "x": 307.75360375938556,
+      "y": 534.0499658196318,
       "id": "73"
     },
     "74": {
-      "x": -75,
-      "y": 713,
+      "x": 669.4287485326633,
+      "y": 704.5447027000898,
       "id": "74"
     },
     "75": {
-      "x": -366,
-      "y": -529,
+      "x": 530.4685303675601,
+      "y": 9.41603376328105,
       "id": "75"
     },
     "76": {
-      "x": -715,
-      "y": -12,
+      "x": 1882.0984616769565,
+      "y": 231.2586263562211,
       "id": "76"
     },
     "77": {
-      "x": -669,
-      "y": 364,
+      "x": 2326.38107034667,
+      "y": 414.8584415707747,
       "id": "77"
     },
     "85": {
-      "x": 153,
-      "y": -657,
+      "x": -1000.16138409579,
+      "y": 118.25906891976206,
       "id": "85"
     },
     "87": {
-      "x": -363,
-      "y": -587,
+      "x": -197.88790634967984,
+      "y": 548.4806809548251,
       "id": "87"
     },
     "91": {
-      "x": -740,
-      "y": 48,
+      "x": -1257.1005244494731,
+      "y": 664.9337241747152,
       "id": "91"
     },
     "93": {
-      "x": 682,
-      "y": -51,
+      "x": 1333.227712325764,
+      "y": 244.64185726353531,
       "id": "93"
     },
     "94": {
-      "x": -673,
-      "y": -259,
+      "x": -1484.3632229840991,
+      "y": 401.5721226034919,
       "id": "94"
     },
     "95": {
-      "x": -673,
-      "y": 297,
+      "x": 2273.232894608472,
+      "y": 12.856507331791427,
       "id": "95"
     },
     "97": {
-      "x": -50,
-      "y": -712,
+      "x": 1229.1716451210311,
+      "y": 566.4787336751133,
       "id": "97"
     },
     "99": {
-      "x": -698,
-      "y": -310,
+      "x": 2606.827303718381,
+      "y": -147.64861681679724,
       "id": "99"
     },
     "102": {
-      "x": -356,
-      "y": 597,
+      "x": 116.96864893588406,
+      "y": 605.6736300771141,
       "id": "102"
     },
     "103": {
-      "x": 513,
-      "y": -536,
+      "x": 1734.5798759366435,
+      "y": 595.4158622840207,
       "id": "103"
     },
     "109": {
-      "x": 665,
-      "y": -200,
+      "x": -1414.9354038639863,
+      "y": -2.6833035943972163,
       "id": "109"
     },
     "110": {
-      "x": 655,
-      "y": 5,
+      "x": -161.66171662443344,
+      "y": 250.33552091878107,
       "id": "110"
     },
     "112": {
-      "x": -141,
-      "y": -682,
+      "x": 1720.0742661722184,
+      "y": 17.50168899677753,
       "id": "112"
     },
     "114": {
-      "x": -711,
-      "y": 143,
+      "x": 441.8566176215045,
+      "y": 778.3604311461044,
       "id": "114"
     },
     "115": {
-      "x": 111,
-      "y": 673,
+      "x": 748.1802540600431,
+      "y": 449.7841163406799,
       "id": "115"
     },
     "116": {
-      "x": -756,
-      "y": -52,
+      "x": 57.81509483504294,
+      "y": 952.4107782202825,
       "id": "116"
     },
     "118": {
-      "x": 248,
-      "y": -721,
+      "x": -2230.306211119597,
+      "y": 223.11489795958738,
       "id": "118"
     },
     "119": {
-      "x": -625,
-      "y": -302,
+      "x": 1357.45840991068,
+      "y": 350.8400510823415,
       "id": "119"
     },
     "120": {
-      "x": 62,
-      "y": -654,
+      "x": -657.1962518431269,
+      "y": 37.55765565478622,
       "id": "120"
     },
     "124": {
-      "x": 332,
-      "y": 589,
+      "x": 447.3244637133073,
+      "y": 445.58321317527844,
       "id": "124"
     },
     "127": {
-      "x": 620,
-      "y": 374,
+      "x": -1802.896616967382,
+      "y": 146.58222753711846,
       "id": "127"
     },
     "131": {
-      "x": -648,
-      "y": -120,
+      "x": 1015.544614393001,
+      "y": -80.22378400105073,
       "id": "131"
     },
     "132": {
-      "x": -617,
-      "y": 311,
+      "x": -1226.6653496249892,
+      "y": 206.38574390186398,
       "id": "132"
     },
     "134": {
-      "x": 102,
-      "y": -695,
+      "x": -965.8406364189518,
+      "y": 480.74837213280216,
       "id": "134"
     },
     "139": {
-      "x": 237,
-      "y": 698,
+      "x": 1327.0927185479677,
+      "y": 699.2323475993977,
       "id": "139"
     },
     "140": {
-      "x": -659,
-      "y": 169,
+      "x": 1436.4439620311764,
+      "y": 50.99595470524466,
       "id": "140"
     },
     "142": {
-      "x": -499,
-      "y": 567,
+      "x": -1207.003997105806,
+      "y": 769.1438017940025,
       "id": "142"
     },
     "143": {
-      "x": -164,
-      "y": -629,
+      "x": 109.84296369374238,
+      "y": 221.73904747721377,
       "id": "143"
     },
     "144": {
-      "x": -548,
-      "y": -478,
+      "x": 1480.4394200619158,
+      "y": 590.3588079947069,
       "id": "144"
     },
     "145": {
-      "x": 373,
-      "y": -570,
+      "x": -987.0804904176841,
+      "y": 242.33541431932042,
       "id": "145"
     },
     "148": {
-      "x": -537,
-      "y": -422,
+      "x": -452.8834942856747,
+      "y": 464.75607124401256,
       "id": "148"
     },
     "149": {
-      "x": -560,
-      "y": 319,
+      "x": 287.20385715260977,
+      "y": 145.5454552688037,
       "id": "149"
     },
     "153": {
-      "x": 717,
-      "y": -176,
+      "x": 2130.9890978106832,
+      "y": 321.21291724613,
       "id": "153"
     },
     "155": {
-      "x": 616,
-      "y": -343,
+      "x": -114.37482354909469,
+      "y": 659.0600988701776,
       "id": "155"
     },
     "156": {
-      "x": -225,
-      "y": -641,
+      "x": -1143.4341397021294,
+      "y": -55.21764246490015,
       "id": "156"
     },
     "157": {
-      "x": 610,
-      "y": -218,
+      "x": 596.9505546142725,
+      "y": 110.46600466260753,
       "id": "157"
     },
     "160": {
-      "x": 565,
-      "y": 408,
+      "x": -1140.3362985105016,
+      "y": 346.74433822809186,
       "id": "160"
     },
     "162": {
-      "x": -717,
-      "y": -210,
+      "x": 2086.4174412972097,
+      "y": 452.2620954612808,
       "id": "162"
     },
     "163": {
-      "x": -723,
-      "y": -110,
+      "x": 887.9441147453424,
+      "y": 760.4803532407202,
       "id": "163"
     },
     "165": {
-      "x": -266,
-      "y": 624,
+      "x": 1071.3237957508736,
+      "y": 312.513406712855,
       "id": "165"
     },
     "166": {
-      "x": -118,
-      "y": 750,
+      "x": -1830.888637473499,
+      "y": 536.1950606035639,
       "id": "166"
     },
     "169": {
-      "x": -596,
-      "y": -251,
+      "x": -180.75520493996646,
+      "y": 140.10053010399386,
       "id": "169"
     },
     "170": {
-      "x": -607,
-      "y": -447,
+      "x": -2029.377380827157,
+      "y": 335.9426095153234,
       "id": "170"
     },
     "175": {
-      "x": 198,
-      "y": -614,
+      "x": -305.36111450754373,
+      "y": -157.53994548909884,
       "id": "175"
     },
     "178": {
-      "x": 457,
-      "y": -529,
+      "x": -441.96129695016276,
+      "y": 584.9815516857673,
       "id": "178"
     },
     "179": {
-      "x": -36,
-      "y": 670,
+      "x": 792.7556565276429,
+      "y": 345.0013301821762,
       "id": "179"
     },
     "184": {
-      "x": 593,
-      "y": -473,
+      "x": 2538.870877236727,
+      "y": 72.23221464120228,
       "id": "184"
     },
     "185": {
-      "x": -81,
-      "y": -663,
+      "x": -930.3851776180694,
+      "y": 5.583351348595002,
       "id": "185"
     },
     "190": {
-      "x": -113,
-      "y": -731,
+      "x": 648.0179747083391,
+      "y": 840.6144236577903,
       "id": "190"
     },
     "192": {
-      "x": -15,
-      "y": -756,
+      "x": 1988.1068743194191,
+      "y": 583.2704164325845,
       "id": "192"
     },
     "193": {
-      "x": 559,
-      "y": -350,
+      "x": -465.4402739974036,
+      "y": 222.6929982389221,
       "id": "193"
     },
     "194": {
-      "x": 145,
-      "y": 739,
+      "x": 2360.700482255823,
+      "y": 275.3228546246077,
       "id": "194"
     },
     "197": {
-      "x": 257,
-      "y": 644,
+      "x": -703.7039260213712,
+      "y": 485.17969548660267,
       "id": "197"
     },
     "198": {
-      "x": -300,
-      "y": -589,
+      "x": -785.5494800482891,
+      "y": -85.7415490748189,
       "id": "198"
     },
     "199": {
-      "x": -318,
-      "y": 649,
+      "x": -660.7014985899788,
+      "y": 705.4428785390563,
       "id": "199"
     },
     "200": {
-      "x": -128,
-      "y": 677,
+      "x": -1304.8574417869954,
+      "y": -136.98955567969412,
       "id": "200"
     },
     "201": {
-      "x": -25,
-      "y": -638,
+      "x": 156.25272204122712,
+      "y": -127.16307702487173,
       "id": "201"
     },
     "202": {
-      "x": -410,
-      "y": 615,
+      "x": -1934.9009314575737,
+      "y": 237.34480250592446,
       "id": "202"
     },
     "210": {
-      "x": -223,
-      "y": 670,
+      "x": 1825.9585292041993,
+      "y": 118.87281426109027,
       "id": "210"
     },
     "214": {
-      "x": 450,
-      "y": 454,
+      "x": 286.02532663492684,
+      "y": 29.36007512916966,
       "id": "214"
     },
     "219": {
-      "x": 620,
-      "y": 232,
+      "x": -30.746961214143084,
+      "y": 341.07345929099966,
       "id": "219"
     },
     "221": {
-      "x": -427,
-      "y": -519,
+      "x": -991.4004328966798,
+      "y": -158.47191492085943,
       "id": "221"
     },
     "223": {
-      "x": -488,
-      "y": -503,
+      "x": -1443.675307703145,
+      "y": 146.41426236478745,
       "id": "223"
     },
     "224": {
-      "x": -87,
-      "y": 636,
+      "x": 47.586701443810284,
+      "y": 93.2386934710224,
       "id": "224"
     },
     "228": {
-      "x": 146,
-      "y": -732,
+      "x": 1124.314181463084,
+      "y": 799.5838025348813,
       "id": "228"
     },
     "229": {
-      "x": 20,
-      "y": 699,
+      "x": 1619.8910451229572,
+      "y": 249.63012342212636,
       "id": "229"
     },
     "230": {
-      "x": 479,
-      "y": -469,
+      "x": -731.7377155155427,
+      "y": 250.1137965155603,
       "id": "230"
     },
     "232": {
-      "x": -388,
-      "y": 543,
+      "x": 1010.6288930053688,
+      "y": 207.68916011411983,
       "id": "232"
     },
     "234": {
-      "x": 705,
-      "y": 137,
+      "x": 1581.4461444843187,
+      "y": 476.5705695147078,
       "id": "234"
     },
     "237": {
-      "x": -289,
-      "y": -645,
+      "x": -1382.7469839390783,
+      "y": 301.3371340382956,
       "id": "237"
     },
     "242": {
-      "x": 696,
-      "y": 235,
+      "x": 176.03849649398023,
+      "y": 836.4392356707465,
       "id": "242"
     },
     "243": {
-      "x": 245,
-      "y": -647,
+      "x": 638.523741898026,
+      "y": 545.695508354985,
       "id": "243"
     },
     "248": {
-      "x": 578,
-      "y": 464,
+      "x": 2324.0551841261404,
+      "y": -183.63439493252204,
       "id": "248"
     },
     "249": {
-      "x": 338,
-      "y": -624,
+      "x": 1628.2461071470411,
+      "y": 361.6707836673512,
       "id": "249"
     },
     "250": {
-      "x": 401,
-      "y": -515,
+      "x": 505.8386475171483,
+      "y": 216.0155083664531,
       "id": "250"
     },
     "253": {
-      "x": 649,
-      "y": 281,
+      "x": 852.2082751983469,
+      "y": 617.7854379218822,
       "id": "253"
     },
     "254": {
-      "x": 428,
-      "y": -587,
+      "x": 2158.2454564833197,
+      "y": -103.17240921252667,
       "id": "254"
     },
     "256": {
-      "x": -685,
-      "y": -163,
+      "x": -1564.0493131509606,
+      "y": -93.25300718057602,
       "id": "256"
     },
     "257": {
-      "x": 672,
-      "y": -264,
+      "x": 1083.2605569785262,
+      "y": 668.0049908969123,
       "id": "257"
     },
     "258": {
-      "x": -556,
-      "y": 381,
+      "x": 1244.6947162589315,
+      "y": 145.27828427834527,
       "id": "258"
     },
     "262": {
-      "x": 728,
-      "y": -18,
+      "x": -1892.139005837462,
+      "y": -145.17077208921552,
       "id": "262"
     },
     "266": {
-      "x": -420,
-      "y": -633,
+      "x": 1373.995249711778,
+      "y": 822.7168350911547,
       "id": "266"
     },
     "271": {
-      "x": -670,
-      "y": 232,
+      "x": -707.9265101267922,
+      "y": 598.9816586798215,
       "id": "271"
     },
     "272": {
-      "x": 46,
-      "y": -728,
+      "x": 2122.784038205515,
+      "y": 193.84344997718486,
       "id": "272"
     },
     "275": {
-      "x": 608,
-      "y": -408,
+      "x": -957.2248728150283,
+      "y": 696.317065951107,
       "id": "275"
     },
     "276": {
-      "x": -427,
-      "y": -577,
+      "x": -985.7856748300796,
+      "y": 590.2862063967771,
       "id": "276"
     },
     "282": {
-      "x": 457,
-      "y": 512,
+      "x": 1567.237909282921,
+      "y": -68.78214977839266,
       "id": "282"
     },
     "283": {
-      "x": 270,
-      "y": 587,
+      "x": 664.1392212343519,
+      "y": -98.01272394261872,
       "id": "283"
     },
     "284": {
-      "x": 617,
-      "y": -279,
+      "x": -634.0603498391633,
+      "y": 362.28331320636204,
       "id": "284"
     },
     "288": {
-      "x": 599,
-      "y": 321,
+      "x": 13.588702413324654,
+      "y": 489.6533390627144,
       "id": "288"
     },
     "290": {
-      "x": 286,
-      "y": -599,
+      "x": -740.38494306595,
+      "y": 138.24959053683347,
       "id": "290"
     },
     "291": {
-      "x": -443,
-      "y": 558,
+      "x": -1229.2192049280288,
+      "y": 452.5142978991744,
       "id": "291"
     },
     "292": {
-      "x": 673,
-      "y": 333,
+      "x": -1551.270123938755,
+      "y": 611.3650351356903,
       "id": "292"
     },
     "293": {
-      "x": -354,
-      "y": -643,
+      "x": -1965.3607462944083,
+      "y": 41.98441893521699,
       "id": "293"
     },
     "296": {
-      "x": -669,
-      "y": 23,
+      "x": 1259.1093683829479,
+      "y": -26.157994011212125,
       "id": "296"
     },
     "298": {
-      "x": -684,
-      "y": -69,
+      "x": -887.7091517470062,
+      "y": 367.8927584170422,
       "id": "298"
     },
     "301": {
-      "x": 194,
-      "y": 636,
+      "x": 521.7787285515196,
+      "y": 340.7624763473439,
       "id": "301"
     },
     "302": {
-      "x": 546,
-      "y": 353,
+      "x": 821.1178166143884,
+      "y": -11.81523379841795,
       "id": "302"
     },
     "304": {
-      "x": 665,
-      "y": 187,
+      "x": 1556.0648779026492,
+      "y": 144.59727893038576,
       "id": "304"
     },
     "305": {
-      "x": -412,
-      "y": 486,
+      "x": 60.857267077957886,
+      "y": -19.79115567779793,
       "id": "305"
     },
     "309": {
-      "x": -639,
-      "y": -31,
+      "x": -139.63089004576807,
+      "y": -70.60948630439812,
       "id": "309"
     },
     "310": {
-      "x": -479,
-      "y": -445,
+      "x": 835.8205715167012,
+      "y": -183.95281368499485,
       "id": "310"
     },
     "311": {
-      "x": -526,
-      "y": 505,
+      "x": -267.42287751959947,
+      "y": 789.7509757025246,
       "id": "311"
     },
     "314": {
-      "x": -601,
-      "y": 440,
+      "x": -1796.3775592750242,
+      "y": 430.66106603881775,
       "id": "314"
     },
     "315": {
-      "x": 666,
-      "y": 95,
+      "x": -224.32175017170124,
+      "y": 417.927920306908,
       "id": "315"
     },
     "324": {
-      "x": -469,
-      "y": 499,
+      "x": -1225.6201373290166,
+      "y": 69.2872645315637,
       "id": "324"
     },
     "327": {
-      "x": 199,
-      "y": -692,
+      "x": 12.925067554663428,
+      "y": 754.4852522584806,
       "id": "327"
     },
     "328": {
-      "x": 173,
-      "y": 689,
+      "x": -1631.137026425857,
+      "y": 65.7355954735332,
       "id": "328"
     },
     "330": {
-      "x": 536,
-      "y": -474,
+      "x": -1606.274027224425,
+      "y": 233.86195229120455,
       "id": "330"
     },
     "331": {
-      "x": 700,
-      "y": 41,
+      "x": 473.91801760160433,
+      "y": 630.1780247868599,
       "id": "331"
     },
     "334": {
-      "x": -303,
-      "y": 574,
+      "x": -476.04464530139455,
+      "y": -39.38525825699702,
       "id": "334"
     },
     "336": {
-      "x": -693,
-      "y": 81,
+      "x": 984.1433451530738,
+      "y": 521.2167223521675,
       "id": "336"
     },
     "337": {
-      "x": 395,
-      "y": 583,
+      "x": 1321.6935612302684,
+      "y": 459.47963774375523,
       "id": "337"
     },
     "338": {
-      "x": 738,
-      "y": 183,
+      "x": -776.7166463742765,
+      "y": 894.5117961313678,
       "id": "338"
     },
     "339": {
-      "x": -271,
-      "y": -699,
+      "x": 2454.3078770458637,
+      "y": -61.62977980787488,
       "id": "339"
     },
     "344": {
-      "x": 652,
-      "y": -138,
+      "x": -388.9496199134542,
+      "y": 326.06614638543266,
       "id": "344"
     },
     "345": {
-      "x": -722,
-      "y": 209,
+      "x": 1579.4633565591635,
+      "y": 713.0650507806115,
       "id": "345"
     },
     "346": {
-      "x": -16,
-      "y": 743,
+      "x": -2087.300495480336,
+      "y": -77.17134044998537,
       "id": "346"
     },
     "348": {
-      "x": -615,
-      "y": 248,
+      "x": 1083.0597772269512,
+      "y": 57.68899453777908,
       "id": "348"
     },
     "349": {
-      "x": -573,
-      "y": -338,
+      "x": 1129.1215235637533,
+      "y": -177.06530720714346,
       "id": "349"
     },
     "352": {
-      "x": 493,
-      "y": -409,
+      "x": 411.68396416292876,
+      "y": -122.00962466621253,
       "id": "352"
     },
     "353": {
-      "x": 703,
-      "y": -112,
+      "x": 1957.9607424762653,
+      "y": -35.21720444921906,
       "id": "353"
     },
     "354": {
-      "x": 740,
-      "y": 81,
+      "x": 2342.050711501605,
+      "y": 140.1446196572401,
       "id": "354"
     },
     "356": {
-      "x": 672,
-      "y": -330,
+      "x": -2114.4217528144773,
+      "y": 127.86472721414236,
       "id": "356"
     },
     "358": {
-      "x": 522,
-      "y": 548,
+      "x": -2254.182518543088,
+      "y": 3.310652571018224,
       "id": "358"
     },
     "360": {
-      "x": -176,
-      "y": 636,
+      "x": 756.1447083518394,
+      "y": 233.00400541004655,
       "id": "360"
     },
     "362": {
-      "x": -490,
-      "y": -559,
+      "x": -120.88713724416789,
+      "y": 876.3820289037286,
       "id": "362"
     },
     "364": {
-      "x": -593,
-      "y": -392,
+      "x": 262.729370603653,
+      "y": 700.5897567347588,
       "id": "364"
     },
     "368": {
-      "x": 52,
-      "y": 651,
+      "x": -575.7760326589121,
+      "y": -145.14669875077936,
       "id": "368"
     },
     "371": {
-      "x": 458,
-      "y": 569,
+      "x": -1722.3561857339369,
+      "y": 329.27870081525543,
       "id": "371"
     },
     "372": {
-      "x": 321,
-      "y": 645,
+      "x": 2063.9939483832673,
+      "y": 73.8329453957056,
       "id": "372"
     },
     "373": {
-      "x": -613,
-      "y": 375,
+      "x": -1782.5400473635257,
+      "y": -32.521013193946914,
       "id": "373"
     },
     "376": {
-      "x": -487,
-      "y": 439,
+      "x": 857.2984467547924,
+      "y": 107.07998354251131,
       "id": "376"
     },
     "377": {
-      "x": -642,
-      "y": 109,
+      "x": -437.7350029760558,
+      "y": 117.48873632124952,
       "id": "377"
     },
     "379": {
-      "x": 396,
-      "y": 525,
+      "x": 284.2941847840085,
+      "y": 299.83606980367296,
       "id": "379"
     },
     "381": {
-      "x": 750,
-      "y": -80,
+      "x": 876.0854237545357,
+      "y": 888.0478259521897,
       "id": "381"
     },
     "390": {
-      "x": -643,
-      "y": -210,
+      "x": 1370.0739557298652,
+      "y": -135.51119102674613,
       "id": "390"
     },
     "392": {
-      "x": 508,
-      "y": 435,
+      "x": 180.08091891404592,
+      "y": 407.95316049966607,
       "id": "392"
     },
     "394": {
-      "x": 551,
-      "y": -412,
+      "x": 1059.3573107986388,
+      "y": 418.2529095910329,
       "id": "394"
     }
   },
-  "clusters": {
-    "0": {
-      "id": "224",
-      "label": "www.azfoodbanks.org",
-      "type": "non-profit",
-      "food_group": "non-profit",
-      "weight": 18,
-      "x": -87,
-      "y": 636,
-      "out": 0,
-      "tot_current": 19,
-      "tot_original": 0,
-      "stay": 0,
-      "in_out": 0,
-      "cluster": 0,
-      "highlight_mode": 19,
-      "normal_mode": 19,
-      "radius": 11.2
+  "dropdown": {
+    "facultyLabel": [
+      {
+        "id": "4",
+        "value": "Carola Grebitus"
+      },
+      {
+        "id": "10",
+        "value": "Eric Thor"
+      },
+      {
+        "id": "35",
+        "value": "Troy Schmitz"
+      },
+      {
+        "id": "5",
+        "value": "Cesar Torres"
+      },
+      {
+        "id": "22",
+        "value": "Netra Chhetri"
+      },
+      {
+        "id": "20",
+        "value": "Matei Georgescu"
+      },
+      {
+        "id": "1",
+        "value": "Arianne Cease"
+      },
+      {
+        "id": "23",
+        "value": "Punam Ohri-Vachaspati"
+      },
+      {
+        "id": "2",
+        "value": "Ashok Mishra"
+      },
+      {
+        "id": "11",
+        "value": "Hallie Eakin"
+      },
+      {
+        "id": "30",
+        "value": "Soe Myint"
+      },
+      {
+        "id": "31",
+        "value": "Sonia Vega Lopez"
+      },
+      {
+        "id": "13",
+        "value": "Jennifer Keahey"
+      },
+      {
+        "id": "36",
+        "value": "Valerie Mueller"
+      },
+      {
+        "id": "21",
+        "value": "Meg Bruening"
+      },
+      {
+        "id": "14",
+        "value": "Joan McGregor"
+      },
+      {
+        "id": "8",
+        "value": "Dave White"
+      },
+      {
+        "id": "17",
+        "value": "Kiril Hristovski"
+      },
+      {
+        "id": "7",
+        "value": "Dan Childers"
+      },
+      {
+        "id": "33",
+        "value": "Timothy Richards"
+      },
+      {
+        "id": "29",
+        "value": "Shauna BurnSilver"
+      },
+      {
+        "id": "27",
+        "value": "Rolf Halden"
+      },
+      {
+        "id": "16",
+        "value": "Joni Adamson"
+      },
+      {
+        "id": "9",
+        "value": "David Van Fleet"
+      },
+      {
+        "id": "15",
+        "value": "John Sabo"
+      },
+      {
+        "id": "6",
+        "value": "Christopher Wharton"
+      },
+      {
+        "id": "19",
+        "value": "Mark Manfredo"
+      },
+      {
+        "id": "25",
+        "value": "Rimjhim Aggarwal"
+      },
+      {
+        "id": "34",
+        "value": "Todd Sandrin (DEAN)"
+      },
+      {
+        "id": "26",
+        "value": "Roberto Gaxiola"
+      },
+      {
+        "id": "32",
+        "value": "Steven Vickner"
+      },
+      {
+        "id": "3",
+        "value": "Carol Johnston"
+      },
+      {
+        "id": "12",
+        "value": "Hugh Mason"
+      },
+      {
+        "id": "28",
+        "value": "Sharon Hall"
+      },
+      {
+        "id": "18",
+        "value": "Lauren Chenarides"
+      },
+      {
+        "id": "24",
+        "value": "Renee Hughner"
+      }
+    ],
+    "orgLabel": [
+      {
+        "id": "305",
+        "value": "www.havasucommunityhealth.org"
+      },
+      {
+        "id": "201",
+        "value": "wholelifefoundation.org"
+      },
+      {
+        "id": "214",
+        "value": "www.amissionofmercy.org"
+      },
+      {
+        "id": "309",
+        "value": "www.icstucson.org"
+      },
+      {
+        "id": "352",
+        "value": "www.primavera.org"
+      },
+      {
+        "id": "224",
+        "value": "www.azfoodbanks.org"
+      },
+      {
+        "id": "75",
+        "value": "cornucopiaca.org"
+      },
+      {
+        "id": "39",
+        "value": "adelantehealthcare.com"
+      },
+      {
+        "id": "149",
+        "value": "pazdecristo.org"
+      },
+      {
+        "id": "175",
+        "value": "superstitionfoodbank.org"
+      },
+      {
+        "id": "283",
+        "value": "www.feedingmatters.org"
+      },
+      {
+        "id": "169",
+        "value": "southwest.salvationarmy.org"
+      },
+      {
+        "id": "157",
+        "value": "rainbowacres.com"
+      },
+      {
+        "id": "334",
+        "value": "www.nourishaz.org"
+      },
+      {
+        "id": "143",
+        "value": "npfy.org"
+      },
+      {
+        "id": "302",
+        "value": "www.habitat.org"
+      },
+      {
+        "id": "377",
+        "value": "www.tetucson.org"
+      },
+      {
+        "id": "250",
+        "value": "www.choosevibrantliving.org"
+      },
+      {
+        "id": "368",
+        "value": "www.soazbigs.org"
+      },
+      {
+        "id": "310",
+        "value": "www.impactsoaz.org"
+      },
+      {
+        "id": "110",
+        "value": "houseofrefuge.org"
+      },
+      {
+        "id": "376",
+        "value": "www.terroshealth.org"
+      },
+      {
+        "id": "120",
+        "value": "keoghhealth.org"
+      },
+      {
+        "id": "379",
+        "value": "www.ticenter.org"
+      },
+      {
+        "id": "131",
+        "value": "midwestfoodbank.org"
+      },
+      {
+        "id": "193",
+        "value": "unitedfoodbank.org"
+      },
+      {
+        "id": "360",
+        "value": "www.safetyatevesplace.org"
+      },
+      {
+        "id": "198",
+        "value": "vineyardnorthphoenix.com"
+      },
+      {
+        "id": "219",
+        "value": "www.assistanceleague.org"
+      },
+      {
+        "id": "348",
+        "value": "www.pinnacleprevention.org"
+      },
+      {
+        "id": "290",
+        "value": "www.foothillsfoodbank.com"
+      },
+      {
+        "id": "301",
+        "value": "www.gvrconnect.org"
+      },
+      {
+        "id": "349",
+        "value": "www.prescottfarmersmarket.org"
+      },
+      {
+        "id": "344",
+        "value": "www.pcoa.org"
+      },
+      {
+        "id": "232",
+        "value": "www.bgcaz.org"
+      },
+      {
+        "id": "185",
+        "value": "tihan.org"
+      },
+      {
+        "id": "392",
+        "value": "www.wastenotaz.org"
+      },
+      {
+        "id": "296",
+        "value": "www.good-sam.com"
+      },
+      {
+        "id": "230",
+        "value": "www.bbbsaz.org"
+      },
+      {
+        "id": "179",
+        "value": "tempeaction.org"
+      },
+      {
+        "id": "221",
+        "value": "www.asteraz.org"
+      },
+      {
+        "id": "315",
+        "value": "www.jtfp.org"
+      },
+      {
+        "id": "258",
+        "value": "www.communityfoodbank.org"
+      },
+      {
+        "id": "85",
+        "value": "echoinghoperanch.org"
+      },
+      {
+        "id": "124",
+        "value": "literacyconnects.org"
+      },
+      {
+        "id": "390",
+        "value": "www.vosjcc.org"
+      },
+      {
+        "id": "284",
+        "value": "www.feedourbabiesusa.org"
+      },
+      {
+        "id": "165",
+        "value": "sccsedona.org"
+      },
+      {
+        "id": "156",
+        "value": "quincea.org"
+      },
+      {
+        "id": "288",
+        "value": "www.firstfoodbank.org"
+      },
+      {
+        "id": "140",
+        "value": "nogalescdc.org"
+      },
+      {
+        "id": "145",
+        "value": "oldtownmission.org"
+      },
+      {
+        "id": "115",
+        "value": "icmaz.org"
+      },
+      {
+        "id": "148",
+        "value": "osbi.org"
+      },
+      {
+        "id": "93",
+        "value": "formaricopa.org"
+      },
+      {
+        "id": "324",
+        "value": "www.mercyhousing.org"
+      },
+      {
+        "id": "73",
+        "value": "compassaffordablehousing.org"
+      },
+      {
+        "id": "282",
+        "value": "www.familyinvolvementcenter.org"
+      },
+      {
+        "id": "298",
+        "value": "www.goodwillsouthernaz.org"
+      },
+      {
+        "id": "394",
+        "value": "www.yumafoodbank.org"
+      },
+      {
+        "id": "200",
+        "value": "whisperinghoperanch.org"
+      },
+      {
+        "id": "87",
+        "value": "elevatephoenix.org"
+      },
+      {
+        "id": "304",
+        "value": "www.handsonphoenix.org"
+      },
+      {
+        "id": "132",
+        "value": "mountainparkhealth.org"
+      },
+      {
+        "id": "243",
+        "value": "www.catholiccharitiesaz.org"
+      },
+      {
+        "id": "197",
+        "value": "verdevalleyseniorcenter.org"
+      },
+      {
+        "id": "119",
+        "value": "justacenter.org"
+      },
+      {
+        "id": "109",
+        "value": "hotfood.org"
+      },
+      {
+        "id": "102",
+        "value": "harvestcompassioncenter.org"
+      },
+      {
+        "id": "112",
+        "value": "hungerhurts.org"
+      },
+      {
+        "id": "160",
+        "value": "resourcesvail.org"
+      },
+      {
+        "id": "336",
+        "value": "www.openarmscc.com"
+      },
+      {
+        "id": "178",
+        "value": "teenlifeline.org"
+      },
+      {
+        "id": "229",
+        "value": "www.backtoschoolclothingdrive.com"
+      },
+      {
+        "id": "223",
+        "value": "www.azdevservices.org"
+      },
+      {
+        "id": "331",
+        "value": "www.nacainc.org"
+      },
+      {
+        "id": "37",
+        "value": "ability360.org"
+      },
+      {
+        "id": "134",
+        "value": "navajocountydrugproject.com"
+      },
+      {
+        "id": "337",
+        "value": "www.orchardlearningcenter.org"
+      },
+      {
+        "id": "256",
+        "value": "www.coconino.az.gov"
+      },
+      {
+        "id": "155",
+        "value": "prescott.salvationarmy.org"
+      },
+      {
+        "id": "210",
+        "value": "www.allfaithcsaz.com"
+      },
+      {
+        "id": "237",
+        "value": "www.borderlandsproducerescue.org"
+      },
+      {
+        "id": "253",
+        "value": "www.circlethecity.org"
+      },
+      {
+        "id": "271",
+        "value": "www.dianagregory.com"
+      },
+      {
+        "id": "249",
+        "value": "www.childrensclinics.org"
+      },
+      {
+        "id": "328",
+        "value": "www.mosaicinfo.org"
+      },
+      {
+        "id": "364",
+        "value": "www.sedonafoodbank.org"
+      },
+      {
+        "id": "353",
+        "value": "www.pvefb.org"
+      },
+      {
+        "id": "291",
+        "value": "www.foundationjlp.org"
+      },
+      {
+        "id": "97",
+        "value": "gapmin.com"
+      },
+      {
+        "id": "48",
+        "value": "azcend.org"
+      },
+      {
+        "id": "76",
+        "value": "crossroadsmission.org"
+      },
+      {
+        "id": "330",
+        "value": "www.naafnow.org"
+      },
+      {
+        "id": "74",
+        "value": "corbinslegacy.org"
+      },
+      {
+        "id": "276",
+        "value": "www.ehfb.org"
+      },
+      {
+        "id": "234",
+        "value": "www.bgcflag.org"
+      },
+      {
+        "id": "373",
+        "value": "www.swcenter.org"
+      },
+      {
+        "id": "327",
+        "value": "www.momspantryphoenix.org"
+      },
+      {
+        "id": "372",
+        "value": "www.stvincentdepaul.net"
+      },
+      {
+        "id": "94",
+        "value": "fqfoodbank.com"
+      },
+      {
+        "id": "257",
+        "value": "www.codac.org"
+      },
+      {
+        "id": "199",
+        "value": "wearecaring.org"
+      },
+      {
+        "id": "69",
+        "value": "cchci.org"
+      },
+      {
+        "id": "127",
+        "value": "matthewscrossing.org"
+      },
+      {
+        "id": "114",
+        "value": "icanaz.org"
+      },
+      {
+        "id": "254",
+        "value": "www.civitanfoundationaz.com"
+      },
+      {
+        "id": "53",
+        "value": "azyp.org"
+      },
+      {
+        "id": "144",
+        "value": "oldpueblorotaryclub.org"
+      },
+      {
+        "id": "262",
+        "value": "www.creightoncommunityfoundation.org"
+      },
+      {
+        "id": "311",
+        "value": "www.integrativetouch.org"
+      },
+      {
+        "id": "272",
+        "value": "www.diaperbank.org"
+      },
+      {
+        "id": "371",
+        "value": "www.stlukeshometucson.org"
+      },
+      {
+        "id": "163",
+        "value": "sarsef.org"
+      },
+      {
+        "id": "275",
+        "value": "www.eeftucson.org"
+      },
+      {
+        "id": "64",
+        "value": "canyonvista.com"
+      },
+      {
+        "id": "293",
+        "value": "www.fsl.org"
+      },
+      {
+        "id": "242",
+        "value": "www.caringcoalitionaz.org"
+      },
+      {
+        "id": "95",
+        "value": "fsaphoenix.org"
+      },
+      {
+        "id": "63",
+        "value": "canyonlandschc.org"
+      },
+      {
+        "id": "139",
+        "value": "noahhelps.org"
+      },
+      {
+        "id": "72",
+        "value": "community-outreach.org"
+      },
+      {
+        "id": "153",
+        "value": "phoenixrescuemission.org"
+      },
+      {
+        "id": "202",
+        "value": "wtap.org"
+      },
+      {
+        "id": "190",
+        "value": "ucpofcentralaz.org"
+      },
+      {
+        "id": "248",
+        "value": "www.childrenscancernetwork.org"
+      },
+      {
+        "id": "91",
+        "value": "firrp.org"
+      },
+      {
+        "id": "103",
+        "value": "haventotes.org"
+      },
+      {
+        "id": "346",
+        "value": "www.phoenixchildren.org"
+      },
+      {
+        "id": "362",
+        "value": "www.saltproperty.com"
+      },
+      {
+        "id": "354",
+        "value": "www.rcfbh.org"
+      },
+      {
+        "id": "314",
+        "value": "www.jfcsaz.org"
+      },
+      {
+        "id": "228",
+        "value": "www.azmam.org"
+      },
+      {
+        "id": "45",
+        "value": "arizonalegalcenter.org"
+      },
+      {
+        "id": "162",
+        "value": "saavi.us"
+      },
+      {
+        "id": "356",
+        "value": "www.releasethefear.org"
+      },
+      {
+        "id": "61",
+        "value": "campcolley.org"
+      },
+      {
+        "id": "339",
+        "value": "www.pandevidaaz.org"
+      },
+      {
+        "id": "292",
+        "value": "www.freshstartwomen.org"
+      },
+      {
+        "id": "345",
+        "value": "www.peersolutions.org"
+      },
+      {
+        "id": "55",
+        "value": "benevilla.org"
+      },
+      {
+        "id": "194",
+        "value": "valleyassistanceservices.org"
+      },
+      {
+        "id": "170",
+        "value": "spot127.org"
+      },
+      {
+        "id": "381",
+        "value": "www.tmkidsaz.org"
+      },
+      {
+        "id": "142",
+        "value": "notmykid.org"
+      },
+      {
+        "id": "192",
+        "value": "umom.org"
+      },
+      {
+        "id": "358",
+        "value": "www.saaf.org"
+      },
+      {
+        "id": "116",
+        "value": "jagaz.org"
+      },
+      {
+        "id": "184",
+        "value": "tigermountainfoundation.org"
+      },
+      {
+        "id": "166",
+        "value": "seacus.org"
+      },
+      {
+        "id": "266",
+        "value": "www.cusd80.com"
+      },
+      {
+        "id": "338",
+        "value": "www.ourfamilyservices.org"
+      },
+      {
+        "id": "77",
+        "value": "desertmannafoodpantry.org"
+      },
+      {
+        "id": "118",
+        "value": "jfcstucson.org"
+      },
+      {
+        "id": "67",
+        "value": "catalinacouncil.org"
+      },
+      {
+        "id": "99",
+        "value": "grmtucson.com"
+      }
+    ]
+  },
+  "pattern": [
+    {
+      "name": "carola",
+      "id": "4"
     },
-    "1": {
-      "id": "6",
-      "label": "Christopher Wharton",
-      "type": "faculty",
-      "food_group": "Nutrition and Health",
-      "weight": 18,
-      "x": 230.8145089894922,
-      "y": -106.64215753576666,
-      "out": 91,
-      "tot_current": 70,
-      "tot_original": 95,
-      "stay": 68,
-      "in_out": 1,
-      "cluster": 1,
-      "highlight_mode": 68,
-      "normal_mode": 95,
-      "radius": 20
+    {
+      "name": "eric",
+      "id": "10"
+    },
+    {
+      "name": "troy",
+      "id": "35"
+    },
+    {
+      "name": "cesar",
+      "id": "5"
+    },
+    {
+      "name": "netra",
+      "id": "22"
+    },
+    {
+      "name": "matei",
+      "id": "20"
+    },
+    {
+      "name": "arianne",
+      "id": "1"
+    },
+    {
+      "name": "punam",
+      "id": "23"
+    },
+    {
+      "name": "ashok",
+      "id": "2"
+    },
+    {
+      "name": "hallie",
+      "id": "11"
+    },
+    {
+      "name": "soe",
+      "id": "30"
+    },
+    {
+      "name": "sonia",
+      "id": "31"
+    },
+    {
+      "name": "jennifer",
+      "id": "13"
+    },
+    {
+      "name": "valerie",
+      "id": "36"
+    },
+    {
+      "name": "meg",
+      "id": "21"
+    },
+    {
+      "name": "joan",
+      "id": "14"
+    },
+    {
+      "name": "dave",
+      "id": "8"
+    },
+    {
+      "name": "kiril",
+      "id": "17"
+    },
+    {
+      "name": "dan",
+      "id": "7"
+    },
+    {
+      "name": "timothy",
+      "id": "33"
+    },
+    {
+      "name": "shauna",
+      "id": "29"
+    },
+    {
+      "name": "rolf",
+      "id": "27"
+    },
+    {
+      "name": "joni",
+      "id": "16"
+    },
+    {
+      "name": "david",
+      "id": "9"
+    },
+    {
+      "name": "john",
+      "id": "15"
+    },
+    {
+      "name": "christopher",
+      "id": "6"
+    },
+    {
+      "name": "mark",
+      "id": "19"
+    },
+    {
+      "name": "rimjhim",
+      "id": "25"
+    },
+    {
+      "name": "todd",
+      "id": "34"
+    },
+    {
+      "name": "roberto",
+      "id": "26"
+    },
+    {
+      "name": "steven",
+      "id": "32"
+    },
+    {
+      "name": "carol",
+      "id": "3"
+    },
+    {
+      "name": "hugh",
+      "id": "12"
+    },
+    {
+      "name": "sharon",
+      "id": "28"
+    },
+    {
+      "name": "lauren",
+      "id": "18"
+    },
+    {
+      "name": "renee",
+      "id": "24"
     }
-  }
+  ],
+  "filters": [
+    {
+      "agriculture": [
+        "4",
+        "10",
+        "35",
+        "1",
+        "2",
+        "33",
+        "9",
+        "19",
+        "26",
+        "32",
+        "18",
+        "24",
+        "258",
+        "288",
+        "334",
+        "349",
+        "39",
+        "149",
+        "37",
+        "243",
+        "149",
+        "169",
+        "157",
+        "75",
+        "258",
+        "201",
+        "175",
+        "309",
+        "334",
+        "258",
+        "302",
+        "377",
+        "392",
+        "184",
+        "368",
+        "201",
+        "324",
+        "110",
+        "376",
+        "284",
+        "120",
+        "310",
+        "379",
+        "309",
+        "39",
+        "155",
+        "250",
+        "175",
+        "348",
+        "309",
+        "175",
+        "301",
+        "348",
+        "344",
+        "232",
+        "310",
+        "291",
+        "324",
+        "112",
+        "230",
+        "179",
+        "221",
+        "315",
+        "344",
+        "85",
+        "94",
+        "124",
+        "390",
+        "230",
+        "140",
+        "165",
+        "156",
+        "309",
+        "224",
+        "288",
+        "271",
+        "310",
+        "145",
+        "288",
+        "337",
+        "115",
+        "148",
+        "224",
+        "103",
+        "103",
+        "93",
+        "115",
+        "282",
+        "184",
+        "394",
+        "258",
+        "131",
+        "348",
+        "200",
+        "165",
+        "352",
+        "288",
+        "392",
+        "87",
+        "230",
+        "184",
+        "271",
+        "237",
+        "175",
+        "119",
+        "109",
+        "102",
+        "55",
+        "336",
+        "201",
+        "75",
+        "229",
+        "160",
+        "75",
+        "169",
+        "349",
+        "254",
+        "223",
+        "144",
+        "331",
+        "324",
+        "149",
+        "160",
+        "160",
+        "110",
+        "134",
+        "214",
+        "219",
+        "224",
+        "348",
+        "349",
+        "131",
+        "229",
+        "337",
+        "392",
+        "290",
+        "102",
+        "131",
+        "256",
+        "193",
+        "155",
+        "392",
+        "179",
+        "283",
+        "165",
+        "379",
+        "250",
+        "284",
+        "249",
+        "328",
+        "324",
+        "112",
+        "132",
+        "230",
+        "353",
+        "93",
+        "349",
+        "291",
+        "163",
+        "283",
+        "131",
+        "97",
+        "48",
+        "224",
+        "102",
+        "237",
+        "254",
+        "224",
+        "224",
+        "372",
+        "193",
+        "148",
+        "201",
+        "74",
+        "276",
+        "250",
+        "349",
+        "296",
+        "75",
+        "148",
+        "193",
+        "331",
+        "165",
+        "178",
+        "110",
+        "327",
+        "193",
+        "372",
+        "344",
+        "140",
+        "94",
+        "199",
+        "118",
+        "198",
+        "324",
+        "250",
+        "224",
+        "224",
+        "331",
+        "140",
+        "288",
+        "324",
+        "127",
+        "114",
+        "271",
+        "64",
+        "310",
+        "392",
+        "160",
+        "254",
+        "175",
+        "250",
+        "193",
+        "103",
+        "144",
+        "221",
+        "210",
+        "237",
+        "304",
+        "237",
+        "69",
+        "309",
+        "271",
+        "197",
+        "250",
+        "311",
+        "290",
+        "199",
+        "110",
+        "127",
+        "210",
+        "102",
+        "175",
+        "199",
+        "302",
+        "310",
+        "179",
+        "132",
+        "193",
+        "55",
+        "165",
+        "337",
+        "258",
+        "372",
+        "348",
+        "163",
+        "109",
+        "253",
+        "315",
+        "64",
+        "293",
+        "258",
+        "95",
+        "201",
+        "284",
+        "349",
+        "131",
+        "271",
+        "210",
+        "67",
+        "160",
+        "63",
+        "201",
+        "115",
+        "324",
+        "372",
+        "185",
+        "48",
+        "160",
+        "271",
+        "131",
+        "193",
+        "392",
+        "132",
+        "304",
+        "139",
+        "132",
+        "344",
+        "258",
+        "144",
+        "337",
+        "352",
+        "144",
+        "348",
+        "373",
+        "134",
+        "284",
+        "262",
+        "293",
+        "304",
+        "72",
+        "109",
+        "115",
+        "288",
+        "76",
+        "148",
+        "153",
+        "202",
+        "266",
+        "250",
+        "139",
+        "119",
+        "288",
+        "348",
+        "155",
+        "348",
+        "120",
+        "112",
+        "179",
+        "175",
+        "237",
+        "271",
+        "85",
+        "103",
+        "302",
+        "175",
+        "75",
+        "165",
+        "362",
+        "103",
+        "112",
+        "364",
+        "304",
+        "237",
+        "304",
+        "230",
+        "291",
+        "201",
+        "253",
+        "356",
+        "169",
+        "309",
+        "139",
+        "193",
+        "224",
+        "131",
+        "254",
+        "48",
+        "258",
+        "348",
+        "109",
+        "198",
+        "201",
+        "348",
+        "75",
+        "292",
+        "109",
+        "200",
+        "392",
+        "193",
+        "283",
+        "345",
+        "97",
+        "175",
+        "394",
+        "55",
+        "293",
+        "310",
+        "362",
+        "165",
+        "37",
+        "337",
+        "221",
+        "110",
+        "170",
+        "288",
+        "75",
+        "394",
+        "179",
+        "74",
+        "349",
+        "140",
+        "142",
+        "94",
+        "354",
+        "293",
+        "310",
+        "75",
+        "293",
+        "310",
+        "230",
+        "102",
+        "304",
+        "194",
+        "179",
+        "192",
+        "124",
+        "358",
+        "284",
+        "344",
+        "310",
+        "224"
+      ],
+      "nutrition": [
+        "23",
+        "31",
+        "21",
+        "6",
+        "3",
+        "305",
+        "214",
+        "309",
+        "352",
+        "288",
+        "348",
+        "224",
+        "372",
+        "392",
+        "283",
+        "193",
+        "109",
+        "143",
+        "140",
+        "124",
+        "250",
+        "304",
+        "360",
+        "219",
+        "290",
+        "250",
+        "185",
+        "354",
+        "237",
+        "266",
+        "284",
+        "55",
+        "266",
+        "324",
+        "103",
+        "324",
+        "72",
+        "73",
+        "311",
+        "298",
+        "392",
+        "179",
+        "99",
+        "132",
+        "243",
+        "197",
+        "112",
+        "175",
+        "148",
+        "198",
+        "179",
+        "219",
+        "160",
+        "37",
+        "258",
+        "184",
+        "349",
+        "197",
+        "348",
+        "358",
+        "230",
+        "210",
+        "253",
+        "338",
+        "160",
+        "184",
+        "364",
+        "304",
+        "155",
+        "193",
+        "77",
+        "271",
+        "198",
+        "344",
+        "330",
+        "337",
+        "258",
+        "288",
+        "262",
+        "74",
+        "234",
+        "315",
+        "373",
+        "310",
+        "288",
+        "257",
+        "201",
+        "310",
+        "296",
+        "53",
+        "258",
+        "309",
+        "262",
+        "272",
+        "371",
+        "344",
+        "131",
+        "275",
+        "175",
+        "242",
+        "372",
+        "254",
+        "144",
+        "144",
+        "75",
+        "224",
+        "250",
+        "224",
+        "271",
+        "131",
+        "242",
+        "353",
+        "230",
+        "193",
+        "349",
+        "110",
+        "190",
+        "93",
+        "248",
+        "94",
+        "91",
+        "163",
+        "237",
+        "346",
+        "354",
+        "228",
+        "45",
+        "132",
+        "334",
+        "162",
+        "48",
+        "379",
+        "61",
+        "337",
+        "339",
+        "139",
+        "148",
+        "179",
+        "102",
+        "165",
+        "119",
+        "194",
+        "131",
+        "120",
+        "293",
+        "153",
+        "394",
+        "39",
+        "381",
+        "75",
+        "339",
+        "64",
+        "115",
+        "327",
+        "293",
+        "103",
+        "282",
+        "230",
+        "271",
+        "201",
+        "169",
+        "116",
+        "184",
+        "69",
+        "310",
+        "166",
+        "149",
+        "103"
+      ],
+      "policy": [
+        "22",
+        "11",
+        "13",
+        "36",
+        "14",
+        "29",
+        "16",
+        "25",
+        "224",
+        "75",
+        "349",
+        "131",
+        "131",
+        "198",
+        "392",
+        "258",
+        "348",
+        "140",
+        "224",
+        "75",
+        "348",
+        "304",
+        "258",
+        "160",
+        "140",
+        "178",
+        "258",
+        "201",
+        "258",
+        "237",
+        "271",
+        "344",
+        "392",
+        "348",
+        "131",
+        "349",
+        "337",
+        "237",
+        "349",
+        "258",
+        "237",
+        "254",
+        "175",
+        "348",
+        "87",
+        "258",
+        "224",
+        "175",
+        "349",
+        "140",
+        "348",
+        "165",
+        "337",
+        "75",
+        "201",
+        "175",
+        "324",
+        "75",
+        "175"
+      ],
+      "environment": [
+        "5",
+        "20",
+        "30",
+        "8",
+        "17",
+        "7",
+        "27",
+        "15",
+        "34",
+        "12",
+        "28",
+        "201",
+        "175",
+        "175",
+        "250",
+        "310",
+        "193",
+        "120",
+        "349",
+        "296",
+        "258",
+        "324",
+        "348",
+        "392",
+        "175",
+        "301",
+        "149",
+        "76",
+        "243",
+        "224",
+        "69",
+        "254",
+        "131",
+        "372",
+        "392",
+        "37",
+        "392",
+        "349",
+        "314",
+        "349",
+        "224",
+        "131",
+        "75",
+        "349",
+        "165",
+        "250",
+        "224",
+        "324",
+        "337",
+        "349",
+        "288",
+        "348",
+        "324",
+        "179"
+      ]
+    }
+  ]
 }

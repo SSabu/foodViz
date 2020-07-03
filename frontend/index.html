@@ -6,15 +6,46 @@
     <link rel="shortcut icon" href="./favicon.ico">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
   </head>
   <body>
-    <div id="container">
-      <div id="network"></div>
-      <svg width="800" height="700" viewBox="-600 -900 1000 1800" preserveAspectRatio="xMidYMid meet"></svg>
+    <div id="container">this is network
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="org-np-tab" data-toggle="tab" href="#org-np" role="tab" aria-controls="org-np" aria-selected="true">Non-Profit - Faculty Connections</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="by-org-tab" data-toggle="tab" href="#by-org" role="tab" aria-controls="by-org" aria-selected="false">Search by Non-Profit</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="by-np-tab" data-toggle="tab" href="#by-np" role="tab" aria-controls="by-np" aria-selected="false">Search by Faculty</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+
+        <div class="tab-pane fade show active" id="org-np" role="tabpanel" aria-labelledby="org-np-tab">
+
+          <div class="column middle">
+
+            <div id="network">
+              <svg width="1500" height="620" viewBox="-600 -1200 1600 2200" preserveAspectRatio="xMidYMid meet"></svg>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="tab-pane fade" id="by-org" role="tabpanel" aria-labelledby="by-org-tab">this is some text by org...
+
+        </div>
+        <div class="tab-pane fade" id="by-np" role="tabpanel" aria-labelledby="by-np-tab">this is some text by np...
+
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
