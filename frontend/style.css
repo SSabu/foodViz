@@ -22,3 +22,14 @@ a.active.nav-link {
 .nav-link {
     color: rgb(117,102,160);
 }
+
+.right {
+  width: 40%;
+  float: left;
+  padding-top: 50px;
+}
+
+.middle {
+  width: 60%;
+  float: left;
+}
