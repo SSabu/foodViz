@@ -20,6 +20,49 @@ function network(data) {
 
   var pattern = data.pattern;
 
+  var agNodes = [];
+  var ag = data.filters.agriculture.matched;
+  var agUnmatched = data.filters.agriculture.unmatched;
+
+  var nutNodes = [];
+  var nut = data.filters.nutrition.matched;
+  var nutUnmatched = data.filters.nutrition.unmatched;
+
+  var polNodes = [];
+  var pol = data.filters.policy.matched;
+  var polUnmatched = data.filters.policy.unmatched;
+
+  var envNodes = [];
+  var env = data.filters.environment.matched;
+  var envUnmatched = data.filters.environment.unmatched;
+
+  nodes.forEach(function(node) {
+
+    ag.forEach(function(id) {
+      if (id === node.id) {
+        agNodes.push(node);
+      }
+    });
+
+    nut.forEach(function(id) {
+      if (id === node.id) {
+        nutNodes.push(node);
+      }
+    });
+
+    pol.forEach(function(id) {
+      if (id === node.id) {
+        polNodes.push(node);
+      }
+    })
+
+    env.forEach(function(id) {
+      if (id === node.id) {
+        envNodes.push(node);
+      }
+    })
+  });
+
   var width = 800;
   var height = 700;
   var hl_r = 8;
@@ -97,6 +140,28 @@ function network(data) {
 
   feMerge.append("feMergeNode")
       .attr("in", "SourceGraphic");
+
+  var filter1 = defs.append("filter")
+                    .attr("id","glow");
+
+  filter1.append("feGaussianBlur")
+         .attr("in", "SourceAlpha")
+         .attr("stdDeviation","8")
+         .attr("result","coloredBlur");
+
+  filter1.append("feOffset")
+         .attr("in", "blur")
+         .attr("dx", 0)
+         .attr("dy", 0)
+         .attr("result", "offsetBlur");
+
+  var feMerge1 = filter1.append("feMerge");
+
+  feMerge1.append("feMergeNode")
+          .attr("in","coloredBlur");
+
+  feMerge1.append("feMergeNode")
+          .attr("in","SourceGraphic");
 
   pattern.forEach(function(faculty) {
     defs.append("svg:pattern")
@@ -190,6 +255,8 @@ function network(data) {
 
    }
 
+   // console.log(nodes[0]);
+
     var rect = svg.append("g");
 
     rect.append("rect")
@@ -211,6 +278,108 @@ function network(data) {
 
     rect.on('click', function() {
       mouseevent3();
+    });
+
+    var buttonRow = svg.append("g");
+
+    buttonRow.append("rect")
+             .attr("x", -1150)
+             .attr("y", -1150)
+             .attr("width", "2680px")
+             .attr("height", "100px")
+             .attr("fill", "white")
+             .style("filter", "url(#glow)");
+
+    var buttonOne = buttonRow.append("g");
+
+    buttonOne.append("rect")
+             .attr("x", -1150)
+             .attr("y", -1150)
+             .attr("width", "670px")
+             .attr("height", "100px")
+             .attr("fill", "white")
+             .attr("stroke", "black")
+             .attr("stroke-width", "1px");
+
+    buttonOne.append("text")
+             .text("Agribusiness & Agriculture")
+             .style("fill", "#cc00ff")
+             .style("font-size", "44px")
+             .attr("font-family", "Monospace")
+             .attr("x", -1130)
+             .attr("y", -1090);
+
+    var buttonTwo = buttonRow.append("g");
+
+    buttonTwo.append("rect")
+             .attr("x", -480)
+             .attr("y", -1150)
+             .attr("width", "670px")
+             .attr("height", "100px")
+             .attr("fill", "white")
+             .attr("stroke", "black")
+             .attr("stroke-width", "1px");
+
+    buttonTwo.append("text")
+               .text("Environmental Resilience")
+               .style("fill", "#cc00ff")
+               .style("font-size", "44px")
+               .attr("font-family", "Monospace")
+               .attr("x", -440)
+               .attr("y", -1090);
+
+    var buttonThree = buttonRow.append("g");
+
+    buttonThree.append("rect")
+               .attr("x", 190)
+               .attr("y", -1150)
+               .attr("width", "670px")
+               .attr("height", "100px")
+               .attr("fill", "white")
+               .attr("stroke", "black")
+               .attr("stroke-width", "1px");
+
+    buttonThree.append("text")
+             .text("Nutrition & Health")
+             .style("fill", "#cc00ff")
+             .style("font-size", "44px")
+             .attr("font-family", "Monospace")
+             .attr("x", 300)
+             .attr("y", -1090);
+
+    var buttonFour = buttonRow.append("g");
+
+    buttonFour.append("rect")
+              .attr("x", 860)
+              .attr("y", -1150)
+              .attr("width", "670px")
+              .attr("height", "100px")
+              .attr("fill", "white")
+              .attr("stroke", "black")
+              .attr("stroke-width", "1px");
+
+    buttonFour.append("text")
+             .text("Policy, Justice, & Culture")
+             .style("fill", "#cc00ff")
+             .style("font-size", "44px")
+             .attr("font-family", "Monospace")
+             .attr("x", 880)
+             .attr("y", -1090);
+
+    buttonOne.on('click', function() {
+      mouseevent4(agNodes, agUnmatched);
+    });
+
+    buttonTwo.on("click", function() {
+      mouseevent4(envNodes, envUnmatched);
+    });
+
+    buttonThree.on("click", function() {
+      mouseevent4(nutNodes, nutUnmatched);
+    });
+
+    buttonFour.on("click", function() {
+      mouseevent4(polNodes, polUnmatched);
     });
 
    function mouseevent(d, event) {
@@ -454,6 +623,125 @@ function network(data) {
 
    }
 
+   function mouseevent4(nodeArray, idUnmatched) {
+
+     node.attr('pointer-events', 'none');
+
+     var line_out_color = "rgb(61, 65, 66)",
+         line_in_color = "rgb(218, 41, 28)",
+         line_opacity = 1,
+         line_stroke_out = 2,
+         dot_self_color = "rgb(218, 41, 28)",
+         dot_other_color = "black",
+         dot_selected_opacity = 1,
+         dot_other_opacity = 0.1,
+         dot_self_stroke_width = 2;
+
+    nodeArray.forEach(function(d) {
+
+      // console.log(d);
+
+      d3.selectAll("circle.nodes").attr("r", function(e) {
+
+        return e.radius;
+
+      }).style("stroke", "#fff").style("stroke-width", dot_self_stroke_width);
+
+      d3.selectAll("line").attr("marker-end", "none").style("stroke", "rgb(208,211,212)").style("stroke-opacity", 0.3);
+
+      d3.selectAll("text.background-text").style("fill", "rgb(208,211,212)").style("stroke","rgb(208,211,212)");
+
+      d3.selectAll("line.to" + d.id).each(function(e) {
+
+        e.type = "in";
+
+        var cx = d3.selectAll("#_"+e.source.id).attr("cx");
+        var cy = d3.selectAll("#_"+e.source.id).attr("cy");
+
+        svg.append("g").append("text").attr("class","labels").text(e.source.label).attr("x", cx).attr("y", cy);
+
+      })
+      .attr("marker-end", function(e) {
+        return "url(#"+e.type+")";
+      })
+      .style("stroke", line_in_color)
+      .transition()
+      .duration(500)
+      .style("stroke-opacity", line_opacity);
+
+      d3.selectAll("line.from"+d.id).each(function(e) {
+
+        var cx = d3.selectAll("#_"+e.target.id).attr("cx");
+        var cy = d3.selectAll("#_"+e.target.id).attr("cy");
+
+        svg.append("g").append("text").attr("class", "labels").text(e.target.label).attr("dx", cx).attr("dy", cy);
+
+        e.type = "out";
+
+      })
+      .attr("marker-end", function(e) {
+        return "url(#"+e.type+")";
+      })
+      .style("stoke", line_out_color)
+      .style("stroke-width", line_stroke_out)
+      .transition()
+      .duration(500)
+      .style("stroke-opacity", line_opacity);
+
+      // d3.selectAll("circle.nodes").transition().style("opacity", dot_other_opacity);
+
+      d3.selectAll("circle#_" + d.id)
+      .style("stroke", dot_self_color)
+      .transition()
+      .duration(800)
+      .attr("r", function(e) {
+        return e.radius;
+      })
+      .style("opacity", dot_selected_opacity)
+      .style("stroke-width", dot_self_stroke_width);
+
+      d3.selectAll("line.from" + d.id).filter(function(e) {
+        return e.target.id !== e.source.id
+      }).each(function(e) {
+        d3.select("circle#_"+e.target.id)
+        .style("stroke", dot_other_color)
+        .attr("r", function(e1) {
+          return e1.radius;
+        })
+        .each(function(e1) {
+          e1.select_radius = d3.select(this).attr("r");
+        })
+        .transition()
+        .duration(300)
+        .style("opacity", dot_selected_opacity);
+      });
+
+      d3.selectAll("line.to"+d.id).filter(function(e) {
+        return e.target.id !== e.source.id
+      }).each(function(e) {
+        d3.select("circle#_"+e.source.id)
+        .attr("r", function(e1) {
+          return e1.radius;
+        })
+        .each(function(e1) {
+          e1.select_radius = d3.select(this).attr("r");
+        })
+        .style("stroke", dot_other_color)
+        .transition()
+        .duration(300)
+        .style("opacity", dot_selected_opacity);
+      });
+
+    });
+
+    // d3.select("circle#_5").transition().style("opacity", dot_other_opacity);
+
+    idUnmatched.forEach(function(id) {
+      d3.select("circle#_"+id).transition().style("opacity", dot_other_opacity);
+    })
+
+   }
+
 };
 
 function network1(data) {
@@ -465,6 +753,46 @@ function network1(data) {
   var position = data.position;
 
   var pattern = data.pattern;
+
+  var labels = data.dropdown.facultyLabel;
+
+  var linkages = Array.from(new Array(10), (x,i) => i+2);
+
+  $(document).ready(function() {
+
+    $('.select2-Fac').select2({
+      placeholder: 'Select a faculty'
+    });
+
+    $('.select2-Fac-Links').select2({
+      placeholder: 'Select a faculty'
+    });
+
+  });
+
+  labels.forEach(function(option) {
+    $(".select2-Fac").append(`<option value=${option.id}>${option.value}</option>`);
+  });
+
+  linkages.forEach(function(id) {
+    $(".select2-Fac-Links").append(`<option value=${id}>${id}</option>`);
+  });
+
+  $(".select2-Fac").on("select2:select select2:unselecting", function() {
+
+    var value = $(".select2-Fac").select2().val();
+
+    console.log(value);
+
+  });
+
+  $(".select2-Fac-Links").on("select2:select select2:unselecting", function() {
+
+    var value = $(".select2-Fac-Links").select2().val();
+
+    console.log(value);
+
+  });
 
   var width = 800;
   var height = 700;
@@ -878,6 +1206,125 @@ function network1(data) {
 
    }
 
+   function mouseevent4(nodeArray, idUnmatched) {
+
+     node.attr('pointer-events', 'none');
+
+     var line_out_color = "rgb(61, 65, 66)",
+         line_in_color = "rgb(218, 41, 28)",
+         line_opacity = 1,
+         line_stroke_out = 2,
+         dot_self_color = "rgb(218, 41, 28)",
+         dot_other_color = "black",
+         dot_selected_opacity = 1,
+         dot_other_opacity = 0.1,
+         dot_self_stroke_width = 2;
+
+    nodeArray.forEach(function(d) {
+
+      // console.log(d);
+
+      d3.selectAll("circle.nodes").attr("r", function(e) {
+
+        return e.radius;
+
+      }).style("stroke", "#fff").style("stroke-width", dot_self_stroke_width);
+
+      d3.selectAll("line").attr("marker-end", "none").style("stroke", "rgb(208,211,212)").style("stroke-opacity", 0.3);
+
+      d3.selectAll("text.background-text").style("fill", "rgb(208,211,212)").style("stroke","rgb(208,211,212)");
+
+      d3.selectAll("line.to" + d.id).each(function(e) {
+
+        e.type = "in";
+
+        var cx = d3.selectAll("#_"+e.source.id).attr("cx");
+        var cy = d3.selectAll("#_"+e.source.id).attr("cy");
+
+        svg.append("g").append("text").attr("class","labels").text(e.source.label).attr("x", cx).attr("y", cy);
+
+      })
+      .attr("marker-end", function(e) {
+        return "url(#"+e.type+")";
+      })
+      .style("stroke", line_in_color)
+      .transition()
+      .duration(500)
+      .style("stroke-opacity", line_opacity);
+
+      d3.selectAll("line.from"+d.id).each(function(e) {
+
+        var cx = d3.selectAll("#_"+e.target.id).attr("cx");
+        var cy = d3.selectAll("#_"+e.target.id).attr("cy");
+
+        svg.append("g").append("text").attr("class", "labels").text(e.target.label).attr("dx", cx).attr("dy", cy);
+
+        e.type = "out";
+
+      })
+      .attr("marker-end", function(e) {
+        return "url(#"+e.type+")";
+      })
+      .style("stoke", line_out_color)
+      .style("stroke-width", line_stroke_out)
+      .transition()
+      .duration(500)
+      .style("stroke-opacity", line_opacity);
+
+      // d3.selectAll("circle.nodes").transition().style("opacity", dot_other_opacity);
+
+      d3.selectAll("circle#_" + d.id)
+      .style("stroke", dot_self_color)
+      .transition()
+      .duration(800)
+      .attr("r", function(e) {
+        return e.radius;
+      })
+      .style("opacity", dot_selected_opacity)
+      .style("stroke-width", dot_self_stroke_width);
+
+      d3.selectAll("line.from" + d.id).filter(function(e) {
+        return e.target.id !== e.source.id
+      }).each(function(e) {
+        d3.select("circle#_"+e.target.id)
+        .style("stroke", dot_other_color)
+        .attr("r", function(e1) {
+          return e1.radius;
+        })
+        .each(function(e1) {
+          e1.select_radius = d3.select(this).attr("r");
+        })
+        .transition()
+        .duration(300)
+        .style("opacity", dot_selected_opacity);
+      });
+
+      d3.selectAll("line.to"+d.id).filter(function(e) {
+        return e.target.id !== e.source.id
+      }).each(function(e) {
+        d3.select("circle#_"+e.source.id)
+        .attr("r", function(e1) {
+          return e1.radius;
+        })
+        .each(function(e1) {
+          e1.select_radius = d3.select(this).attr("r");
+        })
+        .style("stroke", dot_other_color)
+        .transition()
+        .duration(300)
+        .style("opacity", dot_selected_opacity);
+      });
+
+    });
+
+    // d3.select("circle#_5").transition().style("opacity", dot_other_opacity);
+
+    idUnmatched.forEach(function(id) {
+      d3.select("circle#_"+id).transition().style("opacity", dot_other_opacity);
+    })
+
+   }
+
 };
 
 function network2(data) {
@@ -889,6 +1336,190 @@ function network2(data) {
   var position = data.position;
 
   var pattern = data.pattern;
+
+  var labels = data.dropdown.orgLabel;
+
+  var linkages = Array.from(new Array(10), (x,i) => i+2);
+
+  var weight2 = data.linkage_filters.weight2;
+
+  var weight3 = data.linkage_filters.weight3;
+
+  var weight4 = data.linkage_filters.weight4;
+
+  var weight5 = data.linkage_filters.weight5;
+
+  var weight6 = data.linkage_filters.weight6;
+
+  var weight7 = data.linkage_filters.weight7;
+
+  var weight8 = data.linkage_filters.weight8;
+
+  var weight9 = data.linkage_filters.weight9;
+
+  var weight10 = data.linkage_filters.weight10;
+
+  var weight11 = data.linkage_filters.weight11;
+
+  var nodesWeight2 = [];
+
+  var nodesWeight3 = [];
+
+  var nodesWeight4 = [];
+
+  var nodesWeight5 = [];
+
+  var nodesWeight6 = [];
+
+  var nodesWeight7 = [];
+
+  var nodesWeight8 = [];
+
+  var nodesWeight9 = [];
+
+  var nodesWeight10 = [];
+
+  var nodesWeight11 = [];
+
+  nodes.forEach(function(node) {
+
+    weight2.matched.forEach(function(id) {
+      if (node.id === id) {
+        nodesWeight2.push(node);
+      }
+    });
+
+    weight3.matched.forEach(function(id) {
+      if (node.id === id) {
+        nodesWeight3.push(node);
+      }
+    });
+
+    weight4.matched.forEach(function(id) {
+      if (node.id === id) {
+        nodesWeight4.push(node);
+      }
+    });
+
+    weight5.matched.forEach(function(id) {
+      if (node.id === id) {
+        nodesWeight5.push(node);
+      }
+    });
+
+    weight6.matched.forEach(function(id) {
+      if (node.id === id) {
+        nodesWeight6.push(node);
+      }
+    });
+
+    weight7.matched.forEach(function(id) {
+      if (node.id === id) {
+        nodesWeight7.push(node);
+      }
+    });
+
+    weight8.matched.forEach(function(id) {
+      if (node.id === id) {
+        nodesWeight8.push(node);
+      }
+    });
+
+    weight9.matched.forEach(function(id) {
+      if (node.id === id) {
+        nodesWeight9.push(node);
+      }
+    });
+
+    weight10.matched.forEach(function(id) {
+      if (node.id === id) {
+        nodesWeight10.push(node);
+      }
+    });
+
+    weight11.matched.forEach(function(id) {
+      if (node.id === id) {
+        nodesWeight11.push(node);
+      }
+    });
+
+  });
+
+  $(document).ready(function() {
+    $('.select2-NP').select2({
+      // placeholder: 'Select a faculty'
+    });
+
+    $('.select2-NP-Links').select2({
+      // placeholder: 'Select a faculty'
+    });
+  });
+
+  labels.forEach(function(option) {
+    $(".select2-NP").append(`<option value=${option.id}>${option.value}</option>`);
+  });
+
+  linkages.forEach(function(id) {
+    $(".select2-NP-Links").append(`<option value=${id}>${id}</option>`);
+  });
+
+  $(".select2-NP").on("select2:select select2:unselecting", function() {
+
+    var value = $(".select2-NP").select2().val();
+
+    var selection = nodes.filter(function(node) {
+      return node.id === value;
+    });
+
+    mouseevent2(selection[0]);
+
+  });
+
+  $(".select2-NP-Links").on("select2:select select2:unselecting", function() {
+
+    var value = $(".select2-NP-Links").select2().val();
+
+    if (value === "2") {
+      mouseevent4(nodesWeight2, weight2.unmatched, 2);
+    }
+
+    if (value === "3") {
+      mouseevent4(nodesWeight3, weight3.unmatched, 3);
+    }
+
+    if (value === "4") {
+      mouseevent4(nodesWeight4, weight4.unmatched, 4);
+    }
+
+    if (value === "5") {
+      mouseevent4(nodesWeight5, weight5.unmatched, 5);
+    }
+
+    if (value === "6") {
+      mouseevent4(nodesWeight6, weight6.unmatched, 6);
+    }
+
+    if (value === "7") {
+      mouseevent4(nodesWeight7, weight7.unmatched, 7);
+    }
+
+    if (value === "8") {
+      mouseevent4(nodesWeight8, weight8.unmatched, 8);
+    }
+
+    if (value === "9") {
+      mouseevent4(nodesWeight9, weight9.unmatched, 9);
+    }
+
+    if (value === "10") {
+      mouseevent4(nodesWeight10, weight10.unmatched, 10);
+    }
+
+    if (value === "11") {
+      mouseevent4(nodesWeight11, weight11.unmatched, 11);
+    }
+
+  });
 
   var width = 800;
   var height = 700;
@@ -983,6 +1614,10 @@ function network2(data) {
                 .attr("class", function(d) {
                   return "nodes" + " _" + d.in_out;
                 })
+                .attr("class", function(d) {
+                  if (d.type === "faculty") { return "nodes" + " _" + d.in_out + " faculty"; }
+                  if (d.type === "non-profit") { return "nodes" + " _" + d.in_out + " nonProfit"; }
+                })
                 .attr("r", function(d) {
                   return d.radius;
                 })
@@ -996,7 +1631,7 @@ function network2(data) {
          return d.label;
        });
 
-   node.on("mouseover", function(d) { mouseevent(d, "mouseover"); })
+   svg.selectAll(".nonProfit").on("mouseover", function(d) { mouseevent(d, "mouseover"); })
        .on("click", function(d) { mouseevent2(d); });
 
    svg.on("mouseover", function(d) { d3.select(this).style("cursor", "pointer"); });
@@ -1033,7 +1668,7 @@ function network2(data) {
        return position[d.target.id].y;
      })
      .attr("class", function(d) {
-       return ("from"+d.source.id+" to"+d.target.id);
+       return ("from"+d.source.id+" to"+d.target.id + " weight"+d.weight);
      });
 
    }
@@ -1187,6 +1822,8 @@ function network2(data) {
 
     d3.selectAll("text.background-text").style("fill", "rgb(208,211,212)").style("stroke","rgb(208,211,212)");
 
+    // controls lines
+
     d3.selectAll("line.to" + d.id).each(function(e) {
 
       e.type = "in";
@@ -1235,6 +1872,8 @@ function network2(data) {
       })
       .style("opacity", dot_selected_opacity)
       .style("stroke-width", dot_self_stroke_width);
+
+      // controls dots
 
       d3.selectAll("line.from" + d.id).filter(function(e) {
         return e.target.id !== e.source.id
@@ -1299,6 +1938,68 @@ function network2(data) {
     d3.selectAll("line.to").style("stroke", "rgb(208,211,212)").style("stroke-opacity", 0);
 
     d3.selectAll("circle.nodes").transition().style("opacity", dot_other_opacity);
+
+   }
+
+   function mouseevent4(nodeArray, idUnmatched, weight) {
+
+     node.attr('pointer-events', 'none');
+
+     var line_out_color = "rgb(61, 65, 66)",
+         line_in_color = "rgb(218, 41, 28)",
+         line_opacity = 1,
+         line_stroke_out = 2,
+         dot_self_color = "rgb(218, 41, 28)",
+         dot_other_color = "black",
+         dot_selected_opacity = 1,
+         dot_other_opacity = 0.1,
+         dot_self_stroke_width = 2;
+
+    nodeArray.forEach(function(d) {
+
+      d3.selectAll("circle.nodes").attr("r", function(e) {
+
+        return e.radius;
+
+      }).style("stroke", "#fff").style("stroke-width", dot_self_stroke_width);
+
+      d3.selectAll("line").attr("marker-end", "none").style("stroke", "rgb(208,211,212)").style("stroke-opacity", 0.3);
+
+      d3.selectAll("text.background-text").style("fill", "rgb(208,211,212)").style("stroke","rgb(208,211,212)");
+
+      d3.selectAll("line.weight" + weight).each(function(e) {
+
+        e.type = "in";
+
+        var cx = d3.selectAll("#_"+e.source.id+"_2").attr("cx");
+        var cy = d3.selectAll("#_"+e.source.id+"_2").attr("cy");
+
+        svg.append("g").append("text").attr("class","labels").text(e.source.label).attr("x", cx).attr("y", cy);
+
+      })
+      .attr("marker-end", function(e) {
+        return "url(#"+e.type+"_2)";
+      })
+      .style("stroke", line_in_color)
+      .transition()
+      .duration(500)
+      .style("stroke-opacity", line_opacity);
+
+      d3.selectAll("circle#_" + d.id+"_2")
+      .style("stroke", dot_self_color)
+      .transition()
+      .duration(800)
+      .attr("r", function(e) {
+        return e.radius;
+      })
+      .style("opacity", dot_selected_opacity)
+      .style("stroke-width", dot_self_stroke_width);
+
+    });
+
+    idUnmatched.forEach(function(id) {
+      d3.select("circle#_"+id+"_2").transition().style("opacity", dot_other_opacity);
+    });
 
    }
 

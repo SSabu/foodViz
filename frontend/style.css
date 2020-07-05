@@ -33,3 +33,23 @@ a.active.nav-link {
   width: 60%;
   float: left;
 }
+
+#title {
+  padding-left: 20px;
+}
+
+/* #searchNP {
+  width: 75%;
+}
+
+.select2-Fac {
+  width: 75%;
+} */
+
+#searchLinkagesNP {
+  padding-top: 30px;
+}
+
+#searchLinkagesFac {
+  padding-top: 50px;
+}

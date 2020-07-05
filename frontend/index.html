@@ -14,7 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
   </head>
   <body>
-    <div id="container">this is network
+    <div id="container">
+      <div id="title">this is network</div>
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
           <a class="nav-link active" id="org-np-tab" data-toggle="tab" href="#org-np" role="tab" aria-controls="org-np" aria-selected="true">Non-Profit - Faculty Connections</a>
@@ -28,14 +29,15 @@
       </ul>
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="org-np" role="tabpanel" aria-labelledby="org-np-tab">
+
           <div class="column middle">
-            <div id="network">
+          <div id="network">
               <svg width="1500" height="620" viewBox="-600 -1200 1600 2200" preserveAspectRatio="xMidYMid meet"></svg>
-            </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="by-org" role="tabpanel" aria-labelledby="by-org-tab">this is some text by np...
 
+      </div>
+      <div class="tab-pane fade" id="by-org" role="tabpanel" aria-labelledby="by-org-tab">this is some text by np...
 
           <div class="column middle">
             <div id="network2">
@@ -43,22 +45,51 @@
             </div>
           </div>
 
-          <div class="column right">
-            this is right...
+            <div class="column right" align="center"> Select by Non-Profit
+
+              <div id="searchNP">
+                <select class="select2-NP" name="nonProfits" style="width: 75%;">
+                </select>
+              </div>
+
+            <div id="searchLinkagesNP" align="center">Select by Edge Weight
+
+              <div>
+                <select class="select2-NP-Links" name="nonProfit-linkages" style="width: 75%;">
+                </select>
+              </div>
+
+            </div>
 
           </div>
 
-
         </div>
         <div class="tab-pane fade" id="by-np" role="tabpanel" aria-labelledby="by-np-tab">this is some text by faculty...
+
           <div class="column middle">
             <div id="network1">
               <svg width="1500" height="640" viewBox="-600 -1200 1600 2300" preserveAspectRatio="xMidYMid meet"></svg>
             </div>
           </div>
-          <div class="column right">
-            this is right...
-          </div>
+
+            <div class="column right" align="center">Select by Faculty
+
+              <div id="searchFac">
+                <select class="select2-Fac" name="faculty" style="width: 75%;">
+                </select>
+              </div>
+
+              <div id="searchLinkagesFac" align="center">Select by Edge Weight
+
+                <div>
+                  <select class="select2-Fac-Links" name="faculty-linkages" style="width: 75%;">
+                  </select>
+                </div>
+
+              </div>
+
+            </div>
+
         </div>
       </div>
     </div>
