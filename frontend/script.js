@@ -192,7 +192,8 @@ function network(data) {
                 .enter()
                 .append("circle")
                 .attr("class", function(d) {
-                  return "nodes" + " _" + d.in_out;
+                  if (d.type === "faculty") {   return "nodes" + " _" + d.in_out + " faculty"; }
+                  if (d.type === "non-profit") {   return "nodes" + " _" + d.in_out + " nonProfit"; }
                 })
                 .attr("r", function(d) {
                   return d.radius;
@@ -207,6 +208,7 @@ function network(data) {
                   }
                 })
                 .style("stroke-opacity", 0.9);
+
 
    node.append("title")
        .text(function(d) {
@@ -275,6 +277,30 @@ function network(data) {
 
     rect.on("mouseover", function(d) { d3.select(this).style("cursor", "pointer")})
         .on('click', function() { mouseevent3(); });
+
+    var legend = svg.append("g");
+
+    legend.append("rect")
+          .attr("x", 2100)
+          .attr("y", 800)
+          .attr("width", "400px")
+          .attr("height", "200px")
+          .style("fill", "none")
+          .style("stroke", "black")
+          .style("stroke-width", 0.75);
+
+    legend.append("circle")
+          .attr("cx", 2150)
+          .attr("cy", 900)
+          .attr("r", 20)
+          .attr("fill", color_node("non-profit"));
+
+    legend.append("text")
+          .text("Non-Profit")
+          .style("fill", "black")
+          .style("font-size", "48px")
+          .attr("x", 2200)
+          .attr("y", 910);
 
     var buttonRow = svg.append("g").on("mouseover", function(d) { d3.select(this).style("cursor", "pointer")});
 
@@ -432,10 +458,22 @@ function network(data) {
       .transition()
       .duration(800)
       .attr("r", function(e) {
-        return e.radius;
+        if (event === "mouseover") {
+          if (e.type === "non-profit") { return e.radius; }
+          if (e.type === "faculty") { return 1.25 * e.radius; }
+        } else {
+          return e.radius;
+        }
       })
       .style("opacity", dot_selected_opacity)
-      .style("stroke-width", dot_self_stroke_width);
+      .style("stroke-width", function(d) {
+        if (event === "mouseover") {
+          return 6;
+        } else {
+          return 1;
+        }
+      })
+      .style("stroke", "black");
 
       d3.selectAll("line.from" + d.id).filter(function(e) {
         return e.target.id !== e.source.id
@@ -455,6 +493,7 @@ function network(data) {
         } else {
           d3.select("circle#_"+e.target.id)
             .attr("r", function(e1) {
+              console.log(e1);
               return e1.radius;
             })
             .style("stroke", dot_other_color)
@@ -533,17 +572,27 @@ function network(data) {
       .duration(500)
       .style("stroke-opacity", line_opacity);
 
-    d3.selectAll("circle.nodes").transition().style("opacity", dot_other_opacity);
-
     d3.selectAll("circle#_" + d.id)
-      .style("stroke", dot_self_color)
-      .transition()
-      .duration(800)
-      .attr("r", function(e) {
-        return e.radius;
-      })
-      .style("opacity", dot_selected_opacity)
-      .style("stroke-width", dot_self_stroke_width);
+      .each(function(e) {
+        if (e.type === "faculty") {
+          d3.select("circle#_"+e.id)
+            .style("stroke", dot_self_color)
+            .attr("r", function(e) { return 1.25*e.radius; })
+            .style("opacity", 1)
+            .style("stroke-width", 6)
+            .style("stroke", "black");
+        }
+        if (e.type === "non-profit") {
+          d3.select("circle#_"+e.id)
+            .style("stroke", dot_self_color)
+            .transition()
+            .duration(800)
+            .attr("r", function(e) { return e.radius; })
+            .style("opacity", 1)
+            .style("stroke-width", 6)
+            .style("stroke", "black");
+        }
+      });
 
     d3.selectAll("line.from" + d.id).filter(function(e) {
       return e.target.id !== e.source.id
@@ -632,12 +681,6 @@ function network(data) {
 
     nodeArray.forEach(function(d) {
 
-      d3.selectAll("circle.nodes").attr("r", function(e) {
-
-        return e.radius;
-
-      }).style("stroke", "#fff").style("stroke-width", dot_self_stroke_width);
-
       d3.selectAll("line").attr("marker-end", "none").style("stroke", "rgb(208,211,212)").style("stroke-opacity", 0.3);
 
       d3.selectAll("text.background-text").style("fill", "rgb(208,211,212)").style("stroke","rgb(208,211,212)");
@@ -670,14 +713,26 @@ function network(data) {
       .style("stroke-opacity", line_opacity);
 
       d3.selectAll("circle#_" + d.id)
-      .style("stroke", dot_self_color)
-      .transition()
-      .duration(800)
-      .attr("r", function(e) {
-        return e.radius;
-      })
-      .style("opacity", dot_selected_opacity)
-      .style("stroke-width", dot_self_stroke_width);
+        .each(function(e) {
+          if (e.type === "faculty") {
+            d3.select("circle#_"+e.id)
+              .style("stroke", dot_self_color)
+              .attr("r", function(e) { return 1.25*e.radius; })
+              .style("opacity", 1)
+              .style("stroke-width", 6)
+              .style("stroke", "black");
+          }
+          if (e.type === "non-profit") {
+            d3.select("circle#_"+e.id)
+              .style("stroke", dot_self_color)
+              .transition()
+              .duration(800)
+              .attr("r", function(e) { return e.radius; })
+              .style("opacity", 1)
+              .style("stroke-width", 6)
+              .style("stroke", "black");
+          }
+        });
 
       d3.selectAll("line.from" + d.id).filter(function(e) {
         return e.target.id !== e.source.id
@@ -1093,6 +1148,44 @@ function network1(data) {
 
     rect.on("mouseover", function(d) { d3.select(this).style("cursor", "pointer")})
         .on('click', function() { mouseevent3(); });
+
+
+    var legend = svg.append("g");
+
+    legend.append("rect")
+          .attr("x", 600)
+          .attr("y", 800)
+          .attr("width", "400px")
+          .attr("height", "250px")
+          .style("fill", "none")
+          .style("stroke", "black")
+          .style("stroke-width", 0.75);
+
+    legend.append("circle")
+          .attr("cx", 650)
+          .attr("cy", 870)
+          .attr("r", 20)
+          .attr("fill", color_node("faculty"));
+
+    legend.append("text")
+          .text("Faculty")
+          .style("fill", "black")
+          .style("font-size", "48px")
+          .attr("x", 700)
+          .attr("y", 880);
+
+    legend.append("circle")
+          .attr("cx", 650)
+          .attr("cy", 960)
+          .attr("r", 20)
+          .attr("fill", color_node("non-profit"));
+
+    legend.append("text")
+          .text("Non-Profit")
+          .style("fill", "black")
+          .style("font-size", "48px")
+          .attr("x", 700)
+          .attr("y", 970);
 
    function mouseevent(d, event) {
 
@@ -1828,6 +1921,43 @@ function network2(data) {
 
     rect.on("mouseover", function(d) { d3.select(this).style("cursor", "pointer")})
         .on('click', function() { mouseevent3(); });
+
+    var legend = svg.append("g");
+
+    legend.append("rect")
+          .attr("x", 600)
+          .attr("y", 800)
+          .attr("width", "400px")
+          .attr("height", "250px")
+          .style("fill", "none")
+          .style("stroke", "black")
+          .style("stroke-width", 0.75);
+
+    legend.append("circle")
+          .attr("cx", 650)
+          .attr("cy", 870)
+          .attr("r", 20)
+          .attr("fill", color_node("non-profit"));
+
+    legend.append("text")
+          .text("Non-Profit")
+          .style("fill", "black")
+          .style("font-size", "48px")
+          .attr("x", 700)
+          .attr("y", 880);
+
+    legend.append("circle")
+          .attr("cx", 650)
+          .attr("cy", 960)
+          .attr("r", 20)
+          .attr("fill", color_node("faculty"));
+
+    legend.append("text")
+          .text("Faculty")
+          .style("fill", "black")
+          .style("font-size", "48px")
+          .attr("x", 700)
+          .attr("y", 970);
 
    function mouseevent(d, event) {
 
