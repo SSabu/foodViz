@@ -24,13 +24,13 @@ a.active.nav-link {
 }
 
 .right {
-  width: 40%;
+  width: 50%;
   float: left;
   padding-top: 50px;
 }
 
 .middle {
-  width: 60%;
+  width: 50%;
   float: left;
 }
 
@@ -38,18 +38,14 @@ a.active.nav-link {
   padding-left: 20px;
 }
 
-/* #searchNP {
-  width: 75%;
-}
-
-.select2-Fac {
-  width: 75%;
-} */
-
 #searchLinkagesNP {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 #searchLinkagesFac {
   padding-top: 50px;
+}
+
+.or {
+  padding-top: 30px;
 }
