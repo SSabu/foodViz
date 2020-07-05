@@ -863,7 +863,8 @@ function network1(data) {
       return node.id === value;
     });
 
-    mouseevent2(selection[0]);
+    var data = mouseevent2(selection[0]);
+    createTable(data);
 
   });
 
@@ -872,43 +873,53 @@ function network1(data) {
     var value = $(".select2-Fac-Links").select2().val();
 
     if (value === "2") {
-      mouseevent4(nodesWeight2, weight2.unmatched, 2);
+      var data2 = mouseevent4(nodesWeight2, weight2.unmatched, 2);
+      createTable(data2);
     }
 
     if (value === "3") {
-      mouseevent4(nodesWeight3, weight3.unmatched, 3);
+      var data3 = mouseevent4(nodesWeight3, weight3.unmatched, 3);
+      createTable(data3);
     }
 
     if (value === "4") {
-      mouseevent4(nodesWeight4, weight4.unmatched, 4);
+      var data4 = mouseevent4(nodesWeight4, weight4.unmatched, 4);
+      createTable(data4);
     }
 
     if (value === "5") {
-      mouseevent4(nodesWeight5, weight5.unmatched, 5);
+      var data5 = mouseevent4(nodesWeight5, weight5.unmatched, 5);
+      createTable(data5);
     }
 
     if (value === "6") {
-      mouseevent4(nodesWeight6, weight6.unmatched, 6);
+      var data6 = mouseevent4(nodesWeight6, weight6.unmatched, 6);
+      createTable(data6);
     }
 
     if (value === "7") {
-      mouseevent4(nodesWeight7, weight7.unmatched, 7);
+      var data7 = mouseevent4(nodesWeight7, weight7.unmatched, 7);
+      createTable(data7);
     }
 
     if (value === "8") {
-      mouseevent4(nodesWeight8, weight8.unmatched, 8);
+      var data8 = mouseevent4(nodesWeight8, weight8.unmatched, 8);
+      createTable(data8);
     }
 
     if (value === "9") {
-      mouseevent4(nodesWeight9, weight9.unmatched, 9);
+      var data9 = mouseevent4(nodesWeight9, weight9.unmatched, 9);
+      createTable(data9);
     }
 
     if (value === "10") {
-      mouseevent4(nodesWeight10, weight10.unmatched, 10);
+      var data10 = mouseevent4(nodesWeight10, weight10.unmatched, 10);
+      createTable(data10);
     }
 
     if (value === "11") {
-      mouseevent4(nodesWeight11, weight11.unmatched, 11);
+      var data11 = mouseevent4(nodesWeight11, weight11.unmatched, 11);
+      createTable(data11);
     }
 
   });
@@ -1187,6 +1198,8 @@ function network1(data) {
 
    function mouseevent2(d) {
 
+     var tableData = [];
+
      node.on("mouseout", function() { return; })
          .on("mouseover", function() { return; });
 
@@ -1224,6 +1237,10 @@ function network1(data) {
       .style("stroke-opacity", line_opacity);
 
     d3.selectAll("line.from"+d.id).each(function(e) {
+
+      if (tableData.indexOf(e) === -1) {
+        tableData.push(e);
+      }
 
       e.type = "out";
 
@@ -1281,9 +1298,13 @@ function network1(data) {
           .style("opacity", dot_selected_opacity);
       });
 
+      return tableData;
+
    }
 
    function mouseevent3() {
+
+     $("#tableF").empty();
 
      node.attr('pointer-events', 'all');
 
@@ -1321,6 +1342,8 @@ function network1(data) {
 
    function mouseevent4(nodeArray, idUnmatched, weight) {
 
+     var tableData = [];
+
      node.on("mouseout", function() { return; })
          .on("mouseover", function() { return; });
 
@@ -1348,6 +1371,12 @@ function network1(data) {
 
       d3.selectAll("line.weight"+weight).each(function(e) {
 
+        // console.log("out", e);
+
+        if (tableData.indexOf(e) === -1) {
+          tableData.push(e);
+        }
+
         e.type = "out";
 
       })
@@ -1374,7 +1403,53 @@ function network1(data) {
 
     idUnmatched.forEach(function(id) {
       d3.select("circle#_"+id +"_1").transition().style("opacity", dot_other_opacity);
-    })
+    });
+
+    return tableData;
+
+   }
+
+   function createTable(dataArray) {
+
+     var indexArray = [];
+
+     var rowArray = []
+
+     for(var i= 0; i<dataArray.length; i++) {
+
+       var row = {};
+
+       if (indexArray.indexOf(dataArray[i].index) === -1) {
+
+         indexArray.push(dataArray[i].index);
+
+         row["source"] = dataArray[i].source.label;
+         row["target"] = dataArray[i].target.label;
+         row["weight"] = dataArray[i].weight;
+
+         rowArray.push(row);
+
+       } else {
+         break;
+       }
+
+     };
+
+     rowArray.sort(function(a,b) {
+       var textA = a.source.split(" ")[1].toLowerCase();
+       var textB = b.source.split(" ")[1].toLowerCase();
+       if(textA < textB) { return -1; }
+       if(textA > textB) { return 1; }
+       return 0;
+     });
+
+     $("#tableF").append("<table id='tableSortedF' class='table table-bordered'><thead><tr><th scope='col'>#</th><th scope='col'>Non-Profit</th><th scope='col'>ASU Faculty</th><th scope='col'>Weight</th></tr></thead><tbody></tbody>");
+
+     rowArray.forEach(function(row, i) {
+
+       $("#tableSortedF tr:last").after(`<tr><th scope='row'>${i+1}</th><td>${ row.target }</td><td>${ row.source }</td><td>${ row.weight }</td></tr>`);
+
+     });
 
    }
 
@@ -1499,13 +1574,9 @@ function network2(data) {
   });
 
   $(document).ready(function() {
-    $('.select2-NP').select2({
-      // placeholder: 'Select a faculty'
-    });
+    $('.select2-NP').select2();
 
-    $('.select2-NP-Links').select2({
-      // placeholder: 'Select a faculty'
-    });
+    $('.select2-NP-Links').select2();
   });
 
   labels.forEach(function(option) {
@@ -1524,7 +1595,8 @@ function network2(data) {
       return node.id === value;
     });
 
-    mouseevent2(selection[0]);
+    var data = mouseevent2(selection[0]);
+    createTable(data);
 
   });
 
@@ -1533,43 +1605,53 @@ function network2(data) {
     var value = $(".select2-NP-Links").select2().val();
 
     if (value === "2") {
-      mouseevent4(nodesWeight2, weight2.unmatched, 2);
+      var data2 = mouseevent4(nodesWeight2, weight2.unmatched, 2);
+      createTable(data2);
     }
 
     if (value === "3") {
-      mouseevent4(nodesWeight3, weight3.unmatched, 3);
+      var data3 = mouseevent4(nodesWeight3, weight3.unmatched, 3);
+      createTable(data3);
     }
 
     if (value === "4") {
-      mouseevent4(nodesWeight4, weight4.unmatched, 4);
+      var data4 = mouseevent4(nodesWeight4, weight4.unmatched, 4);
+      createTable(data4);
     }
 
     if (value === "5") {
-      mouseevent4(nodesWeight5, weight5.unmatched, 5);
+      var data5 = mouseevent4(nodesWeight5, weight5.unmatched, 5);
+      createTable(data5);
     }
 
     if (value === "6") {
-      mouseevent4(nodesWeight6, weight6.unmatched, 6);
+      var data6 = mouseevent4(nodesWeight6, weight6.unmatched, 6);
+      createTable(data6);
     }
 
     if (value === "7") {
-      mouseevent4(nodesWeight7, weight7.unmatched, 7);
+      var data7 = mouseevent4(nodesWeight7, weight7.unmatched, 7);
+      createTable(data7);
     }
 
     if (value === "8") {
-      mouseevent4(nodesWeight8, weight8.unmatched, 8);
+      var data8 = mouseevent4(nodesWeight8, weight8.unmatched, 8);
+      createTable(data8);
     }
 
     if (value === "9") {
-      mouseevent4(nodesWeight9, weight9.unmatched, 9);
+      var data9 = mouseevent4(nodesWeight9, weight9.unmatched, 9);
+      createTable(data9);
     }
 
     if (value === "10") {
-      mouseevent4(nodesWeight10, weight10.unmatched, 10);
+      var data10 = mouseevent4(nodesWeight10, weight10.unmatched, 10);
+      createTable(data10);
     }
 
     if (value === "11") {
-      mouseevent4(nodesWeight11, weight11.unmatched, 11);
+      var data11 = mouseevent4(nodesWeight11, weight11.unmatched, 11);
+      createTable(data11);
     }
 
   });
@@ -1851,6 +1933,8 @@ function network2(data) {
 
    function mouseevent2(d) {
 
+     var tableData = [];
+
      node.on("mouseout", function() { return; })
          .on("mouseover", function() { return; });
 
@@ -1877,6 +1961,12 @@ function network2(data) {
     // controls lines
 
     d3.selectAll("line.to" + d.id).each(function(e) {
+
+      // console.log(e);
+
+      if (tableData.indexOf(e) === -1) {
+        tableData.push(e);
+      }
 
       e.type = "in";
 
@@ -1949,9 +2039,13 @@ function network2(data) {
           .style("opacity", dot_selected_opacity);
       });
 
+      return tableData;
+
    }
 
    function mouseevent3() {
+
+     $("#tableNP").empty();
 
      node.attr('pointer-events', 'all');
 
@@ -1989,6 +2083,8 @@ function network2(data) {
 
    function mouseevent4(nodeArray, idUnmatched, weight) {
 
+     var tableData = [];
+
      node.on("mouseout", function() { return; })
          .on("mouseover", function() { return; });
 
@@ -2016,6 +2112,10 @@ function network2(data) {
 
       d3.selectAll("line.weight" + weight).each(function(e) {
 
+        if (tableData.indexOf(e) === -1) {
+          tableData.push(e);
+        }
+
         e.type = "in";
 
       })
@@ -2042,6 +2142,52 @@ function network2(data) {
     idUnmatched.forEach(function(id) {
       d3.select("circle#_"+id+"_2").transition().style("opacity", dot_other_opacity);
     });
+
+    return tableData;
+
+   }
+
+   function createTable(dataArray) {
+
+     var indexArray = [];
+
+     var rowArray = []
+
+     for(var i= 0; i<dataArray.length; i++) {
+
+       var row = {};
+
+       if (indexArray.indexOf(dataArray[i].index) === -1) {
+
+         indexArray.push(dataArray[i].index);
+
+         row["source"] = dataArray[i].source.label;
+         row["target"] = dataArray[i].target.label;
+         row["weight"] = dataArray[i].weight;
+
+         rowArray.push(row);
+
+       } else {
+         break;
+       }
+
+     };
+
+     rowArray.sort(function(a,b) {
+       var textA = a.source.split(" ")[1].toLowerCase();
+       var textB = b.source.split(" ")[1].toLowerCase();
+       if(textA < textB) { return -1; }
+       if(textA > textB) { return 1; }
+       return 0;
+     });
+
+     $("#tableNP").append("<table id='tableSortedNP' class='table table-bordered'><thead><tr><th scope='col'>#</th><th scope='col'>Non-Profit</th><th scope='col'>ASU Faculty</th><th scope='col'>Weight</th></tr></thead><tbody></tbody>");
+
+     rowArray.forEach(function(row, i) {
+
+       $("#tableSortedNP tr:last").after(`<tr><th scope='row'>${i+1}</th><td>${ row.target }</td><td>${ row.source }</td><td>${ row.weight }</td></tr>`);
+
+     });
 
    }
 
