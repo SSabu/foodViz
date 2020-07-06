@@ -259,8 +259,8 @@ function network(data) {
     var rect = svg.append("g");
 
     rect.append("rect")
-        .attr("x", -2200)
-        .attr("y", 850)
+        .attr("x", -2400)
+        .attr("y", 830)
         .attr("rx", 20)
         .attr("ry", 20)
         .attr("width", "200px")
@@ -272,8 +272,8 @@ function network(data) {
         .attr("x", function(d) {
           var textSelection = d3.selectAll("text");
           var textLength = textSelection._groups[0][textSelection._groups[0].length-1].getComputedTextLength();
-          return (-2203 + (textLength/2));   })
-        .attr("y", 915);
+          return (-2403 + (textLength/2));   })
+        .attr("y", 895);
 
     rect.on("mouseover", function(d) { d3.select(this).style("cursor", "pointer")})
         .on('click', function() { mouseevent3(); });
@@ -1131,8 +1131,8 @@ function network1(data) {
     var rect = svg.append("g");
 
     rect.append("rect")
-        .attr("x", -2230)
-        .attr("y", 880)
+        .attr("x", -2400)
+        .attr("y", 830)
         .attr("rx", 20)
         .attr("ry", 20)
         .attr("width", "200px")
@@ -1144,8 +1144,8 @@ function network1(data) {
         .attr("x", function(d) {
           var textSelection = d3.selectAll("text");
           var textLength = textSelection._groups[0][textSelection._groups[0].length-1].getComputedTextLength();
-          return (-2180 + (textLength/2));   })
-        .attr("y", 942);
+          return (-2350 + (textLength/2));   })
+        .attr("y", 892);
 
     rect.on("mouseover", function(d) { d3.select(this).style("cursor", "pointer")})
         .on('click', function() { mouseevent3(); });
@@ -1904,8 +1904,8 @@ function network2(data) {
     var rect = svg.append("g");
 
     rect.append("rect")
-        .attr("x", -2230)
-        .attr("y", 880)
+        .attr("x", -2400)
+        .attr("y", 830)
         .attr("rx", 20)
         .attr("ry", 20)
         .attr("width", "200px")
@@ -1917,8 +1917,8 @@ function network2(data) {
         .attr("x", function(d) {
           var textSelection = d3.selectAll("text");
           var textLength = textSelection._groups[0][textSelection._groups[0].length-1].getComputedTextLength();
-          return (-2180 + (textLength/2));   })
-        .attr("y", 942);
+          return (-2350 + (textLength/2));   })
+        .attr("y", 892);
 
     rect.on("mouseover", function(d) { d3.select(this).style("cursor", "pointer")})
         .on('click', function() { mouseevent3(); });
