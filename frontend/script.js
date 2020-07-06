@@ -91,30 +91,30 @@ function network(data) {
                      .force("center", d3.forceCenter(width/2, height/2))
                      .alphaMin(0.0001);
 
-  svg.append("defs")
-     .append("marker")
-     .attr("id", "out")
-     .attr("viewBox", "0 , -5, 10, 10")
-     .attr("refX", 23)
-     .attr("refY", 0)
-     .attr("markerWidth", 7)
-     .attr("markerHeight", 15)
-     .attr("orient", "auto")
-     .append("path")
-     .attr("d", "M0,-5L10,0L0,5");
-
-  svg.append("defs")
-     .append("marker")
-     .attr("id", "in")
-     .attr("viewBox", "0, -5, 10, 10")
-     .attr("refX", 23)
-     .attr("refY", 0)
-     .attr("markerWidth", 7)
-     .attr("markerHeight", 15)
-     .attr("orient", "auto")
-     .append("path")
-     .attr("d", "M0,-5L10,0L0,5")
-     .attr("fill", "rgb(218,41,28)");
+  // svg.append("defs")
+  //    .append("marker")
+  //    .attr("id", "out")
+  //    .attr("viewBox", "0 , -5, 10, 10")
+  //    .attr("refX", 23)
+  //    .attr("refY", 0)
+  //    .attr("markerWidth", 7)
+  //    .attr("markerHeight", 15)
+  //    .attr("orient", "auto")
+  //    .append("path")
+  //    .attr("d", "M0,-5L10,0L0,5");
+  //
+  // svg.append("defs")
+  //    .append("marker")
+  //    .attr("id", "in")
+  //    .attr("viewBox", "0, -5, 10, 10")
+  //    .attr("refX", 23)
+  //    .attr("refY", 0)
+  //    .attr("markerWidth", 7)
+  //    .attr("markerHeight", 15)
+  //    .attr("orient", "auto")
+  //    .append("path")
+  //    .attr("d", "M0,-5L10,0L0,5")
+  //    .attr("fill", "rgb(218,41,28)");
 
   var defs = svg.append("defs");
 
@@ -307,7 +307,7 @@ function network(data) {
     buttonRow.append("rect")
              .attr("x", -1150)
              .attr("y", -1150)
-             .attr("width", "2740px")
+             .attr("width", "2800px")
              .attr("height", "100px")
              .attr("fill", "white")
              .style("filter", "url(#glow)");
@@ -317,7 +317,7 @@ function network(data) {
     buttonOne.append("rect")
              .attr("x", -1150)
              .attr("y", -1150)
-             .attr("width", "685px")
+             .attr("width", "700px")
              .attr("height", "100px")
              .attr("fill", "white")
              .attr("stroke", "black")
@@ -334,9 +334,9 @@ function network(data) {
     var buttonTwo = buttonRow.append("g");
 
     buttonTwo.append("rect")
-             .attr("x", -465)
+             .attr("x", -450)
              .attr("y", -1150)
-             .attr("width", "685px")
+             .attr("width", "700px")
              .attr("height", "100px")
              .attr("fill", "white")
              .attr("stroke", "black")
@@ -347,15 +347,15 @@ function network(data) {
                .style("fill", "#cc00ff")
                .style("font-size", "44px")
                .attr("font-family", "Monospace")
-               .attr("x", -440)
+               .attr("x", -425)
                .attr("y", -1090);
 
     var buttonThree = buttonRow.append("g");
 
     buttonThree.append("rect")
-               .attr("x", 220)
+               .attr("x", 250)
                .attr("y", -1150)
-               .attr("width", "680px")
+               .attr("width", "700px")
                .attr("height", "100px")
                .attr("fill", "white")
                .attr("stroke", "black")
@@ -366,13 +366,13 @@ function network(data) {
              .style("fill", "#cc00ff")
              .style("font-size", "44px")
              .attr("font-family", "Monospace")
-             .attr("x", 300)
+             .attr("x", 315)
              .attr("y", -1090);
 
     var buttonFour = buttonRow.append("g");
 
     buttonFour.append("rect")
-              .attr("x", 890)
+              .attr("x", 950)
               .attr("y", -1150)
               .attr("width", "700px")
               .attr("height", "100px")
@@ -385,7 +385,7 @@ function network(data) {
              .style("fill", "#cc00ff")
              .style("font-size", "44px")
              .attr("font-family", "Monospace")
-             .attr("x", 905)
+             .attr("x", 970)
              .attr("y", -1090);
 
     buttonOne.on('click', function() {
@@ -409,7 +409,7 @@ function network(data) {
      var line_out_color = (event === "mouseover") ? "rgb(61, 65, 66)" : "rgb(208, 211, 212)",
          line_in_color = (event === "mouseover") ? "rgb(218, 41, 28)" : "rgb(208, 211, 212)",
          line_opacity = (event === "mouseover") ? 1: 0.3,
-         line_stroke_out = (event === "mouseover") ? 2 : 1,
+         line_stroke_out = (event === "mouseover") ? 3 : 1,
          dot_self_color = (event === "mouesover") ? "rgb(218, 41, 28)" : "#fff",
          dot_other_color = (event === "mouseover") ? "black" : "#fff",
          dot_selected_opacity = 1,
@@ -431,9 +431,9 @@ function network(data) {
       e.type = "in";
 
       })
-      .attr("marker-end", function(e) {
-        return (event === "mouseover") ? "url(#"+e.type+")" : "none";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+")";
+      // })
       .style("stroke", line_in_color)
       .transition()
       .duration(500)
@@ -442,9 +442,9 @@ function network(data) {
     d3.selectAll("line.from"+d.id).each(function(e) {
       e.type = "out";
       })
-      .attr("marker-end", function(e) {
-        return (event === "mouseover") ? "url(#"+e.type+")" : "none";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+")";
+      // })
       .style("stoke", line_out_color)
       .style("stroke-width", line_stroke_out)
       .transition()
@@ -493,7 +493,7 @@ function network(data) {
         } else {
           d3.select("circle#_"+e.target.id)
             .attr("r", function(e1) {
-              console.log(e1);
+              // console.log(e1);
               return e1.radius;
             })
             .style("stroke", dot_other_color)
@@ -528,7 +528,7 @@ function network(data) {
      var line_out_color = "rgb(61, 65, 66)",
          line_in_color = "rgb(218, 41, 28)",
          line_opacity = 1,
-         line_stroke_out = 2,
+         line_stroke_out = 3,
          dot_self_color = "rgb(218, 41, 28)",
          dot_other_color = "black",
          dot_selected_opacity = 1,
@@ -550,9 +550,9 @@ function network(data) {
       e.type = "in";
 
       })
-      .attr("marker-end", function(e) {
-        return "url(#"+e.type+")";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+")";
+      // })
       .style("stroke", line_in_color)
       .transition()
       .duration(500)
@@ -563,9 +563,9 @@ function network(data) {
       e.type = "out";
 
       })
-      .attr("marker-end", function(e) {
-        return "url(#"+e.type+")";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+")";
+      // })
       .style("stoke", line_out_color)
       .style("stroke-width", line_stroke_out)
       .transition()
@@ -615,12 +615,13 @@ function network(data) {
     }).each(function(e) {
       d3.select("circle#_"+e.source.id)
         .attr("r", function(e1) {
-          return e1.radius;
+          return 1.25*e1.radius;
         })
         .each(function(e1) {
           e1.select_radius = d3.select(this).attr("r");
         })
         .style("stroke", dot_other_color)
+        .style("stroke-width", 6)
         .transition()
         .duration(300)
         .style("opacity", dot_selected_opacity);
@@ -672,7 +673,7 @@ function network(data) {
      var line_out_color = "rgb(61, 65, 66)",
          line_in_color = "rgb(218, 41, 28)",
          line_opacity = 1,
-         line_stroke_out = 2,
+         line_stroke_out = 3,
          dot_self_color = "rgb(218, 41, 28)",
          dot_other_color = "black",
          dot_selected_opacity = 1,
@@ -690,9 +691,9 @@ function network(data) {
         e.type = "in";
 
       })
-      .attr("marker-end", function(e) {
-        return "url(#"+e.type+")";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+")";
+      // })
       .style("stroke", line_in_color)
       .transition()
       .duration(500)
@@ -703,9 +704,9 @@ function network(data) {
         e.type = "out";
 
       })
-      .attr("marker-end", function(e) {
-        return "url(#"+e.type+")";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+")";
+      // })
       .style("stoke", line_out_color)
       .style("stroke-width", line_stroke_out)
       .transition()
@@ -1007,30 +1008,30 @@ function network1(data) {
                      .force("center", d3.forceCenter(width/2, height/2))
                      .alphaMin(0.0001);
 
-  svg.append("defs")
-     .append("marker")
-     .attr("id", "out_1")
-     .attr("viewBox", "0 , -5, 10, 10")
-     .attr("refX", 23)
-     .attr("refY", 0)
-     .attr("markerWidth", 7)
-     .attr("markerHeight", 15)
-     .attr("orient", "auto")
-     .append("path")
-     .attr("d", "M0,-5L10,0L0,5");
-
-  svg.append("defs")
-     .append("marker")
-     .attr("id", "in_1")
-     .attr("viewBox", "0, -5, 10, 10")
-     .attr("refX", 23)
-     .attr("refY", 0)
-     .attr("markerWidth", 7)
-     .attr("markerHeight", 15)
-     .attr("orient", "auto")
-     .append("path")
-     .attr("d", "M0,-5L10,0L0,5")
-     .attr("fill", "rgb(218,41,28)");
+  // svg.append("defs")
+  //    .append("marker")
+  //    .attr("id", "out_1")
+  //    .attr("viewBox", "0 , -5, 10, 10")
+  //    .attr("refX", 23)
+  //    .attr("refY", 0)
+  //    .attr("markerWidth", 7)
+  //    .attr("markerHeight", 15)
+  //    .attr("orient", "auto")
+  //    .append("path")
+  //    .attr("d", "M0,-5L10,0L0,5");
+  //
+  // svg.append("defs")
+  //    .append("marker")
+  //    .attr("id", "in_1")
+  //    .attr("viewBox", "0, -5, 10, 10")
+  //    .attr("refX", 23)
+  //    .attr("refY", 0)
+  //    .attr("markerWidth", 7)
+  //    .attr("markerHeight", 15)
+  //    .attr("orient", "auto")
+  //    .append("path")
+  //    .attr("d", "M0,-5L10,0L0,5")
+  //    .attr("fill", "rgb(218,41,28)");
 
   var defs = svg.append("defs");
 
@@ -1153,8 +1154,8 @@ function network1(data) {
     var legend = svg.append("g");
 
     legend.append("rect")
-          .attr("x", 600)
-          .attr("y", 800)
+          .attr("x", 100)
+          .attr("y", 700)
           .attr("width", "400px")
           .attr("height", "250px")
           .style("fill", "none")
@@ -1162,8 +1163,8 @@ function network1(data) {
           .style("stroke-width", 0.75);
 
     legend.append("circle")
-          .attr("cx", 650)
-          .attr("cy", 870)
+          .attr("cx", 150)
+          .attr("cy", 770)
           .attr("r", 20)
           .attr("fill", color_node("faculty"));
 
@@ -1171,12 +1172,12 @@ function network1(data) {
           .text("Faculty")
           .style("fill", "black")
           .style("font-size", "48px")
-          .attr("x", 700)
-          .attr("y", 880);
+          .attr("x", 200)
+          .attr("y", 780);
 
     legend.append("circle")
-          .attr("cx", 650)
-          .attr("cy", 960)
+          .attr("cx", 150)
+          .attr("cy", 860)
           .attr("r", 20)
           .attr("fill", color_node("non-profit"));
 
@@ -1184,15 +1185,15 @@ function network1(data) {
           .text("Non-Profit")
           .style("fill", "black")
           .style("font-size", "48px")
-          .attr("x", 700)
-          .attr("y", 970);
+          .attr("x", 200)
+          .attr("y", 870);
 
    function mouseevent(d, event) {
 
      var line_out_color = (event === "mouseover") ? "rgb(61, 65, 66)" : "rgb(208, 211, 212)",
          line_in_color = (event === "mouseover") ? "rgb(218, 41, 28)" : "rgb(208, 211, 212)",
          line_opacity = (event === "mouseover") ? 1: 0.3,
-         line_stroke_out = (event === "mouseover") ? 2 : 1,
+         line_stroke_out = (event === "mouseover") ? 3 : 1,
          dot_self_color = (event === "mouesover") ? "rgb(218, 41, 28)" : "#fff",
          dot_other_color = (event === "mouseover") ? "black" : "#fff",
          dot_selected_opacity = 1,
@@ -1214,9 +1215,9 @@ function network1(data) {
       e.type = "in";
 
       })
-      .attr("marker-end", function(e) {
-        return (event === "mouseover") ? "url(#"+e.type+"_1)" : "none";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+"_1)";
+      // })
       .style("stroke", line_in_color)
       .transition()
       .duration(500)
@@ -1225,9 +1226,9 @@ function network1(data) {
     d3.selectAll("line.from"+d.id).each(function(e) {
       e.type = "out";
       })
-      .attr("marker-end", function(e) {
-        return (event === "mouseover") ? "url(#"+e.type+"_1)" : "none";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+"_1)";
+      // })
       .style("stoke", line_out_color)
       .style("stroke-width", line_stroke_out)
       .transition()
@@ -1299,7 +1300,7 @@ function network1(data) {
      var line_out_color = "rgb(61, 65, 66)",
          line_in_color = "rgb(218, 41, 28)",
          line_opacity = 1,
-         line_stroke_out = 2,
+         line_stroke_out = 3,
          dot_self_color = "rgb(218, 41, 28)",
          dot_other_color = "black",
          dot_selected_opacity = 1,
@@ -1321,9 +1322,9 @@ function network1(data) {
       e.type = "in";
 
       })
-      .attr("marker-end", function(e) {
-        return "url(#"+e.type+"_1)";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+"_1)";
+      // })
       .style("stroke", line_in_color)
       .transition()
       .duration(500)
@@ -1338,9 +1339,9 @@ function network1(data) {
       e.type = "out";
 
       })
-      .attr("marker-end", function(e) {
-        return "url(#"+e.type+"_1)";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+"_1)";
+      // })
       .style("stoke", line_out_color)
       .style("stroke-width", line_stroke_out)
       .transition()
@@ -1443,7 +1444,7 @@ function network1(data) {
      var line_out_color = "rgb(61, 65, 66)",
          line_in_color = "rgb(218, 41, 28)",
          line_opacity = 1,
-         line_stroke_out = 2,
+         line_stroke_out = 3,
          dot_self_color = "rgb(218, 41, 28)",
          dot_other_color = "black",
          dot_selected_opacity = 1,
@@ -1473,9 +1474,9 @@ function network1(data) {
         e.type = "out";
 
       })
-      .attr("marker-end", function(e) {
-        return "url(#"+e.type+"_1)";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+"_1)";
+      // })
       .style("stoke", line_out_color)
       .style("stroke-width", line_stroke_out)
       .transition()
@@ -1777,30 +1778,30 @@ function network2(data) {
                      .force("center", d3.forceCenter(width/2, height/2))
                      .alphaMin(0.0001);
 
-  svg.append("defs")
-     .append("marker")
-     .attr("id", "out_2")
-     .attr("viewBox", "0 , -5, 10, 10")
-     .attr("refX", 23)
-     .attr("refY", 0)
-     .attr("markerWidth", 7)
-     .attr("markerHeight", 15)
-     .attr("orient", "auto")
-     .append("path")
-     .attr("d", "M0,-5L10,0L0,5");
-
-  svg.append("defs")
-     .append("marker")
-     .attr("id", "in_2")
-     .attr("viewBox", "0, -5, 10, 10")
-     .attr("refX", 23)
-     .attr("refY", 0)
-     .attr("markerWidth", 7)
-     .attr("markerHeight", 15)
-     .attr("orient", "auto")
-     .append("path")
-     .attr("d", "M0,-5L10,0L0,5")
-     .attr("fill", "rgb(218,41,28)");
+  // svg.append("defs")
+  //    .append("marker")
+  //    .attr("id", "out_2")
+  //    .attr("viewBox", "0 , -5, 10, 10")
+  //    .attr("refX", 23)
+  //    .attr("refY", 0)
+  //    .attr("markerWidth", 7)
+  //    .attr("markerHeight", 15)
+  //    .attr("orient", "auto")
+  //    .append("path")
+  //    .attr("d", "M0,-5L10,0L0,5");
+  //
+  // svg.append("defs")
+  //    .append("marker")
+  //    .attr("id", "in_2")
+  //    .attr("viewBox", "0, -5, 10, 10")
+  //    .attr("refX", 23)
+  //    .attr("refY", 0)
+  //    .attr("markerWidth", 7)
+  //    .attr("markerHeight", 15)
+  //    .attr("orient", "auto")
+  //    .append("path")
+  //    .attr("d", "M0,-5L10,0L0,5")
+  //    .attr("fill", "rgb(218,41,28)");
 
   var defs = svg.append("defs");
 
@@ -1925,8 +1926,8 @@ function network2(data) {
     var legend = svg.append("g");
 
     legend.append("rect")
-          .attr("x", 600)
-          .attr("y", 800)
+          .attr("x", 100)
+          .attr("y", 700)
           .attr("width", "400px")
           .attr("height", "250px")
           .style("fill", "none")
@@ -1934,8 +1935,8 @@ function network2(data) {
           .style("stroke-width", 0.75);
 
     legend.append("circle")
-          .attr("cx", 650)
-          .attr("cy", 870)
+          .attr("cx", 150)
+          .attr("cy", 770)
           .attr("r", 20)
           .attr("fill", color_node("non-profit"));
 
@@ -1943,12 +1944,12 @@ function network2(data) {
           .text("Non-Profit")
           .style("fill", "black")
           .style("font-size", "48px")
-          .attr("x", 700)
-          .attr("y", 880);
+          .attr("x", 200)
+          .attr("y", 780);
 
     legend.append("circle")
-          .attr("cx", 650)
-          .attr("cy", 960)
+          .attr("cx", 150)
+          .attr("cy", 860)
           .attr("r", 20)
           .attr("fill", color_node("faculty"));
 
@@ -1956,15 +1957,15 @@ function network2(data) {
           .text("Faculty")
           .style("fill", "black")
           .style("font-size", "48px")
-          .attr("x", 700)
-          .attr("y", 970);
+          .attr("x", 200)
+          .attr("y", 870);
 
    function mouseevent(d, event) {
 
      var line_out_color = (event === "mouseover") ? "rgb(61, 65, 66)" : "rgb(208, 211, 212)",
          line_in_color = (event === "mouseover") ? "rgb(218, 41, 28)" : "rgb(208, 211, 212)",
          line_opacity = (event === "mouseover") ? 1: 0.3,
-         line_stroke_out = (event === "mouseover") ? 2 : 1,
+         line_stroke_out = (event === "mouseover") ? 3 : 1,
          dot_self_color = (event === "mouesover") ? "rgb(218, 41, 28)" : "#fff",
          dot_other_color = (event === "mouseover") ? "black" : "#fff",
          dot_selected_opacity = 1,
@@ -1986,9 +1987,9 @@ function network2(data) {
       e.type = "in";
 
       })
-      .attr("marker-end", function(e) {
-        return (event === "mouseover") ? "url(#"+e.type+"_2)" : "none";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+"_2)";
+      // })
       .style("stroke", line_in_color)
       .transition()
       .duration(500)
@@ -1997,9 +1998,9 @@ function network2(data) {
     d3.selectAll("line.from"+d.id).each(function(e) {
       e.type = "out";
       })
-      .attr("marker-end", function(e) {
-        return (event === "mouseover") ? "url(#"+e.type+"_2)" : "none";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+"_2)";
+      // })
       .style("stoke", line_out_color)
       .style("stroke-width", line_stroke_out)
       .transition()
@@ -2071,7 +2072,7 @@ function network2(data) {
      var line_out_color = "rgb(61, 65, 66)",
          line_in_color = "rgb(218, 41, 28)",
          line_opacity = 1,
-         line_stroke_out = 2,
+         line_stroke_out = 3,
          dot_self_color = "rgb(218, 41, 28)",
          dot_other_color = "black",
          dot_selected_opacity = 1,
@@ -2101,9 +2102,9 @@ function network2(data) {
       e.type = "in";
 
       })
-      .attr("marker-end", function(e) {
-        return "url(#"+e.type+"_2)";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+"_2)";
+      // })
       .style("stroke", line_in_color)
       .transition()
       .duration(500)
@@ -2114,9 +2115,9 @@ function network2(data) {
       e.type = "out";
 
       })
-      .attr("marker-end", function(e) {
-        return "url(#"+e.type+"_2)";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+"_2)";
+      // })
       .style("stoke", line_out_color)
       .style("stroke-width", line_stroke_out)
       .transition()
@@ -2221,7 +2222,7 @@ function network2(data) {
      var line_out_color = "rgb(61, 65, 66)",
          line_in_color = "rgb(218, 41, 28)",
          line_opacity = 1,
-         line_stroke_out = 2,
+         line_stroke_out = 3,
          dot_self_color = "rgb(218, 41, 28)",
          dot_other_color = "black",
          dot_selected_opacity = 1,
@@ -2249,9 +2250,9 @@ function network2(data) {
         e.type = "in";
 
       })
-      .attr("marker-end", function(e) {
-        return "url(#"+e.type+"_2)";
-      })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+"_2)";
+      // })
       .style("stroke", line_in_color)
       .transition()
       .duration(500)
