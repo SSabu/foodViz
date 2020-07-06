@@ -328,7 +328,7 @@ function network(data) {
              .style("fill", "#000")
              .style("font-size", "44px")
              .attr("font-family", "Monospace")
-             .attr("x", -1130)
+             .attr("x", -1090)
              .attr("y", -1090);
 
     var buttonTwo = buttonRow.append("g");
@@ -385,7 +385,7 @@ function network(data) {
              .style("fill", "#000")
              .style("font-size", "44px")
              .attr("font-family", "Monospace")
-             .attr("x", 1130)
+             .attr("x", 1170)
              .attr("y", -1090);
 
     buttonOne.on('click', function() {
