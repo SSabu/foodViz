@@ -1154,8 +1154,8 @@ function network1(data) {
     var legend = svg.append("g");
 
     legend.append("rect")
-          .attr("x", 50)
-          .attr("y", 700)
+          .attr("x", -2410)
+          .attr("y", -1100)
           .attr("width", "400px")
           .attr("height", "250px")
           .style("fill", "none")
@@ -1163,8 +1163,8 @@ function network1(data) {
           .style("stroke-width", 0.75);
 
     legend.append("circle")
-          .attr("cx", 100)
-          .attr("cy", 770)
+          .attr("cx", -2360)
+          .attr("cy", -1030)
           .attr("r", 20)
           .attr("fill", color_node("faculty"));
 
@@ -1172,12 +1172,12 @@ function network1(data) {
           .text("Faculty")
           .style("fill", "black")
           .style("font-size", "48px")
-          .attr("x", 150)
-          .attr("y", 780);
+          .attr("x", -2300)
+          .attr("y", -1015);
 
     legend.append("circle")
-          .attr("cx", 100)
-          .attr("cy", 860)
+          .attr("cx", -2360)
+          .attr("cy", -920)
           .attr("r", 20)
           .attr("fill", color_node("non-profit"));
 
@@ -1185,8 +1185,8 @@ function network1(data) {
           .text("Non-Profit")
           .style("fill", "black")
           .style("font-size", "48px")
-          .attr("x", 150)
-          .attr("y", 870);
+          .attr("x", -2300)
+          .attr("y", -905);
 
    function mouseevent(d, event) {
 
@@ -1926,8 +1926,8 @@ function network2(data) {
     var legend = svg.append("g");
 
     legend.append("rect")
-          .attr("x", 50)
-          .attr("y", 700)
+          .attr("x", -2410)
+          .attr("y", -1100)
           .attr("width", "400px")
           .attr("height", "250px")
           .style("fill", "none")
@@ -1935,8 +1935,8 @@ function network2(data) {
           .style("stroke-width", 0.75);
 
     legend.append("circle")
-          .attr("cx", 100)
-          .attr("cy", 770)
+          .attr("cx", -2360)
+          .attr("cy", -1030)
           .attr("r", 20)
           .attr("fill", color_node("non-profit"));
 
@@ -1944,12 +1944,12 @@ function network2(data) {
           .text("Non-Profit")
           .style("fill", "black")
           .style("font-size", "48px")
-          .attr("x", 150)
-          .attr("y", 780);
+          .attr("x", -2300)
+          .attr("y", -1015);
 
     legend.append("circle")
-          .attr("cx", 100)
-          .attr("cy", 860)
+          .attr("cx", -2360)
+          .attr("cy", -920)
           .attr("r", 20)
           .attr("fill", color_node("faculty"));
 
@@ -1957,8 +1957,8 @@ function network2(data) {
           .text("Faculty")
           .style("fill", "black")
           .style("font-size", "48px")
-          .attr("x", 150)
-          .attr("y", 870);
+          .attr("x", -2300)
+          .attr("y", -905);
 
    function mouseevent(d, event) {
 
