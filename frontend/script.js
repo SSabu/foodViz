@@ -1154,7 +1154,7 @@ function network1(data) {
     var legend = svg.append("g");
 
     legend.append("rect")
-          .attr("x", 100)
+          .attr("x", 50)
           .attr("y", 700)
           .attr("width", "400px")
           .attr("height", "250px")
@@ -1163,7 +1163,7 @@ function network1(data) {
           .style("stroke-width", 0.75);
 
     legend.append("circle")
-          .attr("cx", 150)
+          .attr("cx", 100)
           .attr("cy", 770)
           .attr("r", 20)
           .attr("fill", color_node("faculty"));
@@ -1172,11 +1172,11 @@ function network1(data) {
           .text("Faculty")
           .style("fill", "black")
           .style("font-size", "48px")
-          .attr("x", 200)
+          .attr("x", 150)
           .attr("y", 780);
 
     legend.append("circle")
-          .attr("cx", 150)
+          .attr("cx", 100)
           .attr("cy", 860)
           .attr("r", 20)
           .attr("fill", color_node("non-profit"));
@@ -1185,7 +1185,7 @@ function network1(data) {
           .text("Non-Profit")
           .style("fill", "black")
           .style("font-size", "48px")
-          .attr("x", 200)
+          .attr("x", 150)
           .attr("y", 870);
 
    function mouseevent(d, event) {
@@ -1926,7 +1926,7 @@ function network2(data) {
     var legend = svg.append("g");
 
     legend.append("rect")
-          .attr("x", 100)
+          .attr("x", 50)
           .attr("y", 700)
           .attr("width", "400px")
           .attr("height", "250px")
@@ -1935,7 +1935,7 @@ function network2(data) {
           .style("stroke-width", 0.75);
 
     legend.append("circle")
-          .attr("cx", 150)
+          .attr("cx", 100)
           .attr("cy", 770)
           .attr("r", 20)
           .attr("fill", color_node("non-profit"));
@@ -1944,11 +1944,11 @@ function network2(data) {
           .text("Non-Profit")
           .style("fill", "black")
           .style("font-size", "48px")
-          .attr("x", 200)
+          .attr("x", 150)
           .attr("y", 780);
 
     legend.append("circle")
-          .attr("cx", 150)
+          .attr("cx", 100)
           .attr("cy", 860)
           .attr("r", 20)
           .attr("fill", color_node("faculty"));
@@ -1957,7 +1957,7 @@ function network2(data) {
           .text("Faculty")
           .style("fill", "black")
           .style("font-size", "48px")
-          .attr("x", 200)
+          .attr("x", 150)
           .attr("y", 870);
 
    function mouseevent(d, event) {

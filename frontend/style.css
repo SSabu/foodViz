@@ -24,13 +24,13 @@ a.active.nav-link {
 }
 
 .right {
-  width: 600px;
+  width: 50%;
   float: left;
   padding-top: 20px;
 }
 
 .middle {
-  width: 850px;
+  width: 50%;
   float: left;
 }
 
