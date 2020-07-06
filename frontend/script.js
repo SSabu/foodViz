@@ -169,7 +169,7 @@ function network(data) {
         .attr("width", config.size)
         .attr("height", config.size)
         .attr("x", -125)
-        .attr("y", 0)
+        .attr("y", 15)
         .attr("patternUnits", "userSpaceOnUse")
         .append("svg:image")
         .attr("xlink:href", "./faculty/"+faculty["name"]+".jpg")
