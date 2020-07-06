@@ -325,7 +325,7 @@ function network(data) {
 
     buttonOne.append("text")
              .text("Agribusiness & Agriculture")
-             .style("fill", "#cc00ff")
+             .style("fill", "#000")
              .style("font-size", "44px")
              .attr("font-family", "Monospace")
              .attr("x", -1130)
@@ -344,10 +344,10 @@ function network(data) {
 
     buttonTwo.append("text")
                .text("Environmental Resilience")
-               .style("fill", "#cc00ff")
+               .style("fill", "#000")
                .style("font-size", "44px")
                .attr("font-family", "Monospace")
-               .attr("x", -375)
+               .attr("x", -345)
                .attr("y", -1090);
 
     var buttonThree = buttonRow.append("g");
@@ -363,10 +363,10 @@ function network(data) {
 
     buttonThree.append("text")
              .text("Nutrition & Health")
-             .style("fill", "#cc00ff")
+             .style("fill", "#000")
              .style("font-size", "44px")
              .attr("font-family", "Monospace")
-             .attr("x", 380)
+             .attr("x", 450)
              .attr("y", -1090);
 
     var buttonFour = buttonRow.append("g");
@@ -382,7 +382,7 @@ function network(data) {
 
     buttonFour.append("text")
              .text("Policy, Justice, & Culture")
-             .style("fill", "#cc00ff")
+             .style("fill", "#000")
              .style("font-size", "44px")
              .attr("font-family", "Monospace")
              .attr("x", 1130)
