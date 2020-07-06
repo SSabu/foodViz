@@ -307,7 +307,7 @@ function network(data) {
     buttonRow.append("rect")
              .attr("x", -1150)
              .attr("y", -1150)
-             .attr("width", "2800px")
+             .attr("width", "3000px")
              .attr("height", "100px")
              .attr("fill", "white")
              .style("filter", "url(#glow)");
@@ -317,7 +317,7 @@ function network(data) {
     buttonOne.append("rect")
              .attr("x", -1150)
              .attr("y", -1150)
-             .attr("width", "700px")
+             .attr("width", "750px")
              .attr("height", "100px")
              .attr("fill", "white")
              .attr("stroke", "black")
@@ -334,9 +334,9 @@ function network(data) {
     var buttonTwo = buttonRow.append("g");
 
     buttonTwo.append("rect")
-             .attr("x", -450)
+             .attr("x", -400)
              .attr("y", -1150)
-             .attr("width", "700px")
+             .attr("width", "750px")
              .attr("height", "100px")
              .attr("fill", "white")
              .attr("stroke", "black")
@@ -347,15 +347,15 @@ function network(data) {
                .style("fill", "#cc00ff")
                .style("font-size", "44px")
                .attr("font-family", "Monospace")
-               .attr("x", -425)
+               .attr("x", -375)
                .attr("y", -1090);
 
     var buttonThree = buttonRow.append("g");
 
     buttonThree.append("rect")
-               .attr("x", 250)
+               .attr("x", 350)
                .attr("y", -1150)
-               .attr("width", "700px")
+               .attr("width", "750px")
                .attr("height", "100px")
                .attr("fill", "white")
                .attr("stroke", "black")
@@ -366,15 +366,15 @@ function network(data) {
              .style("fill", "#cc00ff")
              .style("font-size", "44px")
              .attr("font-family", "Monospace")
-             .attr("x", 315)
+             .attr("x", 380)
              .attr("y", -1090);
 
     var buttonFour = buttonRow.append("g");
 
     buttonFour.append("rect")
-              .attr("x", 950)
+              .attr("x", 1100)
               .attr("y", -1150)
-              .attr("width", "700px")
+              .attr("width", "750px")
               .attr("height", "100px")
               .attr("fill", "white")
               .attr("stroke", "black")
@@ -385,7 +385,7 @@ function network(data) {
              .style("fill", "#cc00ff")
              .style("font-size", "44px")
              .attr("font-family", "Monospace")
-             .attr("x", 970)
+             .attr("x", 1130)
              .attr("y", -1090);
 
     buttonOne.on('click', function() {
