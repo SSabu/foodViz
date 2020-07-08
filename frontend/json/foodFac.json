@@ -982,7 +982,7 @@
     },
     {
       "id": "232",
-      "label": "www.bgcaz.org",
+      "label": "Arizona Boys & Girls Club of the Valley",
       "type": "non-profit",
       "weight": 18,
       "x": -1543.1999999999998,
@@ -996,7 +996,7 @@
     },
     {
       "id": "185",
-      "label": "tihan.org",
+      "label": "Tuscon Interfaith HIV/AIDS Network",
       "type": "non-profit",
       "weight": 18,
       "x": -1113.4,
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "221",
-      "label": "www.asteraz.org",
+      "label": "Aster Empowered Aging",
       "type": "non-profit",
       "weight": 18,
       "x": -1597.8,
@@ -1584,7 +1584,7 @@
     },
     {
       "id": "134",
-      "label": "Friends of Navajo County Anti- Drug Coalition, Inc.",
+      "label": "Friends of Navajo County Anti-Drug Coalition, Inc.",
       "type": "non-profit",
       "weight": 18,
       "x": -857.2,
@@ -1654,7 +1654,7 @@
     },
     {
       "id": "237",
-      "label": "www.borderlandsproducerescue.org",
+      "label": "Borderlands Produce Rescue",
       "type": "non-profit",
       "weight": 18,
       "x": -1404.6,
@@ -7761,7 +7761,7 @@
       },
       {
         "id": "232",
-        "value": "www.bgcaz.org"
+        "value": "Arizona Boys & Girls Club of the Valley"
       },
       {
         "id": "185",
@@ -7785,7 +7785,7 @@
       },
       {
         "id": "221",
-        "value": "www.asteraz.org"
+        "value": "Aster Empowered Aging"
       },
       {
         "id": "315",
@@ -7933,7 +7933,7 @@
       },
       {
         "id": "134",
-        "value": "Friends of Navajo County Anti- Drug Coalition, Inc."
+        "value": "Friends of Navajo County Anti-Drug Coalition, Inc."
       },
       {
         "id": "337",
@@ -7953,7 +7953,7 @@
       },
       {
         "id": "237",
-        "value": "www.borderlandsproducerescue.org"
+        "value": "Borderlands Produce Rescue"
       },
       {
         "id": "253",
