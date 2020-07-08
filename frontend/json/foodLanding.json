@@ -632,7 +632,7 @@
     },
     {
       "id": "175",
-      "label": "superstitionfoodbank.org",
+      "label": "Superstition Community Food Bank",
       "type": "non-profit",
       "weight": 18,
       "x": -305.36111450754373,
@@ -1864,7 +1864,7 @@
     },
     {
       "id": "373",
-      "label": "www.swcenter.org",
+      "label": "Southwest Center for HIV/AIDS",
       "type": "non-profit",
       "weight": 18,
       "x": -1782.5400473635257,
@@ -7661,7 +7661,7 @@
       },
       {
         "id": "175",
-        "value": "superstitionfoodbank.org"
+        "value": "Superstition Community Food Bank"
       },
       {
         "id": "283",
@@ -8013,7 +8013,7 @@
       },
       {
         "id": "373",
-        "value": "www.swcenter.org"
+        "value": "Southwest Center for HIV/AIDS"
       },
       {
         "id": "327",
