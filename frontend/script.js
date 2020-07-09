@@ -898,11 +898,11 @@ function network1(data) {
   $(document).ready(function() {
 
     $('.select2-Fac').select2({
-      placeholder : { id:'0', text:'Please select a faculty member...'}
+      placeholder : { id:'-1', text:'Please select a faculty member...'}
     });
 
     $('.select2-Fac-Links').select2({
-      placeholder : { id:'0', text:'Please select an edge weight...'}
+      placeholder : { id:'-1', text:'Please select an edge weight...'}
     });
 
   });
@@ -1788,11 +1788,11 @@ function network2(data) {
 
   $(document).ready(function() {
     $('.select2-NP').select2({
-      placeholder : { id:'0', text:'Please select a non-profit...'}
+      placeholder : { id:'-1', text:'Please select a non-profit...'}
     });
 
     $('.select2-NP-Links').select2({
-      placeholder : { id:'0', text:'Please select an edge weight...'}
+      placeholder : { id:'-1', text:'Please select an edge weight...'}
     });
   });
 
