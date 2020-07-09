@@ -897,9 +897,13 @@ function network1(data) {
 
   $(document).ready(function() {
 
-    $('.select2-Fac').select2();
+    $('.select2-Fac').select2({
+      placeholder : { id:'0', text:'Please select a faculty member...'}
+    });
 
-    $('.select2-Fac-Links').select2();
+    $('.select2-Fac-Links').select2({
+      placeholder : { id:'0', text:'Please select an edge weight...'}
+    });
 
   });
 
@@ -1400,6 +1404,16 @@ function network1(data) {
 
      $("#tableF").empty();
 
+     $('.select2-Fac').val([]);
+     $(".select2-Fac").select2({
+        placeholder:'Please select a faculty member...'
+      });
+
+    $('.select2-Fac-Links').val([]);
+    $(".select2-Fac-Links").select2({
+       placeholder:'Please select an edge weight...'
+     });
+
      node.attr('pointer-events', 'all');
 
      node.on("mouseover", function(d) { mouseevent(d, "mouseover"); })
@@ -1503,11 +1517,78 @@ function network1(data) {
 
    }
 
+   function mouseevent5(nodeArray, idUnmatched) {
+
+     node.on("mouseout", function() { return; })
+         .on("mouseover", function() { return; });
+
+     var line_out_color = "rgb(61, 65, 66)",
+         line_in_color = "rgb(218, 41, 28)",
+         line_opacity = 1,
+         line_stroke_out = 3,
+         dot_self_color = "rgb(218, 41, 28)",
+         dot_other_color = "black",
+         dot_selected_opacity = 1,
+         dot_other_opacity = 0.1,
+         dot_self_stroke_width = 2;
+
+    nodeArray.forEach(function(d) {
+
+      d3.selectAll("circle.nodes").attr("r", function(e) {
+
+        return e.radius;
+
+      }).style("stroke", "#fff").style("stroke-width", dot_self_stroke_width);
+
+      d3.selectAll("line").attr("marker-end", "none").style("stroke", "rgb(208,211,212)").style("stroke-opacity", 0.3);
+
+      d3.selectAll("text.background-text").style("fill", "rgb(208,211,212)").style("stroke","rgb(208,211,212)");
+
+      // d3.selectAll("line.weight"+weight).each(function(e) {
+      //
+      //   // console.log("out", e);
+      //
+      //   if (tableData.indexOf(e) === -1) {
+      //     tableData.push(e);
+      //   }
+      //
+      //   e.type = "out";
+      //
+      // })
+      // .attr("marker-end", function(e) {
+      //   return "url(#"+e.type+"_1)";
+      // })
+      // .style("stoke", line_out_color)
+      // .style("stroke-width", line_stroke_out)
+      // .transition()
+      // .duration(500)
+      // .style("stroke-opacity", line_opacity);
+
+      d3.selectAll("circle#_" + d.id +"_1")
+      .style("stroke", dot_self_color)
+      .transition()
+      .duration(800)
+      .attr("r", function(e) {
+        return e.radius;
+      })
+      .style("opacity", dot_selected_opacity)
+      .style("stroke-width", dot_self_stroke_width);
+
+    });
+
+    idUnmatched.forEach(function(id) {
+      d3.select("circle#_"+id +"_1").transition().style("opacity", dot_other_opacity);
+    });
+
+   }
+
    function createTable(dataArray) {
 
      var indexArray = [];
 
-     var rowArray = []
+     var rowArray = [];
+
+     var idArray = [];
 
      for(var i= 0; i<dataArray.length; i++) {
 
@@ -1516,6 +1597,12 @@ function network1(data) {
        if (indexArray.indexOf(dataArray[i].index) === -1) {
 
          indexArray.push(dataArray[i].index);
+
+         // idArray.push(dataArray[i].source.id);
+         // idArray.push(dataArray[i].target.id);
+
+         row["sourceID"] = dataArray[i].source.id;
+         row["targetID"] = dataArray[i].target.id;
 
          row["source"] = dataArray[i].source.label;
          row["target"] = dataArray[i].target.label;
@@ -1541,11 +1628,43 @@ function network1(data) {
 
      rowArray.forEach(function(row, i) {
 
-       $("#tableSortedF tr:last").after(`<tr><th scope='row'>${i+1}</th><td>${ row.target }</td><td>${ row.source }</td><td>${ row.weight }</td></tr>`);
+       $("#tableSortedF tr:last").after(`<tr id="${row.targetID} ${row.sourceID}"><th scope='row'>${i+1}</th><td>${ row.target }</td><td>${ row.source }</td><td>${ row.weight }</td></tr>`);
 
      });
 
+     // $("#tableSortedF tr").hover(function() {
+     //
+     //   var target = $(this).attr('id').split(" ")[0];
+     //
+     //   var source = $(this).attr('id').split(" ")[1];
+     //
+     //   // console.log(target, source);
+     //
+     //   // console.log(idArray);
+     //
+     //   var updatedIdArr = removeFromArray(idArray, [target, source]);
+     //
+     //   // console.log(updatedIdArr);
+     //
+     //   var selectedNodes = [];
+     //
+     //   nodes.forEach(function(node) {
+     //     if (node.id === target || node.id === source) {
+     //       selectedNodes.push(node);
+     //     }
+     //   });
+     //
+     //   // console.log(selectedNodes);
+     //
+     //   // mouseevent5(selectedNodes, updatedIdArr);
+     //
+     // });
+
    }
+
+   function removeFromArray(arr, toRemove) {
+    return arr.filter(item => toRemove.indexOf(item) === -1)
+  }
 
 };
 
@@ -1668,9 +1787,13 @@ function network2(data) {
   });
 
   $(document).ready(function() {
-    $('.select2-NP').select2();
+    $('.select2-NP').select2({
+      placeholder : { id:'0', text:'Please select a non-profit...'}
+    });
 
-    $('.select2-NP-Links').select2();
+    $('.select2-NP-Links').select2({
+      placeholder : { id:'0', text:'Please select an edge weight...'}
+    });
   });
 
   labels.forEach(function(option) {
@@ -2178,6 +2301,16 @@ function network2(data) {
 
      $("#tableNP").empty();
 
+     $('.select2-NP').val([]);
+     $(".select2-NP").select2({
+        placeholder:'Please select a non-profit...'
+      });
+
+    $('.select2-NP-Links').val([]);
+    $(".select2-NP-Links").select2({
+       placeholder:'Please select an edge weight...'
+     });
+
      node.attr('pointer-events', 'all');
 
      node.on("mouseover", function(d) { mouseevent(d, "mouseover"); })
@@ -2282,7 +2415,7 @@ function network2(data) {
 
      var indexArray = [];
 
-     var rowArray = []
+     var rowArray = [];
 
      for(var i= 0; i<dataArray.length; i++) {
 
