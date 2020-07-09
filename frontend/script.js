@@ -1498,7 +1498,7 @@ function network1(data) {
       .style("stroke-opacity", line_opacity);
 
       d3.selectAll("circle#_" + d.id +"_1")
-      .style("stroke", dot_self_color)
+      // .style("stroke", dot_self_color)
       .transition()
       .duration(800)
       .attr("r", function(e) {
